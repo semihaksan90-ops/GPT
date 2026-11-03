@@ -1,0 +1,39 @@
+{
+  "pdf_checks": [
+    {
+      "file": "Blackout-Ready_DE_A4.pdf",
+      "pages": 12,
+      "image_uses": 7,
+      "source_links": 5,
+      "page_bounds": "pass",
+      "size_bytes": 1467220
+    },
+    {
+      "file": "Blackout-Ready_EN_US-Letter.pdf",
+      "pages": 12,
+      "image_uses": 7,
+      "source_links": 5,
+      "page_bounds": "pass",
+      "size_bytes": 1465116
+    },
+    {
+      "file": "Blackout-Ready_EN_A4.pdf",
+      "pages": 12,
+      "image_uses": 7,
+      "source_links": 5,
+      "page_bounds": "pass",
+      "size_bytes": 1465223
+    },
+    {
+      "file": "Blackout-Ready_DE_US-Letter.pdf",
+      "pages": 12,
+      "image_uses": 7,
+      "source_links": 5,
+      "page_bounds": "pass",
+      "size_bytes": 1467119
+    }
+  ],
+  "zip_integrity": "pass",
+  "live_source_verification": "not performed",
+  "physical_print_test": "not performed"
+}

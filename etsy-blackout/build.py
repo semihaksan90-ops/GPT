@@ -10,6 +10,7 @@ import fitz, zipfile, json
 OUT=Path(__file__).parent
 for name,file in [('Regular','DejaVuSans.ttf'),('Bold','DejaVuSans-Bold.ttf')]:
  pdfmetrics.registerFont(TTFont(name,'/usr/share/fonts/truetype/dejavu/'+file))
+pdfmetrics.registerFont(TTFont('Editorial','/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf'))
 GREEN='#173F35'; CREAM='#F6F2E9'; INK='#20382F'; MUTED='#54645B'; ORANGE='#BF542E'
 DATA={
 'de':{
@@ -124,82 +125,115 @@ DATA={
 RES=[('BBK · Deutschland / Germany','https://www.bbk.bund.de/'),('Ready.gov · Power outages','https://www.ready.gov/power-outages'),('Ready.gov · Emergency supplies','https://www.ready.gov/kit'),('FoodSafety.gov · Food safety during outages','https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage'),('CDC · Carbon monoxide prevention','https://www.cdc.gov/carbon-monoxide/about/')]
 class Book:
  def __init__(self,path,size,d,lang):
-  self.c=canvas.Canvas(str(path),pagesize=size); self.size=size; self.d=d; self.lang=lang;self.n=0
-  self.c.setTitle('BLACKOUT READY — '+d['sub']); self.c.setAuthor('BLACKOUT READY'); self.c.setSubject('Printable household preparedness guide and planner')
- def txt(self,t,x,y,w=480,size=10.2,color=INK,bold=False):
-  st=ParagraphStyle('p',fontName='Bold' if bold else 'Regular',fontSize=size,leading=size*1.5,textColor=HexColor(color))
-  p=Paragraph(t,st); _,h=p.wrap(w,800);p.drawOn(self.c,x,y-h);return y-h
- def begin(self,title=None,sub=None):
-  self.n+=1;self.c.saveState();self.c.scale(self.size[0]/595,self.size[1]/842)
-  c=self.c;c.setFillColor(HexColor(CREAM));c.rect(0,0,595,842,fill=1,stroke=0)
+  self.c=canvas.Canvas(str(path),pagesize=size,pageCompression=1);self.size=size;self.d=d;self.lang=lang;self.n=0
+  self.c.setTitle('BLACKOUT READY | '+d['sub']);self.c.setAuthor('BLACKOUT READY');self.c.setSubject('Illustrated household preparedness guide | Edition 2')
+ def txt(self,t,x,y,w=507,size=10,color=INK,bold=False,serif=False):
+  st=ParagraphStyle('p',fontName='Editorial' if serif else ('Bold' if bold else 'Regular'),fontSize=size,leading=size*1.45,textColor=HexColor(color))
+  p=Paragraph(t,st);_,h=p.wrap(w,800)
+  if y-h<53 and y>55:raise ValueError(f'Overflow page {self.n}: {t[:50]} -> {y-h}')
+  p.drawOn(self.c,x,y-h);return y-h
+ def photo(self,key,x,y,w,h):
+  from reportlab.lib.utils import ImageReader
+  img=ImageReader(str(OUT/'images'/f'{key}.jpg')); iw,ih=img.getSize();sc=max(w/iw,h/ih)
+  c=self.c;c.saveState();clip=c.beginPath();clip.rect(x,y,w,h);c.clipPath(clip,stroke=0)
+  c.drawImage(img,x+(w-iw*sc)/2,y+(h-ih*sc)*0.32,width=iw*sc,height=ih*sc);c.restoreState()
+ def begin(self,title=None,sub=None,white=False):
+  self.n+=1;c=self.c;c.saveState();c.scale(self.size[0]/595,self.size[1]/842)
+  c.setFillColor(HexColor('#FFFFFF' if white else CREAM));c.rect(0,0,595,842,fill=1,stroke=0)
   if title:
-   self.txt('BLACKOUT READY',44,806,size=9,bold=True,color=GREEN)
-   c.setStrokeColor(HexColor(ORANGE));c.line(44,779,551,779)
-   self.txt(f'{self.n-1:02d}',44,755,size=12,color=ORANGE,bold=True)
-   self.txt(title,44,725,w=510,size=27,bold=True)
-   self.txt(sub,44,675,w=510,size=11,color=MUTED)
-  c.setStrokeColor(HexColor('#D3D7CD')); c.line(44,48,551,48)
-  self.txt('DEUTSCH' if self.lang=='de' else 'ENGLISH',44,36,size=8,color=MUTED)
-  self.txt(f'{self.n:02d} / 10',505,36,w=48,size=8,color=MUTED)
- def end(self): self.c.restoreState();self.c.showPage()
- def check(self,items,y):
+   self.txt('BLACKOUT READY',44,805,size=9,bold=True,color=GREEN)
+   self.txt('HAUSHALTSVORSORGE' if self.lang=='de' else 'HOUSEHOLD PREPAREDNESS',345,805,w=210,size=7.4,color=MUTED)
+   c.setStrokeColor(HexColor('#CBD3C7'));c.line(44,780,551,780)
+   self.txt(f'{self.n-1:02d} /',44,758,size=10,color=ORANGE,bold=True)
+   end=self.txt(title,44,733,w=510,size=26,serif=True)
+   self.txt(sub,44,end-8,w=510,size=10,color=MUTED)
+  c.setStrokeColor(HexColor('#D3D7CD'));c.line(44,46,551,46)
+  self.txt('BLACKOUT READY  /  '+('DEUTSCH' if self.lang=='de' else 'ENGLISH'),44,32,size=7,color=MUTED)
+  self.txt(f'{self.n:02d} / 12',505,32,w=48,size=7,color=MUTED)
+ def end(self):self.c.restoreState();self.c.showPage()
+ def check(self,items,y,x=58,w=475,size=9):
   for t in items:
-   self.c.setStrokeColor(HexColor(GREEN));self.c.rect(45,y-12,9,9,stroke=1,fill=0)
-   y=self.txt(t,65,y,w=475,size=9.4)-10
+   self.c.setStrokeColor(HexColor(GREEN));self.c.setLineWidth(.7);self.c.rect(x,y-11,8,8,stroke=1,fill=0)
+   y=self.txt(t,x+19,y,w=w-22,size=size)-9
   return y
  def render(self):
-  d=self.d;c=self.c;self.begin();c.setFillColor(HexColor(GREEN));c.rect(0,100,595,742,fill=1,stroke=0)
-  self.txt('HOUSEHOLD FIELD GUIDE  /  01',45,791,size=10,color='#C3D1BE',bold=True)
-  self.txt('BLACKOUT<br/>READY',40,697,size=66,w=530,color=CREAM,bold=True)
-  c.setFillColor(HexColor(ORANGE));c.rect(45,460,78,6,fill=1,stroke=0)
-  self.txt(d['sub'],45,432,w=490,size=23,color=CREAM,bold=True)
-  self.txt(d['desc'],45,342,w=445,size=12,color='#D7DFD2')
-  # Original abstract route motif: four connected preparation points.
-  c.setStrokeColor(HexColor('#739584'));c.setLineWidth(2);c.lines([(60,210,205,210),(205,210,350,210),(350,210,495,210)])
-  for x,num in [(60,'01'),(205,'02'),(350,'03'),(495,'04')]:
-   c.setFillColor(HexColor(GREEN));c.circle(x,210,17,fill=1,stroke=1);self.txt(num,x-10,218,w=30,size=10,color=CREAM,bold=True)
-  self.txt(d['topics'],45,158,w=510,size=9,color='#D7DFD2',bold=True)
-  self.txt(d['tag'],45,79,w=510,size=10,color=GREEN,bold=True);self.end()
-  for title,sub,sections,checks in d['pages']:
-   self.begin(title,sub); y=635
-   for heading,body in sections:
-    y=self.txt(heading,44,y,size=12,bold=True)-5
-    y=self.txt(body,44,y,w=505,size=10)-17
-   y-=4; self.check(checks,y)
-   if y<125: raise RuntimeError((title,y))
+  d=self.d;c=self.c;de=self.lang=='de';self.begin()
+  c.setFillColor(HexColor(GREEN));c.rect(0,100,595,742,fill=1,stroke=0)
+  self.txt('DER HAUSHALTSGUIDE / AUSGABE 02' if de else 'THE HOUSEHOLD GUIDE / EDITION 02',44,799,size=8.5,color='#C5D0BA',bold=True)
+  self.txt('BLACKOUT',39,747,size=65,color=CREAM,bold=True)
+  self.txt('READY',39,660,size=65,color=CREAM,bold=True)
+  c.setFillColor(HexColor(ORANGE));c.rect(44,553,54,4,fill=1,stroke=0)
+  self.txt(d['sub'],44,530,w=490,size=21,color=CREAM,serif=True)
+  self.photo('household',0,100,595,372)
+  self.txt(d['topics'],44,80,size=8.2,color=GREEN,bold=True)
+  self.end()
+  # An actionable contents page.
+  self.begin('Dein Plan auf einen Blick' if de else 'Your plan at a glance','Weniger suchen. Besser vorbereitet sein.' if de else 'Less searching. Better preparation.')
+  self.txt(d['desc'],44,632,size=12,w=490)
+  y=563
+  toc=[(3,d['pages'][0][0]),(4,d['pages'][1][0]),(5,d['pages'][2][0]),(6,d['pages'][3][0]),(7,d['pages'][4][0]),(8,d['pages'][5][0]),(9,d['plan']),(10,d['stock']),(11,'Der kleine Praxistest' if de else 'A simple practice session'),(12,d['ref'])]
+  for pn,t in toc:
+   self.txt(t,44,y,w=440,size=11);self.txt(f'{pn:02d}',520,y,w=32,size=10,bold=True,color=ORANGE)
+   c.setStrokeColor(HexColor('#D3D7CD'));c.line(44,y-26,551,y-26);y-=37
+  self.txt('SO STARTET IHR' if de else 'START HERE',44,163,size=9,bold=True,color=ORANGE)
+  self.txt('Einmal gemeinsam durchlesen. Die beiden Arbeitsblätter ausfüllen. Vorräte prüfen und den nächsten Termin festlegen.' if de else 'Read it together. Complete the two worksheets. Check your supplies and set a date for the next review.',44,141,size=10)
+  self.end()
+  keys=['household','household','water','pantry','water','household']
+  for idx,(title,sub,sections,checks) in enumerate(d['pages']):
+   self.begin(title,sub);self.photo(keys[idx],44,485,507,151)
+   for col in range(2):
+    x=44+col*266;y=460
+    for j in range(2):
+     heading,body=sections[col*2+j]
+     self.txt(f'0{col*2+j+1}',x,y,w=28,size=8,color=ORANGE,bold=True)
+     y=self.txt(heading,x+27,y+2,w=214,size=11,bold=True)-7
+     y=self.txt(body,x,y,w=241,size=9.45)-20
+    if y<167:raise ValueError(('Column overlaps checks',title,y))
+   c.setFillColor(HexColor('#E7EBE0'));c.roundRect(44,63,507,98,6,fill=1,stroke=0)
+   self.txt('KURZ-CHECK' if de else 'QUICK CHECK',58,151,size=7.8,color=ORANGE,bold=True)
+   self.check(checks,133,size=8.3)
    self.end()
-  self.begin(d['plan'],d['plan_sub']);y=631
-  for field in d['fields']:
-   self.txt(field,44,y,size=10,bold=True);c.setStrokeColor(HexColor('#A4B2A5'));c.line(44,y-43,551,y-43);y-=65
+  self.begin(d['plan'],d['plan_sub'],white=True);y=636
+  for i,field in enumerate(d['fields']):
+   c.setFillColor(HexColor('#F3F5EF'));c.roundRect(44,y-55,507,55,3,stroke=0,fill=1)
+   self.txt(field,55,y-7,w=485,size=9,bold=True);c.setStrokeColor(HexColor('#C3CEC1'));c.line(55,y-43,540,y-43);y-=65
+  self.txt('Nur notwendige Angaben eintragen. Ausdruck sicher aufbewahren.' if de else 'Include only necessary information. Store the printed plan securely.',44,95,size=8,color=MUTED)
   self.end()
-  self.begin(d['stock'],d['stock_sub']);y=634
-  widths=[245,95,167];xs=[44,289,384,551]
-  c.setFillColor(HexColor(GREEN));c.rect(44,y-30,507,30,fill=1,stroke=0)
-  for i,h in enumerate(d['headers']):self.txt(h,xs[i]+9,y-7,w=widths[i]-16,size=9,color=CREAM,bold=True)
-  y-=30
+  self.begin(d['stock'],d['stock_sub'],white=True);y=635;xs=[44,292,388,551];ww=[248,96,163]
+  c.setFillColor(HexColor(GREEN));c.rect(44,y-31,507,31,stroke=0,fill=1)
+  for i,h in enumerate(d['headers']):self.txt(h,xs[i]+10,y-8,w=ww[i]-16,size=8.5,color=CREAM,bold=True)
+  y-=31
   for idx,row in enumerate(d['rows']):
-   c.setFillColor(HexColor('#E7EBE1' if idx%2==0 else CREAM));c.rect(44,y-29,507,29,fill=1,stroke=0)
-   self.txt(row,53,y-7,w=226,size=9)
-   for x in xs:c.setStrokeColor(HexColor('#C9D1C3'));c.line(x,y,x,y-29)
+   c.setFillColor(HexColor('#F1F4ED' if idx%2==0 else '#FFFFFF'));c.rect(44,y-29,507,29,stroke=0,fill=1)
+   self.txt(row,54,y-7,w=231,size=8.8)
+   c.setStrokeColor(HexColor('#D5DDD0'));c.setLineWidth(.4)
+   for x in xs:c.line(x,y,x,y-29)
    c.line(44,y-29,551,y-29);y-=29
-  y=self.txt(d['calc'],44,y-20,w=505,size=9)-20
-  self.txt(d['tasks'],44,y,size=12,bold=True)
+  y=self.txt(d['calc'],44,y-17,size=8.8)-20
+  self.txt(d['tasks'],44,y,size=11,bold=True)
   for i in range(3):
-   y-=32;self.txt(str(i+1)+'.',44,y+10,size=10);c.line(65,y,551,y)
+   y-=30;self.txt(f'0{i+1}',44,y+11,w=24,size=8,color=ORANGE,bold=True);c.line(75,y,551,y)
   self.end()
-  self.begin(d['ref'],d['refsub']);y=self.txt(d['refs_intro'],44,632,w=505,size=10)-20
+  self.begin('Der kleine Praxistest' if de else 'A simple practice session','20 Minuten gemeinsam planen – ohne den Strom abzuschalten.' if de else 'Spend 20 minutes planning together — leave the power on.',white=True)
+  y=634
+  practice=[('01 / Finden' if de else '01 / Locate','Kann jede Person Lampe, Radio und Erste-Hilfe-Set finden? Prüft die Geräte und die passenden Batterien gemeinsam.' if de else 'Can everyone locate a flashlight, radio and first aid kit? Check the equipment and matching batteries together.'),('02 / Besprechen' if de else '02 / Discuss','Geht eine Mahlzeit ohne Strom durch. Wie erreicht ihr eure Kontaktperson? Wer unterstützt Kinder, Tiere oder andere Personen mit besonderem Bedarf?' if de else 'Talk through a meal without electricity. How will you reach your contact person? Who supports children, pets or anyone with additional needs?'),('03 / Verbessern' if de else '03 / Improve','Haltet Lücken fest und verteilt Aufgaben. Testet dabei keine medizinischen Geräte, Heizungen oder elektrischen Anlagen durch Abschalten.' if de else 'Record gaps and assign actions. Do not test medical equipment, heating or electrical systems by switching them off.')]
+  for heading,body in practice:
+   y=self.txt(heading,44,y,size=12,bold=True,color=GREEN)-7;y=self.txt(body,44,y,size=10)-24
+  labels=['Das hat funktioniert','Das fehlt noch','Wer kümmert sich bis wann?','Unser nächster Prüftermin'] if de else ['What worked','What is missing','Who will do what, by when?','Our next review date']
+  for label in labels:
+   self.txt(label,44,y,size=9,bold=True);c.setStrokeColor(HexColor('#BDCCBA'));c.line(44,y-43,551,y-43);y-=64
+  self.end()
+  self.begin(d['ref'],d['refsub']);y=self.txt(d['refs_intro'],44,632,size=10)-20
   for label,url in RES:
-   y=self.txt(label,44,y,size=10,bold=True)-3
-   y=self.txt('<link href="'+url+'">'+url+'</link>',44,y,w=505,size=8.2,color=GREEN)-13
-  y-=5;y=self.txt(d['last'],44,y,size=13,bold=True)-12;y=self.check(d['finalchecks'],y)-12
-  y=self.txt(d['notice'],44,y,w=505,size=8.5,color=MUTED)-10
-  self.txt(d['print'],44,y,w=505,size=8.5,color=MUTED);self.end()
-  assert self.n==10
-  c.save()
+   y=self.txt(label,44,y,size=9.5,bold=True)-3;y=self.txt('<link href="'+url+'">'+url+'</link>',44,y,size=8,color=GREEN)-12
+  y=self.txt(d['last'],44,y-6,size=13,serif=True)-12;y=self.check(d['finalchecks'],y,x=44,size=8.6)-8
+  notice=d['notice'].replace('1.0','2.0')
+  y=self.txt(notice,44,y,size=8,color=MUTED)-10;y=self.txt(d['print'],44,y,size=8,color=MUTED)-10
+  self.txt('Bilder: KI-generierte redaktionelle Illustrationen.' if de else 'Images: AI-generated editorial illustrations.',44,y,size=7.5,color=MUTED)
+  self.end();assert self.n==12;c.save()
 for lang,d in DATA.items():
- for fmt,size in [('A4',(595.276,841.89)),('US-Letter',(612,792))]:
-  p=OUT/f'Blackout-Ready_{lang.upper()}_{fmt}.pdf';Book(p,size,d,lang).render()
- for page in [0,2,7,8]:
-  doc=fitz.open(OUT/f'Blackout-Ready_{lang.upper()}_A4.pdf');pix=doc[page].get_pixmap(matrix=fitz.Matrix(1.5,1.5));pix.save(str(OUT/f'preview_{lang}_{page+1:02}.png'))
+ for fmt,size in [('A4',(595.276,841.89)),('US-Letter',(612,792))]:Book(OUT/f'Blackout-Ready_{lang.upper()}_{fmt}.pdf',size,d,lang).render()
+ for page in range(12):
+  doc=fitz.open(OUT/f'Blackout-Ready_{lang.upper()}_A4.pdf');doc[page].get_pixmap(matrix=fitz.Matrix(1.5,1.5)).save(str(OUT/f'preview_{lang}_{page+1:02}.png'))
 (OUT/'content.json').write_text(json.dumps(DATA,ensure_ascii=False,indent=2))
-print('Created four 10-page PDFs and eight previews.')
+print('Created four 12-page illustrated PDFs.')

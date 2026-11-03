@@ -1,13 +1,29 @@
-# BLACKOUT READY
+# BLACKOUT READY — Ausgabe 2
 
-Deutsche und englische PDF-Ausgaben mit Checklisten und Haushaltsplan.
+Bebilderter Haushaltsratgeber mit Checklisten und Arbeitsblättern auf Deutsch und Englisch.
 
 ## Download
 
 [Komplettes Paket herunterladen](https://github.com/semihaksan90-ops/GPT/raw/refs/heads/main/Etsy-Blackout-Ready.zip)
 
-Alternativ: Code → Download ZIP.
+Alternativ: **Code → Download ZIP**.
 
-Das Paket enthält beide Sprachen in A4 und US Letter, Etsy-Produktbilder, Beschreibungstexte und Quelldateien.
+Enthalten:
+- Deutsche und englische Ausgabe mit jeweils 12 Seiten in A4 und US Letter.
+- Fotografischer Titel, drei neu erzeugte KI-Bildmotive und zweispaltige Kapitel.
+- Inhaltsübersicht, Haushaltsplan, Vorratsliste und Praxistest.
+- Zehn Etsy-Produktbilder, deutsche/englische Beschreibungstexte und bearbeitbare Quelldateien.
 
-Vor Veröffentlichung die Sicherheitshinweise mit aktuellen offiziellen Empfehlungen abgleichen. Weitere Hinweise stehen in etsy-blackout/Etsy-Texte.md.
+![Vorschau der deutschen Ausgabe](etsy-blackout/Etsy_DE_cover.jpg)
+
+## Dateien für Käufer
+
+Die Sprach-ZIPs im Ordner `etsy-blackout` enthalten ausschließlich die fertigen PDFs. Das komplette Paket enthält zusätzlich Material für den Shopbetreiber; Quelldateien und Verkäuferhinweise gehören nicht in den Kundendownload.
+
+## Bearbeitung und Prüfung
+
+`python etsy-blackout/build.py` erzeugt PDFs und Seitenvorschauen. `python etsy-blackout/package.py` erzeugt Etsy-Bilder und ZIP-Dateien. Benötigt Python, die Pakete aus `requirements.txt` und die im Generator angegebenen DejaVu-Schriftdateien.
+
+Alle vier PDFs wurden auf Seitenzahl, Textgrenzen, Bildintegration und Quellenlinks geprüft; die ZIP-Integrität wurde kontrolliert. Beide Sprachfassungen wurden als Seitenübersicht visuell geprüft. Kein physischer Testdruck und keine aktuelle Prüfung der externen Quelleninhalte. Vor Veröffentlichung Sicherheitshinweise anhand aktueller offizieller Empfehlungen prüfen. Weitere Verkäuferhinweise: `etsy-blackout/Etsy-Texte.md`.
+
+Die drei Bildmotive wurden mit KI erstellt. Noch keine Veröffentlichung auf Etsy.

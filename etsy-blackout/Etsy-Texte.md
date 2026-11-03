@@ -1,10 +1,10 @@
 # Deutsche Anzeige
 
-Titel: Blackout Notfallplan PDF Deutsch | 10 Seiten Ratgeber & Checklisten | Haushaltsvorsorge zum Ausdrucken | A4 und US Letter
+Titel: Blackout Notfallplan PDF Deutsch | 12 Seiten Ratgeber & Checklisten | Haushaltsvorsorge zum Ausdrucken | A4 und US Letter
 
-Bereite deinen Haushalt Schritt für Schritt auf einen Stromausfall vor. BLACKOUT READY verbindet kurze, verständliche Hinweise mit Checklisten und zwei Arbeitsblättern für deine persönliche Planung.
+Bereite deinen Haushalt Schritt für Schritt auf einen Stromausfall vor. BLACKOUT READY verbindet kurze, verständliche Hinweise mit Checklisten und drei Arbeitsblättern für deine persönliche Planung.
 
-Enthalten: ein 10-seitiges PDF auf Deutsch in A4 sowie dasselbe Dokument in US Letter. Themen: erste Schritte beim Stromausfall, Wasserplanung, Lebensmittel, Hygiene und Gesundheit, Licht und Wärme, Kommunikation, Haushaltsplan und Vorratsliste. Mit Verweisen auf offizielle Informationsangebote.
+Enthalten: ein 12-seitiges PDF auf Deutsch in A4 sowie dasselbe Dokument in US Letter. Themen: erste Schritte beim Stromausfall, Wasserplanung, Lebensmittel, Hygiene und Gesundheit, Licht und Wärme, Kommunikation, Haushaltsplan, Vorratsliste und Praxistest. Mit Verweisen auf offizielle Informationsangebote.
 
 Digitaler Download. Du erhältst keinen physischen Artikel. Die Dateien sind zum Lesen und Ausdrucken gedacht; die Arbeitsblätter werden von Hand ausgefüllt. Keine interaktiven Formularfelder. Die beiden Papierformate enthalten denselben Inhalt. Die Druckfarben hängen von Drucker und Papier ab.
 
@@ -14,11 +14,11 @@ Tags (Vorschläge): Blackout Plan, Notfallplan PDF, Krisenvorsorge, Vorratsliste
 
 # English listing
 
-Title: Power Outage Planner PDF | 10 Page Household Preparedness Guide and Checklists | Emergency Plan Printable | A4 and US Letter
+Title: Power Outage Planner PDF | 12 Page Household Preparedness Guide and Checklists | Emergency Plan Printable | A4 and US Letter
 
-Build a practical household power outage plan, one manageable step at a time. BLACKOUT READY combines clear guidance with checklists and two worksheets to personalize your preparations.
+Build a practical household power outage plan, one manageable step at a time. BLACKOUT READY combines clear guidance with checklists and three worksheets to personalize your preparations.
 
-Included: a 10-page English PDF in A4 and the same document in US Letter. Covers first actions during an outage, water planning, food, hygiene and health, lighting and warmth, communication, a household plan and a supplies worksheet. Includes links to official information resources.
+Included: a 12-page English PDF in A4 and the same document in US Letter. Covers first actions during an outage, water planning, food, hygiene and health, lighting and warmth, communication, a household plan, a supplies worksheet and a practice-session sheet. Includes links to official information resources.
 
 Digital download only. No physical product will be shipped. Read or print the PDFs and complete the worksheets by hand. No interactive form fields. Both paper sizes contain the same content. Printed colors vary by printer and paper.
 
@@ -28,15 +28,18 @@ Suggested tags: power outage plan, emergency planner, blackout checklist, prepar
 
 # Optional bilingual bundle
 
-Sell BLACKOUT-READY-Bilingual.zip for both languages: four PDFs, two languages, two paper sizes; 10 pages per PDF. Clearly state that the formats and language editions cover the same topics, rather than advertising 40 unique pages.
+Sell BLACKOUT-READY-Bilingual.zip for both languages: four PDFs, two languages, two paper sizes; 12 pages per PDF. Clearly state that the formats and language editions cover the same topics, rather than advertising 48 unique pages.
 
 # Seller notes — not part of buyer download
 
-- Text and vector layout were newly created for this project; no images or copied passages from the supplied screenshots are included.
-- Typography: embedded DejaVu Sans, supplied under its font license. No external stock images used.
+- Text, vector layout and AI-generated images were newly created for this project; no images or copied passages from the supplied screenshots are included.
+- Typography: embedded DejaVu Sans and DejaVu Serif, supplied under its font license. Three AI-generated editorial images are included; no external stock images used.
 - PDF page count, extractable text, page boundaries and ZIP integrity have been checked. Representative cover, content and resource pages were visually inspected. No physical test print has been performed.
 - Resource URLs are reading suggestions, not a claim of external professional review. Live source content has not been verified in this session. Before publication, check the linked current official guidance and the safety-related wording against your target market.
 - Review the final files and listing before upload. Add your shop identity if desired. Nothing has been uploaded or published to Etsy.
 - Follow Etsy's current rules on disclosure of AI-assisted content. This product was made with AI assistance.
-- Do not include this seller document, build.py or content.json in the customer download. Use the buyer ZIPs below.
+- Do not include this seller document, build.py or content.json in the customer download. Use the separate BLACKOUT-READY-DE.zip, BLACKOUT-READY-EN.zip or BLACKOUT-READY-Bilingual.zip buyer archives.
+- Edition 2 adds an editorial cover, three coordinated AI-generated images, a contents page, a practice session and redesigned worksheets.
 - Rebuild PDFs and individual page previews with: python /workspace/GPT/etsy-blackout/build.py
+
+- Rebuild listing images, ZIPs and complete download package with: python /workspace/GPT/etsy-blackout/package.py
