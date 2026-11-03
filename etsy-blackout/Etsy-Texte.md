@@ -43,3 +43,7 @@ Sell BLACKOUT-READY-Bilingual.zip for both languages: four PDFs, two languages, 
 - Rebuild PDFs and individual page previews with: python /workspace/GPT/etsy-blackout/build.py
 
 - Rebuild listing images, ZIPs and complete download package with: python /workspace/GPT/etsy-blackout/package.py
+
+## Listing image sets
+
+Six images per language (one hero plus five supporting images), numbered in recommended upload order. Use Etsy-Bilder-DE.zip for the German listing and Etsy-Bilder-EN.zip for the English listing. See Bilder-Anleitung.md for crop guidance and exact deliverables. These images advertise the single-language versions; do not use their file-count claims unchanged for a bilingual bundle.

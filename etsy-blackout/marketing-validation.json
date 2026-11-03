@@ -1,0 +1,104 @@
+{
+  "images": [
+    {
+      "file": "Etsy-Bilder/DE/01_Hero.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "91e815d3349c618356f48a01496c49931015d55fc5f3fd523ccef330570ac575"
+    },
+    {
+      "file": "Etsy-Bilder/DE/02_Inhalte.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "e3a6f4da19b9ea33a45990b2c0a5d6599c452f48495ba1bcf03415e373a84171"
+    },
+    {
+      "file": "Etsy-Bilder/DE/03_Blick-ins-Heft.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "b8aea8f207f02618bda6b7b45e43d4aa7c817c858a0de2f95fb24b38d360f37e"
+    },
+    {
+      "file": "Etsy-Bilder/DE/04_Arbeitsblaetter.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "23b9bbd738bda3553832421b0d4d1033a769602467c15621ae1a31c92bf6467c"
+    },
+    {
+      "file": "Etsy-Bilder/DE/05_Drucken-und-Nutzen.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "037009265ccb941508df1f50accb84c1a379ce224a8a3c16751f6e03ded07f00"
+    },
+    {
+      "file": "Etsy-Bilder/DE/06_Lieferumfang.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "ca8dbdc03ff276fd369989f379a818626326b80669baf188edfa02f69bf439e3"
+    },
+    {
+      "file": "Etsy-Bilder/EN/01_Hero.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "a39de904189f42874ac2476334cdbb4bb075eed45410e45344bf80399264bed6"
+    },
+    {
+      "file": "Etsy-Bilder/EN/02_Inhalte.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "4860b5dd43db3e82bfacc90024b5a289e56ee471ec2335411a5973a74ada052d"
+    },
+    {
+      "file": "Etsy-Bilder/EN/03_Blick-ins-Heft.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "eb540c2ad7639cb0a64380e1dbb813362a8d24a4a35f6cce731cbe78fe6e7919"
+    },
+    {
+      "file": "Etsy-Bilder/EN/04_Arbeitsblaetter.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "9de278c68e1c5f27a651647d2f601efc08ba2ee5cf69ed36f3800a9cebbaef57"
+    },
+    {
+      "file": "Etsy-Bilder/EN/05_Drucken-und-Nutzen.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "55e05d0404329723dfd5b1483d6731588a8a855eff66679db1a468491edd73a0"
+    },
+    {
+      "file": "Etsy-Bilder/EN/06_Lieferumfang.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "9e3eb518d7e83d56661f997bce870c5dc9983d076d8e2c53c7f96ef39e226a31"
+    }
+  ],
+  "image_decode": "pass",
+  "archive_integrity": "pass",
+  "visual_review": "all 12 via contact sheets; both heroes and English deliverables at full size",
+  "pdf_content_changes": "none"
+}
