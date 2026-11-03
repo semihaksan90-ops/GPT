@@ -8,19 +8,23 @@ Enthalten: ein 12-seitiges PDF auf Deutsch in A4 sowie dasselbe Dokument in US L
 
 Digitaler Download. Du erhältst keinen physischen Artikel. Die Dateien sind zum Lesen und Ausdrucken gedacht; die Arbeitsblätter werden von Hand ausgefüllt. Keine interaktiven Formularfelder. Die beiden Papierformate enthalten denselben Inhalt. Die Druckfarben hängen von Drucker und Papier ab.
 
+Dieses Produkt wurde mit KI-Unterstützung erstellt. Die Bilder sind KI-generiert.
+
 Allgemeiner Planungsratgeber, kein Ersatz für individuelle medizinische Beratung, Erste-Hilfe-Ausbildung oder aktuelle örtliche Behördenanweisungen. Kein Versprechen einer bestimmten Versorgungsdauer. Keine Verbindung zu den genannten Behörden.
 
 Tags (Vorschläge): Blackout Plan, Notfallplan PDF, Krisenvorsorge, Vorratsliste, Notfall Checkliste, Haushaltsplan, Stromausfall, Vorsorge PDF, PDF Deutsch, A4 Vorlage, Notfallvorsorge, Checkliste Druck, Familienplan
 
 # English listing
 
-Title: Power Outage Planner PDF | 12 Page Household Preparedness Guide and Checklists | Emergency Plan Printable | A4 and US Letter
+Title: Power Outage Planner PDF | 12-Page Household Preparedness Guide and Checklists | Emergency Plan Printable | A4 and US Letter
 
 Build a practical household power outage plan, one manageable step at a time. BLACKOUT READY combines clear guidance with checklists and three worksheets to personalize your preparations.
 
 Included: a 12-page English PDF in A4 and the same document in US Letter. Covers first actions during an outage, water planning, food, hygiene and health, lighting and warmth, communication, a household plan, a supplies worksheet and a practice-session sheet. Includes links to official information resources.
 
 Digital download only. No physical product will be shipped. Read or print the PDFs and complete the worksheets by hand. No interactive form fields. Both paper sizes contain the same content. Printed colors vary by printer and paper.
+
+This product was created with AI assistance. Images are AI-generated.
 
 General planning guidance, not a substitute for individual medical advice, first aid training or current local official instructions. No promise of coping with a particular outage duration. Not affiliated with the authorities listed. This is an international English edition; buyers should add local emergency numbers and follow local guidance.
 

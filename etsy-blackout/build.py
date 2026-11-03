@@ -21,13 +21,13 @@ DATA={
  ('So nutzt du diesen Plan','Ein überschaubarer Anfang',[
  ('Dein Ziel','Bereite deinen Haushalt schrittweise auf einen Stromausfall vor. Beginne mit dem, was du schon hast, und ergänze gezielt. Dieses Heft ist ein Planungshelfer; es verspricht keine Versorgung für eine bestimmte Anzahl von Tagen.'),
  ('Deine erste Runde','Gehe die Themen Wasser, Essen, Licht, Hygiene und Kontakt durch. Fülle die Arbeitsblätter aus und bewahre einen Ausdruck bei deinen Vorräten auf. Besprich den Plan mit allen im Haushalt.'),
- ('Individuelle Bedürfnisse','Plane für Kinder, ältere Menschen, Behinderungen, Haustiere und medizinische Geräte gesondert. Wer auf strombetriebene Hilfsmittel angewiesen ist, braucht vorab einen abgestimmten Ersatz- und Evakuierungsplan mit dem Versorgungsteam.'),
+ ('Individuelle Bedürfnisse','Berücksichtige Kinder, ältere Menschen, Menschen mit Behinderungen, Haustiere und medizinische Geräte. Wer auf strombetriebene Hilfsmittel angewiesen ist, braucht vorab einen abgestimmten Ersatz- und Evakuierungsplan mit dem Versorgungsteam.'),
  ('Grenzen und Hilfe','Offizielle Anweisungen vor Ort haben Vorrang. Bei unmittelbarer Gefahr suche Hilfe und verlasse gefährdete Bereiche. In Deutschland und der EU gilt 112; außerhalb der EU prüfe die örtliche Notrufnummer. Dieses Heft ersetzt keine medizinische Beratung oder Erste-Hilfe-Ausbildung.')],
  ['Vorräte und Notfalltasche an einem bekannten Ort lagern','Alle im Haushalt kennen den Plan und den Treffpunkt','Plan alle sechs Monate und nach Veränderungen prüfen']),
  ('Wenn der Strom ausfällt','Die ersten Schritte',[
  ('Zuerst Sicherheit','Nutze eine Taschenlampe. Prüfe, ob jemand verletzt ist oder dringend Unterstützung braucht. Bei Rauch, Gasgeruch oder anderer unmittelbarer Gefahr bring dich in Sicherheit und verständige die zuständige Notfallstelle von einem sicheren Ort.'),
  ('Lage klären','Prüfe gefahrlos, ob auch die Umgebung betroffen ist. Nutze ein batteriebetriebenes Radio und offizielle Meldungen. Gehe nicht an beschädigte Leitungen und öffne keine elektrischen Anlagen.'),
- ('Haushalt stabilisieren','Halte Kühl- und Gefriergeräte geschlossen. Schalte Kochgeräte und empfindliche Elektronik aus. Lass eine sichere Leuchte eingeschaltet, damit du erkennst, wenn die Versorgung zurückkehrt.'),
+ ('Haushalt stabilisieren','Halte Kühl- und Gefriergeräte geschlossen. Schalte Kochgeräte und empfindliche Elektronik aus. Lass eine elektrische Lampe eingeschaltet, damit du erkennst, wenn die Versorgung zurückkehrt.'),
  ('Kontakt und Energie','Informiere deine vereinbarte Kontaktperson, soweit das Netz verfügbar ist. Nutze kurze Nachrichten, senke die Displayhelligkeit und halte eine geladene Powerbank bereit. Belege Notrufleitungen nicht mit allgemeinen Auskunftsfragen.')],
  ['Alle Personen im Haushalt berücksichtigen','Offizielle Informationen verfolgen','Kühlgeräte geschlossen lassen','Vereinbarten Kontakt- und Treffpunktplan nutzen']),
  ('Wasser organisieren','Trinken und Hygiene getrennt planen',[
@@ -40,7 +40,7 @@ DATA={
  ('Einfach auswählen','Bevorzuge haltbare Lebensmittel, die dein Haushalt bereits mag und verträgt. Ergänze verzehrfertige Speisen, einen manuellen Dosenöffner und Lebensmittel, die wenig oder kein Wasser benötigen. Allergien und spezielle Ernährung gehören in deinen Plan.'),
  ('Kühlung schützen','Halte Türen von Kühl- und Gefriergeräten geschlossen und nutze ein Gerätethermometer. Ob Lebensmittel noch sicher sind, hängt von Temperatur, Dauer und Lebensmittelart ab. Prüfe aktuelle behördliche Tabellen, statt pauschal alles weiterzuverwenden.'),
  ('Keine Geschmacksprobe','Krankmachende Keime sind nicht zuverlässig an Geruch oder Aussehen erkennbar. Probiere verdächtige Lebensmittel nicht, um ihre Sicherheit zu testen. Im Zweifel entsorge leicht verderbliche Ware.'),
- ('Sicher zubereiten','Plane möglichst ohne offenes Feuer. Grill, Holzkohle und Generator gehören niemals in Wohnräume, Garage oder Keller. Auch ein offenes Fenster macht sie dort nicht sicher. Campingkocher nur im ausdrücklich zugelassenen Umfeld gemäß Hersteller verwenden.')],
+ ('Sicher zubereiten','Plane möglichst ohne offenes Feuer. Grills, Holzkohle und kraftstoffbetriebene Generatoren gehören niemals in Wohnräume, Garagen oder Keller. Auch ein offenes Fenster macht sie dort nicht sicher. Brennstoffbetriebene Campingkocher nur im Freien und nach Herstellerangaben verwenden.')],
  ['Drei einfache Mahlzeiten ohne Strom planen','Manuellen Dosenöffner bereitlegen','Mindesthaltbarkeit und Vorratswechsel notieren']),
  ('Hygiene und Gesundheit','Sauber bleiben und Hilfe vorbereiten',[
  ('Hände und Abfall','Plane Seife, sauberes Wasser, Toilettenpapier, Hygieneartikel und geeignete Abfallbeutel ein. Wasche Hände besonders nach Toilettengängen und vor dem Essen. Befolge lokale Hinweise zur Wassernutzung und Abfallentsorgung.'),
@@ -51,18 +51,18 @@ DATA={
  ('Wärme, Licht und Kontakt','Risiken klein halten',[
  ('Licht ohne Flamme','Bevorzuge LED-Taschenlampen und Stirnlampen. Halte passende Batterien bereit. Prüfe Rauchwarnmelder und gegebenenfalls CO-Warnmelder nach Herstellerangaben. Ein CO-Warnmelder ersetzt niemals eine sichere Nutzung von Geräten.'),
  ('Temperatur im Blick','Nutze bei Kälte mehrere Kleidungsschichten und Decken. Bei Hitze meide direkte Sonne und starke körperliche Belastung. Suche rechtzeitig einen sicheren anderen Ort auf, wenn die Wohnung für deinen Haushalt zu kalt oder zu heiß wird.'),
- ('Kohlenmonoxid vermeiden','Betreibe Generatoren ausschließlich draußen, weit entfernt von Fenstern, Türen und Lüftungsöffnungen nach Hersteller- und Behördenvorgaben. Nicht in Hausinstallationen einspeisen: Dafür ist fachgerecht installierte Umschalttechnik erforderlich.'),
+ ('Kohlenmonoxid vermeiden','Betreibe kraftstoffbetriebene Generatoren ausschließlich draußen, weit entfernt von Fenstern, Türen und Lüftungsöffnungen nach Hersteller- und Behördenvorgaben. Nicht in Hausinstallationen einspeisen: Dafür ist fachgerecht installierte Umschalttechnik erforderlich.'),
  ('Verbunden bleiben','Notiere einen Treffpunkt in der Nähe und eine Alternative außerhalb des Viertels. Vereinbare eine Kontaktperson außerhalb der Region. Besprich Unterstützung mit Nachbarn freiwillig und ohne sensible Daten unnötig weiterzugeben.')],
  ['Taschenlampe nachts griffbereit lagern','Radio und Batterien testen','Treffpunkt und Kontaktperson eintragen'])],
  'plan':'Mein Haushaltsplan','plan_sub':'Gemeinsam ausfüllen und zugänglich aufbewahren.',
- 'fields':['Haushalt / Anzahl Personen / Haustiere','Kontaktperson außerhalb der Region / Telefon','Treffpunkt in der Nähe','Alternativer Treffpunkt / sicherer Ausweichort','Besondere Bedürfnisse / vereinbarte Unterstützung','Praxis / Apotheke / wichtige lokale Telefonnummern','Ort von Vorräten, Radio und Erste-Hilfe-Set','Geprüft am / nächster Prüftermin'],
+ 'fields':['Haushalt / Anzahl Personen / Haustiere','Kontaktperson außerhalb der Region / Telefon','Treffpunkt in der Nähe','Alternativer Treffpunkt / sicherer Ausweichort','Besondere Bedürfnisse / vereinbarte Unterstützung','Notruf / Praxis / Apotheke / wichtige Telefonnummern','Ort von Vorräten, Radio und Erste-Hilfe-Set','Geprüft am / nächster Prüftermin'],
  'stock':'Vorräte und Aufgaben','stock_sub':'Gezielt ergänzen statt wahllos einkaufen.',
  'headers':['Bereich / Artikel','Vorhanden','Ergänzen / prüfen'],
  'rows':['Trink- und Kochwasser','Hygienewasser / Haustiere','Verzehrfertige Lebensmittel','Spezielle Ernährung','Dosenöffner / Geschirr','Lampen / Batterien','Radio / Powerbanks','Hygiene / Abfallbeutel','Erste Hilfe / persönliche Pflege','Medikamente: Versorgungsplan','Dokumente / Bargeld','Notfalltasche / Kleidung'],
  'calc':'Wasserplanung: ____ Personen × ____ Tage × ____ Liter pro Tag = ____ Liter. Zusatzbedarf: ____ Liter. Annahmen mit örtlichen Empfehlungen abgleichen.',
  'tasks':'Meine nächsten drei Aufgaben',
  'ref':'Quellen und nächste Schritte','refsub':'Aktuelle Hinweise haben Vorrang.',
- 'refs_intro':'Die folgenden offiziellen Anlaufstellen bieten weiterführende Empfehlungen. Prüfe vor der Nutzung aktuelle Inhalte und die Vorgaben für deinen Wohnort. Die englische Ausgabe ist eine allgemeine internationale Fassung; Notrufnummern und regionale Regeln müssen ergänzt werden.',
+ 'refs_intro':'Die folgenden offiziellen Anlaufstellen bieten weiterführende Empfehlungen. Prüfe vor der Nutzung aktuelle Inhalte und die Vorgaben für deinen Wohnort. Diese deutsche Fassung dient der allgemeinen Haushaltsplanung. Ergänze regionale Kontaktdaten und beachte die örtlichen Regeln.',
  'last':'Vor dem nächsten Stromausfall',
  'finalchecks':['Plan mit allen Personen im Haushalt besprechen','Radio und Lampen ausprobieren; Powerbanks laden','Kontaktliste und Treffpunkte gemeinsam prüfen','Neue Vorräte nach hinten, ältere nach vorn stellen','Datum zur nächsten Überprüfung eintragen'],
  'notice':'Allgemeiner Planungsratgeber, keine individuelle medizinische oder technische Beratung. Keine Garantie für die Bewältigung einer bestimmten Ausfalldauer. Keine Verbindung zu den genannten Behörden. Ausgabe 1.0 · 2026.',
@@ -94,7 +94,7 @@ DATA={
  ('Choose simple options','Favor shelf-stable foods your household already eats and tolerates. Include ready-to-eat meals, a manual can opener and foods needing little or no water. Account for allergies and special diets.'),
  ('Protect cold storage','Keep refrigerator and freezer doors closed and use an appliance thermometer. Food safety depends on temperature, time and food type. Check current official food safety tables rather than assuming all stored food is safe.'),
  ('Never taste-test safety','Harmful bacteria cannot reliably be detected by smell or appearance. Do not taste questionable food to decide whether it is safe. When in doubt, discard perishable food.'),
- ('Prepare meals safely','Plan meals without open flames where possible. Never use grills, charcoal or generators inside a home, garage or basement. An open window does not make indoor use safe. Use camping stoves only in the setting explicitly permitted by the manufacturer.')],
+ ('Prepare meals safely','Plan meals without open flames where possible. Never use grills, charcoal or generators inside a home, garage or basement. An open window does not make indoor use safe. Use fuel-burning camping stoves outdoors only and follow the manufacturer’s instructions.')],
  ['Plan three easy meals without electricity','Keep a manual can opener available','Record expiry checks and stock rotation']),
  ('Hygiene and health','Plan for cleanliness and care',[
  ('Hands and waste','Include soap, clean water, toilet paper, personal hygiene items and suitable waste bags. Wash hands especially after toilet use and before eating. Follow local instructions for water use and waste collection.'),
@@ -105,7 +105,7 @@ DATA={
  ('Warmth, light and contact','Reduce avoidable risks',[
  ('Choose flameless lighting','Use LED flashlights and headlamps where possible. Store suitable batteries. Check smoke alarms and, where appropriate, carbon monoxide alarms according to manufacturer instructions. An alarm never replaces safe appliance use.'),
  ('Watch the temperature','Use layers and blankets in cold conditions. In hot weather, avoid direct sun and strenuous activity. Move to a safe alternative location early if your home becomes too hot or cold for your household.'),
- ('Prevent carbon monoxide exposure','Operate generators outdoors only, far from doors, windows and vents, following manufacturer and local authority guidance. Never feed power into household wiring without professionally installed transfer equipment.'),
+ ('Prevent carbon monoxide exposure','Operate fuel-powered generators outdoors only, far from doors, windows and vents, following manufacturer and local authority guidance. Never feed power into household wiring without professionally installed transfer equipment.'),
  ('Stay connected','Choose a nearby meeting place and an alternative outside your neighborhood. Agree on an out-of-area contact. Arrange voluntary support with neighbors while protecting private information.')],
  ['Keep a flashlight within reach at night','Test the radio and batteries','Write down meeting places and a contact person'])],
  'plan':'My household plan','plan_sub':'Complete together and keep accessible.',
@@ -138,9 +138,12 @@ class Book:
   c=self.c;c.saveState();clip=c.beginPath();clip.rect(x,y,w,h);c.clipPath(clip,stroke=0)
   c.drawImage(img,x+(w-iw*sc)/2,y+(h-ih*sc)*0.32,width=iw*sc,height=ih*sc);c.restoreState()
  def begin(self,title=None,sub=None,white=False):
-  self.n+=1;c=self.c;c.saveState();c.scale(self.size[0]/595,self.size[1]/842)
+  self.n+=1;c=self.c;c.saveState()
+  scale=min(self.size[0]/595,self.size[1]/842)
+  c.translate((self.size[0]-595*scale)/2,(self.size[1]-842*scale)/2);c.scale(scale,scale)
   c.setFillColor(HexColor('#FFFFFF' if white else CREAM));c.rect(0,0,595,842,fill=1,stroke=0)
   if title:
+   c.bookmarkPage(f'page-{self.n}');c.addOutlineEntry(title,f'page-{self.n}',level=0)
    self.txt('BLACKOUT READY',44,805,size=9,bold=True,color=GREEN)
    self.txt('HAUSHALTSVORSORGE' if self.lang=='de' else 'HOUSEHOLD PREPAREDNESS',345,805,w=210,size=7.4,color=MUTED)
    c.setStrokeColor(HexColor('#CBD3C7'));c.line(44,780,551,780)
@@ -159,7 +162,7 @@ class Book:
  def render(self):
   d=self.d;c=self.c;de=self.lang=='de';self.begin()
   c.setFillColor(HexColor(GREEN));c.rect(0,100,595,742,fill=1,stroke=0)
-  self.txt('DER HAUSHALTSGUIDE / AUSGABE 02' if de else 'THE HOUSEHOLD GUIDE / EDITION 02',44,799,size=8.5,color='#C5D0BA',bold=True)
+  self.txt('DER HAUSHALTSGUIDE / AUSGABE 02.1' if de else 'THE HOUSEHOLD GUIDE / EDITION 02.1',44,799,size=8.5,color='#C5D0BA',bold=True)
   self.txt('BLACKOUT',39,747,size=65,color=CREAM,bold=True)
   self.txt('READY',39,660,size=65,color=CREAM,bold=True)
   c.setFillColor(HexColor(ORANGE));c.rect(44,553,54,4,fill=1,stroke=0)
@@ -173,10 +176,11 @@ class Book:
   y=563
   toc=[(3,d['pages'][0][0]),(4,d['pages'][1][0]),(5,d['pages'][2][0]),(6,d['pages'][3][0]),(7,d['pages'][4][0]),(8,d['pages'][5][0]),(9,d['plan']),(10,d['stock']),(11,'Der kleine Praxistest' if de else 'A simple practice session'),(12,d['ref'])]
   for pn,t in toc:
+   c.linkRect('',f'page-{pn}',(44,y-26,551,y+4),relative=1,thickness=0)
    self.txt(t,44,y,w=440,size=11);self.txt(f'{pn:02d}',520,y,w=32,size=10,bold=True,color=ORANGE)
    c.setStrokeColor(HexColor('#D3D7CD'));c.line(44,y-26,551,y-26);y-=37
   self.txt('SO STARTET IHR' if de else 'START HERE',44,163,size=9,bold=True,color=ORANGE)
-  self.txt('Einmal gemeinsam durchlesen. Die beiden Arbeitsblätter ausfüllen. Vorräte prüfen und den nächsten Termin festlegen.' if de else 'Read it together. Complete the two worksheets. Check your supplies and set a date for the next review.',44,141,size=10)
+  self.txt('Einmal gemeinsam durchlesen. Die drei Arbeitsblätter ausfüllen. Vorräte prüfen und den nächsten Termin festlegen.' if de else 'Read it together. Complete the three worksheets. Check your supplies and set a date for the next review.',44,141,size=10)
   self.end()
   keys=['household','household','water','pantry','water','household']
   for idx,(title,sub,sections,checks) in enumerate(d['pages']):
@@ -187,7 +191,7 @@ class Book:
      heading,body=sections[col*2+j]
      self.txt(f'0{col*2+j+1}',x,y,w=28,size=8,color=ORANGE,bold=True)
      y=self.txt(heading,x+27,y+2,w=214,size=11,bold=True)-7
-     y=self.txt(body,x,y,w=241,size=9.45)-20
+     y=self.txt(body,x,y,w=241,size=10)-20
     if y<167:raise ValueError(('Column overlaps checks',title,y))
    c.setFillColor(HexColor('#E7EBE0'));c.roundRect(44,63,507,98,6,fill=1,stroke=0)
    self.txt('KURZ-CHECK' if de else 'QUICK CHECK',58,151,size=7.8,color=ORANGE,bold=True)
@@ -224,10 +228,11 @@ class Book:
    self.txt(label,44,y,size=9,bold=True);c.setStrokeColor(HexColor('#BDCCBA'));c.line(44,y-43,551,y-43);y-=64
   self.end()
   self.begin(d['ref'],d['refsub']);y=self.txt(d['refs_intro'],44,632,size=10)-20
-  for label,url in RES:
+  for idx,(label,url) in enumerate(RES):
+   if de:label=['BBK · Notfallvorsorge in Deutschland','Ready.gov · Stromausfälle (englisch)','Ready.gov · Notfallvorräte (englisch)','FoodSafety.gov · Lebensmittel bei Stromausfall (englisch)','CDC · Schutz vor Kohlenmonoxid (englisch)'][idx]
    y=self.txt(label,44,y,size=9.5,bold=True)-3;y=self.txt('<link href="'+url+'">'+url+'</link>',44,y,size=8,color=GREEN)-12
   y=self.txt(d['last'],44,y-6,size=13,serif=True)-12;y=self.check(d['finalchecks'],y,x=44,size=8.6)-8
-  notice=d['notice'].replace('1.0','2.0')
+  notice=d['notice'].replace('1.0','2.1')
   y=self.txt(notice,44,y,size=8,color=MUTED)-10;y=self.txt(d['print'],44,y,size=8,color=MUTED)-10
   self.txt('Bilder: KI-generierte redaktionelle Illustrationen.' if de else 'Images: AI-generated editorial illustrations.',44,y,size=7.5,color=MUTED)
   self.end();assert self.n==12;c.save()

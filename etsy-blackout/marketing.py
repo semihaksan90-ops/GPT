@@ -49,7 +49,7 @@ for lang in ['DE','EN']:
  im=base(de);text(im,'DER NOTFALLPLAN FÜR ZU HAUSE' if de else 'YOUR HOUSEHOLD POWER OUTAGE PLAN',410,330,28,ORANGE,maxw=1120)
  lines(im,'DEIN PLAN.\nMEHR\nÜBERBLICK.' if de else 'YOUR PLAN.\nMORE\nCLARITY.',402,430,115)
  lines(im,'Stromausfälle vorbereiten.\nVorräte sinnvoll planen.\nAls Haushalt organisiert bleiben.' if de else 'Prepare for power outages.\nOrganize essential supplies.\nMake a plan together.',410,920,39,b=False,spacing=1.6)
- pill(im,'12 SEITEN' if de else '12 PAGES',410,1250,300);pill(im,'2 PDF-FORMATE' if de else '2 PDF SIZES',735,1250,390)
+ pill(im,'12 SEITEN' if de else '12 PAGES',410,1250,300);pill(im,'2 PAPIERFORMATE' if de else '2 PAPER SIZES',735,1250,390)
  text(im,'Ratgeber + Checklisten' if de else 'Guide + checklists',410,1410,40)
  text(im,'Mit 3 Arbeitsblättern' if de else 'With 3 planning worksheets',410,1477,34,MUTED,False)
  sheet(im,doc,8,1580,470,810,angle=4);sheet(im,doc,0,1650,365,900)
@@ -99,7 +99,7 @@ for lang in ['DE','EN']:
   dr.rounded_rectangle((x+55,680,x+195,850),radius=10,fill='#E1E8D9')
   text(im,'PDF',x+74,738,40,GREEN)
   text(im,name,x+55,915,45,GREEN,maxw=920);text(im,detail+' · '+lang,x+55,1000,28,MUTED,False)
- lines(im,'12 Inhaltsseiten in zwei Papierformaten.' if de else '12 pages of content in two paper sizes.',410,1240,42,CREAM)
+ lines(im,'12 Seiten je PDF in zwei Papierformaten.' if de else '12 pages per PDF in two paper sizes.',410,1240,42,CREAM)
  lines(im,'Gleicher Inhalt in beiden Dateien.\nDigitales Produkt – kein gedrucktes Buch.\nZum Lesen, Ausdrucken und handschriftlichen Planen.' if de else 'The same content in both files.\nDigital product — no printed book included.\nRead, print and complete your plan by hand.',410,1390,36,'#CED8C5',False,1.7)
  save(im,out,'06_Lieferumfang',de)
  with zipfile.ZipFile(P/f'Etsy-Bilder-{lang}.zip','w',zipfile.ZIP_DEFLATED) as z:

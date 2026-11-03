@@ -19,7 +19,7 @@
           ],
           [
             "Individuelle Bedürfnisse",
-            "Plane für Kinder, ältere Menschen, Behinderungen, Haustiere und medizinische Geräte gesondert. Wer auf strombetriebene Hilfsmittel angewiesen ist, braucht vorab einen abgestimmten Ersatz- und Evakuierungsplan mit dem Versorgungsteam."
+            "Berücksichtige Kinder, ältere Menschen, Menschen mit Behinderungen, Haustiere und medizinische Geräte. Wer auf strombetriebene Hilfsmittel angewiesen ist, braucht vorab einen abgestimmten Ersatz- und Evakuierungsplan mit dem Versorgungsteam."
           ],
           [
             "Grenzen und Hilfe",
@@ -46,7 +46,7 @@
           ],
           [
             "Haushalt stabilisieren",
-            "Halte Kühl- und Gefriergeräte geschlossen. Schalte Kochgeräte und empfindliche Elektronik aus. Lass eine sichere Leuchte eingeschaltet, damit du erkennst, wenn die Versorgung zurückkehrt."
+            "Halte Kühl- und Gefriergeräte geschlossen. Schalte Kochgeräte und empfindliche Elektronik aus. Lass eine elektrische Lampe eingeschaltet, damit du erkennst, wenn die Versorgung zurückkehrt."
           ],
           [
             "Kontakt und Energie",
@@ -105,7 +105,7 @@
           ],
           [
             "Sicher zubereiten",
-            "Plane möglichst ohne offenes Feuer. Grill, Holzkohle und Generator gehören niemals in Wohnräume, Garage oder Keller. Auch ein offenes Fenster macht sie dort nicht sicher. Campingkocher nur im ausdrücklich zugelassenen Umfeld gemäß Hersteller verwenden."
+            "Plane möglichst ohne offenes Feuer. Grills, Holzkohle und kraftstoffbetriebene Generatoren gehören niemals in Wohnräume, Garagen oder Keller. Auch ein offenes Fenster macht sie dort nicht sicher. Brennstoffbetriebene Campingkocher nur im Freien und nach Herstellerangaben verwenden."
           ]
         ],
         [
@@ -155,7 +155,7 @@
           ],
           [
             "Kohlenmonoxid vermeiden",
-            "Betreibe Generatoren ausschließlich draußen, weit entfernt von Fenstern, Türen und Lüftungsöffnungen nach Hersteller- und Behördenvorgaben. Nicht in Hausinstallationen einspeisen: Dafür ist fachgerecht installierte Umschalttechnik erforderlich."
+            "Betreibe kraftstoffbetriebene Generatoren ausschließlich draußen, weit entfernt von Fenstern, Türen und Lüftungsöffnungen nach Hersteller- und Behördenvorgaben. Nicht in Hausinstallationen einspeisen: Dafür ist fachgerecht installierte Umschalttechnik erforderlich."
           ],
           [
             "Verbunden bleiben",
@@ -177,7 +177,7 @@
       "Treffpunkt in der Nähe",
       "Alternativer Treffpunkt / sicherer Ausweichort",
       "Besondere Bedürfnisse / vereinbarte Unterstützung",
-      "Praxis / Apotheke / wichtige lokale Telefonnummern",
+      "Notruf / Praxis / Apotheke / wichtige Telefonnummern",
       "Ort von Vorräten, Radio und Erste-Hilfe-Set",
       "Geprüft am / nächster Prüftermin"
     ],
@@ -206,7 +206,7 @@
     "tasks": "Meine nächsten drei Aufgaben",
     "ref": "Quellen und nächste Schritte",
     "refsub": "Aktuelle Hinweise haben Vorrang.",
-    "refs_intro": "Die folgenden offiziellen Anlaufstellen bieten weiterführende Empfehlungen. Prüfe vor der Nutzung aktuelle Inhalte und die Vorgaben für deinen Wohnort. Die englische Ausgabe ist eine allgemeine internationale Fassung; Notrufnummern und regionale Regeln müssen ergänzt werden.",
+    "refs_intro": "Die folgenden offiziellen Anlaufstellen bieten weiterführende Empfehlungen. Prüfe vor der Nutzung aktuelle Inhalte und die Vorgaben für deinen Wohnort. Diese deutsche Fassung dient der allgemeinen Haushaltsplanung. Ergänze regionale Kontaktdaten und beachte die örtlichen Regeln.",
     "last": "Vor dem nächsten Stromausfall",
     "finalchecks": [
       "Plan mit allen Personen im Haushalt besprechen",
@@ -324,7 +324,7 @@
           ],
           [
             "Prepare meals safely",
-            "Plan meals without open flames where possible. Never use grills, charcoal or generators inside a home, garage or basement. An open window does not make indoor use safe. Use camping stoves only in the setting explicitly permitted by the manufacturer."
+            "Plan meals without open flames where possible. Never use grills, charcoal or generators inside a home, garage or basement. An open window does not make indoor use safe. Use fuel-burning camping stoves outdoors only and follow the manufacturer’s instructions."
           ]
         ],
         [
@@ -374,7 +374,7 @@
           ],
           [
             "Prevent carbon monoxide exposure",
-            "Operate generators outdoors only, far from doors, windows and vents, following manufacturer and local authority guidance. Never feed power into household wiring without professionally installed transfer equipment."
+            "Operate fuel-powered generators outdoors only, far from doors, windows and vents, following manufacturer and local authority guidance. Never feed power into household wiring without professionally installed transfer equipment."
           ],
           [
             "Stay connected",

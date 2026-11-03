@@ -1,39 +1,52 @@
 {
+  "edition": "2.1",
   "pdf_checks": [
     {
       "file": "Blackout-Ready_DE_A4.pdf",
       "pages": 12,
-      "image_uses": 7,
-      "source_links": 5,
-      "page_bounds": "pass",
-      "size_bytes": 1467220
-    },
-    {
-      "file": "Blackout-Ready_EN_US-Letter.pdf",
-      "pages": 12,
-      "image_uses": 7,
-      "source_links": 5,
-      "page_bounds": "pass",
-      "size_bytes": 1465116
-    },
-    {
-      "file": "Blackout-Ready_EN_A4.pdf",
-      "pages": 12,
-      "image_uses": 7,
-      "source_links": 5,
-      "page_bounds": "pass",
-      "size_bytes": 1465223
+      "bytes": 1470501,
+      "fonts_embedded": true,
+      "proportions": "uniform",
+      "contents_links": 10,
+      "bookmarks": 11,
+      "external_links_embedded": 5,
+      "sha256": "94d77649acf7b08da3b80b5e40736d3bfad2d21f8ed035c3200ed53af333f484"
     },
     {
       "file": "Blackout-Ready_DE_US-Letter.pdf",
       "pages": 12,
-      "image_uses": 7,
-      "source_links": 5,
-      "page_bounds": "pass",
-      "size_bytes": 1467119
+      "bytes": 1470423,
+      "fonts_embedded": true,
+      "proportions": "uniform",
+      "contents_links": 10,
+      "bookmarks": 11,
+      "external_links_embedded": 5,
+      "sha256": "21cea9cc921c64055379a3e7b615d4e9d8c5d8566b4ce294281c120b81b52772"
+    },
+    {
+      "file": "Blackout-Ready_EN_A4.pdf",
+      "pages": 12,
+      "bytes": 1468530,
+      "fonts_embedded": true,
+      "proportions": "uniform",
+      "contents_links": 10,
+      "bookmarks": 11,
+      "external_links_embedded": 5,
+      "sha256": "6844e0bcf6374128c9d9b15f871161e15b7fc1028a1d9c17a3dd647501765aaf"
+    },
+    {
+      "file": "Blackout-Ready_EN_US-Letter.pdf",
+      "pages": 12,
+      "bytes": 1468454,
+      "fonts_embedded": true,
+      "proportions": "uniform",
+      "contents_links": 10,
+      "bookmarks": 11,
+      "external_links_embedded": 5,
+      "sha256": "8fccadc3f6e0771a1bc01ddfe8d352aa168de8ded1fe0b5d48c9a02c08ee8ef1"
     }
   ],
   "zip_integrity": "pass",
-  "live_source_verification": "not performed",
+  "live_source_verification": "blocked by proxy (403)",
   "physical_print_test": "not performed"
 }

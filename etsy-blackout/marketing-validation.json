@@ -1,4 +1,5 @@
 {
+  "edition": "2.1",
   "images": [
     {
       "file": "Etsy-Bilder/DE/01_Hero.jpg",
@@ -6,7 +7,7 @@
         3000,
         2250
       ],
-      "sha256": "91e815d3349c618356f48a01496c49931015d55fc5f3fd523ccef330570ac575"
+      "sha256": "c4d99b5ecfdb1f9a75b85b34d8ce8b268c273a94e0f4f33c2ed93d6109c4bc39"
     },
     {
       "file": "Etsy-Bilder/DE/02_Inhalte.jpg",
@@ -22,7 +23,7 @@
         3000,
         2250
       ],
-      "sha256": "b8aea8f207f02618bda6b7b45e43d4aa7c817c858a0de2f95fb24b38d360f37e"
+      "sha256": "bcac9188c829c80d6be9161406c0d01c5199e27d0e80e38afc946bf7191a34a6"
     },
     {
       "file": "Etsy-Bilder/DE/04_Arbeitsblaetter.jpg",
@@ -30,7 +31,7 @@
         3000,
         2250
       ],
-      "sha256": "23b9bbd738bda3553832421b0d4d1033a769602467c15621ae1a31c92bf6467c"
+      "sha256": "4fe0c37ee1eb379f11f17737a6ed6aa2bc76bef82e47c4463bab98e96cc7f539"
     },
     {
       "file": "Etsy-Bilder/DE/05_Drucken-und-Nutzen.jpg",
@@ -38,7 +39,7 @@
         3000,
         2250
       ],
-      "sha256": "037009265ccb941508df1f50accb84c1a379ce224a8a3c16751f6e03ded07f00"
+      "sha256": "6e51cf7b78478800bebaa1f9a0f58f2a3d6b247ea0e396f6a809adaa6db0f104"
     },
     {
       "file": "Etsy-Bilder/DE/06_Lieferumfang.jpg",
@@ -46,7 +47,7 @@
         3000,
         2250
       ],
-      "sha256": "ca8dbdc03ff276fd369989f379a818626326b80669baf188edfa02f69bf439e3"
+      "sha256": "5bf076e8fa6d6a0fa33785e46bd2dbd7e006962f6783584ce28f7172203d351b"
     },
     {
       "file": "Etsy-Bilder/EN/01_Hero.jpg",
@@ -54,7 +55,7 @@
         3000,
         2250
       ],
-      "sha256": "a39de904189f42874ac2476334cdbb4bb075eed45410e45344bf80399264bed6"
+      "sha256": "dd318a9a7c1aff4fecb4d3062f12e1bc18d15b29430873886d13e54b24b213cc"
     },
     {
       "file": "Etsy-Bilder/EN/02_Inhalte.jpg",
@@ -70,7 +71,7 @@
         3000,
         2250
       ],
-      "sha256": "eb540c2ad7639cb0a64380e1dbb813362a8d24a4a35f6cce731cbe78fe6e7919"
+      "sha256": "074e04f5f0291fa4189ba2bba75b525b3e3e06c4f350a553652c9137c5f40215"
     },
     {
       "file": "Etsy-Bilder/EN/04_Arbeitsblaetter.jpg",
@@ -78,7 +79,7 @@
         3000,
         2250
       ],
-      "sha256": "9de278c68e1c5f27a651647d2f601efc08ba2ee5cf69ed36f3800a9cebbaef57"
+      "sha256": "f132085a7e453d54176a05a9fcf21552f894669ce5409259a739d057206f0691"
     },
     {
       "file": "Etsy-Bilder/EN/05_Drucken-und-Nutzen.jpg",
@@ -86,7 +87,7 @@
         3000,
         2250
       ],
-      "sha256": "55e05d0404329723dfd5b1483d6731588a8a855eff66679db1a468491edd73a0"
+      "sha256": "b673eb163dfbf680dcb94136c734c3ae30ac324d1a7e4648bc2edfdc8a0a7889"
     },
     {
       "file": "Etsy-Bilder/EN/06_Lieferumfang.jpg",
@@ -94,11 +95,10 @@
         3000,
         2250
       ],
-      "sha256": "9e3eb518d7e83d56661f997bce870c5dc9983d076d8e2c53c7f96ef39e226a31"
+      "sha256": "1440ce187b0f4fd155bef44cd5e7176938c5d586bb0ce518300fb88d0d54bdda"
     }
   ],
   "image_decode": "pass",
-  "archive_integrity": "pass",
-  "visual_review": "all 12 via contact sheets; both heroes and English deliverables at full size",
-  "pdf_content_changes": "none"
+  "visual_review": "Both language sets; square hero crop at 500px; OCR spot-check of hero and deliverables images in both languages.",
+  "pdf_version_shown": "2.1"
 }

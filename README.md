@@ -1,4 +1,4 @@
-# BLACKOUT READY — Ausgabe 3
+# BLACKOUT READY — geprüfte Fassung 2.1
 
 Bebilderter Haushaltsratgeber mit Checklisten und Arbeitsblättern auf Deutsch und Englisch.
 
@@ -34,3 +34,12 @@ Die drei Bildmotive wurden mit KI erstellt. Noch keine Veröffentlichung auf Ets
 - [Englische Bilder als ZIP](https://github.com/semihaksan90-ops/GPT/raw/refs/heads/main/etsy-blackout/Etsy-Bilder-EN.zip)
 
 Jeweils 6 JPG-Dateien, 3000 × 2250 Pixel (4:3), nummeriert von 01_Hero bis 06_Lieferumfang. Die [Bildanleitung](etsy-blackout/Bilder-Anleitung.md) erläutert die Reihenfolge. Produktvisualisierungen verwenden tatsächliche PDF-Seiten und einen KI-generierten dekorativen Hintergrund.
+
+## Abschlusskontrolle vor dem Upload
+
+Die hochgeladenen Original-PDFs (2.0) wurden geprüft und korrigiert. Verwende die neue PDF-Fassung 2.1 und die dazugehörigen neu gerenderten Produktbilder. [Prüfbericht und offene Punkte](etsy-blackout/VOR-DEM-UPLOAD.md). Die technische/redaktionelle Kontrolle ist bestanden; Live-Abgleich mit Behörden- und Etsy-Seiten bleibt wegen einer Proxy-Sperre offen.
+
+- [Deutsches Upload-Paket](https://github.com/semihaksan90-ops/GPT/raw/refs/heads/main/etsy-blackout/Etsy-Upload-DE.zip)
+- [Englisches Upload-Paket](https://github.com/semihaksan90-ops/GPT/raw/refs/heads/main/etsy-blackout/Etsy-Upload-EN.zip)
+
+Die Upload-Pakete trennen Kundendateien (zwei PDFs) von Produktbildern und Verkäuferhinweisen. Nicht das ganze Verkäuferpaket als Kundendownload anbieten. `python etsy-blackout/preflight.py` prüft die erzeugten Dateien.

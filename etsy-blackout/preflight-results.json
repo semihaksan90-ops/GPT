@@ -1,0 +1,164 @@
+{
+  "edition": "2.1",
+  "pdfs": [
+    {
+      "file": "Blackout-Ready_DE_A4.pdf",
+      "pages": 12,
+      "bytes": 1470501,
+      "fonts_embedded": true,
+      "proportions": "uniform",
+      "contents_links": 10,
+      "bookmarks": 11,
+      "external_links_embedded": 5,
+      "sha256": "94d77649acf7b08da3b80b5e40736d3bfad2d21f8ed035c3200ed53af333f484"
+    },
+    {
+      "file": "Blackout-Ready_DE_US-Letter.pdf",
+      "pages": 12,
+      "bytes": 1470423,
+      "fonts_embedded": true,
+      "proportions": "uniform",
+      "contents_links": 10,
+      "bookmarks": 11,
+      "external_links_embedded": 5,
+      "sha256": "21cea9cc921c64055379a3e7b615d4e9d8c5d8566b4ce294281c120b81b52772"
+    },
+    {
+      "file": "Blackout-Ready_EN_A4.pdf",
+      "pages": 12,
+      "bytes": 1468530,
+      "fonts_embedded": true,
+      "proportions": "uniform",
+      "contents_links": 10,
+      "bookmarks": 11,
+      "external_links_embedded": 5,
+      "sha256": "6844e0bcf6374128c9d9b15f871161e15b7fc1028a1d9c17a3dd647501765aaf"
+    },
+    {
+      "file": "Blackout-Ready_EN_US-Letter.pdf",
+      "pages": 12,
+      "bytes": 1468454,
+      "fonts_embedded": true,
+      "proportions": "uniform",
+      "contents_links": 10,
+      "bookmarks": 11,
+      "external_links_embedded": 5,
+      "sha256": "8fccadc3f6e0771a1bc01ddfe8d352aa168de8ded1fe0b5d48c9a02c08ee8ef1"
+    }
+  ],
+  "images": [
+    {
+      "file": "Etsy-Bilder/DE/01_Hero.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "c4d99b5ecfdb1f9a75b85b34d8ce8b268c273a94e0f4f33c2ed93d6109c4bc39"
+    },
+    {
+      "file": "Etsy-Bilder/DE/02_Inhalte.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "e3a6f4da19b9ea33a45990b2c0a5d6599c452f48495ba1bcf03415e373a84171"
+    },
+    {
+      "file": "Etsy-Bilder/DE/03_Blick-ins-Heft.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "bcac9188c829c80d6be9161406c0d01c5199e27d0e80e38afc946bf7191a34a6"
+    },
+    {
+      "file": "Etsy-Bilder/DE/04_Arbeitsblaetter.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "4fe0c37ee1eb379f11f17737a6ed6aa2bc76bef82e47c4463bab98e96cc7f539"
+    },
+    {
+      "file": "Etsy-Bilder/DE/05_Drucken-und-Nutzen.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "6e51cf7b78478800bebaa1f9a0f58f2a3d6b247ea0e396f6a809adaa6db0f104"
+    },
+    {
+      "file": "Etsy-Bilder/DE/06_Lieferumfang.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "5bf076e8fa6d6a0fa33785e46bd2dbd7e006962f6783584ce28f7172203d351b"
+    },
+    {
+      "file": "Etsy-Bilder/EN/01_Hero.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "dd318a9a7c1aff4fecb4d3062f12e1bc18d15b29430873886d13e54b24b213cc"
+    },
+    {
+      "file": "Etsy-Bilder/EN/02_Inhalte.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "4860b5dd43db3e82bfacc90024b5a289e56ee471ec2335411a5973a74ada052d"
+    },
+    {
+      "file": "Etsy-Bilder/EN/03_Blick-ins-Heft.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "074e04f5f0291fa4189ba2bba75b525b3e3e06c4f350a553652c9137c5f40215"
+    },
+    {
+      "file": "Etsy-Bilder/EN/04_Arbeitsblaetter.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "f132085a7e453d54176a05a9fcf21552f894669ce5409259a739d057206f0691"
+    },
+    {
+      "file": "Etsy-Bilder/EN/05_Drucken-und-Nutzen.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "b673eb163dfbf680dcb94136c734c3ae30ac324d1a7e4648bc2edfdc8a0a7889"
+    },
+    {
+      "file": "Etsy-Bilder/EN/06_Lieferumfang.jpg",
+      "pixels": [
+        3000,
+        2250
+      ],
+      "sha256": "1440ce187b0f4fd155bef44cd5e7176938c5d586bb0ce518300fb88d0d54bdda"
+    }
+  ],
+  "zips": [
+    "BLACKOUT-READY-DE.zip",
+    "Etsy-Bilder-DE.zip",
+    "Etsy-Upload-DE.zip",
+    "BLACKOUT-READY-EN.zip",
+    "Etsy-Bilder-EN.zip",
+    "Etsy-Upload-EN.zip",
+    "BLACKOUT-READY-Bilingual.zip",
+    "Etsy-Verkaufsmaterial.zip",
+    "Etsy-Blackout-Ready.zip"
+  ],
+  "limitations": [
+    "Live authority and Etsy pages blocked by proxy (403); their content and currency not verified.",
+    "No physical print test.",
+    "No Etsy upload, live crop or checkout test."
+  ],
+  "result": "PASS: technical and editorial checks; live-source review remains outstanding"
+}
