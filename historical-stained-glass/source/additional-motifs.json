@@ -1,0 +1,902 @@
+[
+  {
+    "id": "101",
+    "city": "London",
+    "title": "Palace of Westminster",
+    "region": "United Kingdom",
+    "detail": "The long Gothic riverside parliament facade and recognizable Elizabeth Tower with a clock face, beside the Thames in daylight.",
+    "filename": "101_london-palace-of-westminster.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "102",
+    "city": "London",
+    "title": "Saint Paul's Cathedral",
+    "region": "United Kingdom",
+    "detail": "The great English Baroque dome above its classical west portico and paired smaller bell towers, with historic city rooftops.",
+    "filename": "102_london-saint-paul-s-cathedral.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "103",
+    "city": "Greenwich",
+    "title": "Royal Observatory",
+    "region": "United Kingdom",
+    "detail": "Historic red-brick Flamsteed House with its octagonal observing room, rooftop domes and green park hillside above the Thames.",
+    "filename": "103_greenwich-royal-observatory.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "104",
+    "city": "Windsor",
+    "title": "Windsor Castle",
+    "region": "United Kingdom",
+    "detail": "An imposing English royal fortress dominated by the massive central Round Tower and long crenellated stone walls.",
+    "filename": "104_windsor-windsor-castle.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "105",
+    "city": "Warwick",
+    "title": "Warwick Castle",
+    "region": "United Kingdom",
+    "detail": "A medieval English stone fortress with tall polygonal towers and a broad curtain wall above a winding river.",
+    "filename": "105_warwick-warwick-castle.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "106",
+    "city": "Dover",
+    "title": "Dover Castle",
+    "region": "United Kingdom",
+    "detail": "A great rectangular Norman keep and extensive medieval stone defenses above bright white coastal cliffs.",
+    "filename": "106_dover-dover-castle.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "107",
+    "city": "Canterbury",
+    "title": "Canterbury Cathedral",
+    "region": "United Kingdom",
+    "detail": "An English Gothic cathedral with the tall square Bell Harry crossing tower, long nave and medieval precinct gate.",
+    "filename": "107_canterbury-canterbury-cathedral.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "108",
+    "city": "Salisbury",
+    "title": "Salisbury Cathedral",
+    "region": "United Kingdom",
+    "detail": "A pale Early English Gothic cathedral with a remarkably tall slender central spire above a green cathedral close.",
+    "filename": "108_salisbury-salisbury-cathedral.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "109",
+    "city": "Durham",
+    "title": "Durham Cathedral",
+    "region": "United Kingdom",
+    "detail": "A massive Romanesque cathedral with three square towers crowning a wooded river peninsula and old stone bridge.",
+    "filename": "109_durham-durham-cathedral.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "110",
+    "city": "Lincoln",
+    "title": "Lincoln Cathedral",
+    "region": "United Kingdom",
+    "detail": "A large hilltop English Gothic cathedral with three broad square towers and a richly arched west facade.",
+    "filename": "110_lincoln-lincoln-cathedral.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "111",
+    "city": "Cambridge",
+    "title": "King's College Chapel",
+    "region": "United Kingdom",
+    "detail": "A long late Gothic chapel with enormous traceried windows, crenellated parapets and four slender corner turrets beside the River Cam.",
+    "filename": "111_cambridge-king-s-college-chapel.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "112",
+    "city": "Oxford",
+    "title": "Radcliffe Camera",
+    "region": "United Kingdom",
+    "detail": "A distinctive circular sandstone library with a broad ribbed dome, classical columns and surrounding old university buildings.",
+    "filename": "112_oxford-radcliffe-camera.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "113",
+    "city": "Bath",
+    "title": "Roman Baths",
+    "region": "United Kingdom",
+    "detail": "An ancient rectangular green bathing pool surrounded by classical stone colonnades, with Bath Abbey rising behind.",
+    "filename": "113_bath-roman-baths.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "114",
+    "city": "Amesbury",
+    "title": "Stonehenge",
+    "region": "United Kingdom",
+    "detail": "The recognizable prehistoric ring of massive standing stones and horizontal lintels on an open green plain under a dramatic glass sky.",
+    "filename": "114_amesbury-stonehenge.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "115",
+    "city": "Woodstock",
+    "title": "Blenheim Palace",
+    "region": "United Kingdom",
+    "detail": "A monumental English Baroque palace with a central classical portico, ornate roofline, broad forecourt and formal gardens.",
+    "filename": "115_woodstock-blenheim-palace.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "116",
+    "city": "Dublin",
+    "title": "Trinity College Campanile",
+    "region": "Ireland",
+    "detail": "An elegant freestanding stone bell tower on an arched base in a historic university courtyard with Georgian facades.",
+    "filename": "116_dublin-trinity-college-campanile.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "117",
+    "city": "Dublin",
+    "title": "Christ Church Cathedral",
+    "region": "Ireland",
+    "detail": "A gray stone medieval cathedral with a square crossing tower, pointed roofs and its distinctive covered stone bridge over the street.",
+    "filename": "117_dublin-christ-church-cathedral.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "118",
+    "city": "Cashel",
+    "title": "Rock of Cashel",
+    "region": "Ireland",
+    "detail": "A dramatic cluster of medieval cathedral ruins, chapel and a tall slender Irish round tower on a green limestone outcrop.",
+    "filename": "118_cashel-rock-of-cashel.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "119",
+    "city": "Kilkenny",
+    "title": "Kilkenny Castle",
+    "region": "Ireland",
+    "detail": "A broad gray medieval castle with rounded corner towers, a courtyard and green parkland above the river.",
+    "filename": "119_kilkenny-kilkenny-castle.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "120",
+    "city": "Caernarfon",
+    "title": "Caernarfon Castle",
+    "region": "Wales",
+    "detail": "A powerful Welsh medieval fortress with distinctive polygonal towers, banded stone walls and harbor reflections.",
+    "filename": "120_caernarfon-caernarfon-castle.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "121",
+    "city": "Conwy",
+    "title": "Conwy Castle",
+    "region": "Wales",
+    "detail": "A medieval Welsh castle with eight round stone towers, crenellated walls and a river estuary below.",
+    "filename": "121_conwy-conwy-castle.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "122",
+    "city": "Cardiff",
+    "title": "Cardiff Castle Clock Tower",
+    "region": "Wales",
+    "detail": "A tall richly decorated Victorian Gothic clock tower with polychrome stone details rising beside medieval castle walls.",
+    "filename": "122_cardiff-cardiff-castle-clock-tower.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "123",
+    "city": "Carcassonne",
+    "title": "Narbonnaise Gate",
+    "region": "France",
+    "detail": "Two imposing round stone gate towers with pointed slate roofs and a drawbridge entrance into the medieval walled city.",
+    "filename": "123_carcassonne-narbonnaise-gate.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "124",
+    "city": "Avignon",
+    "title": "Palace of the Popes",
+    "region": "France",
+    "detail": "A vast medieval Gothic papal palace with tall buttressed pale stone facades, crenellations and a broad sunny square.",
+    "filename": "124_avignon-palace-of-the-popes.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "125",
+    "city": "Reims",
+    "title": "Reims Cathedral",
+    "region": "France",
+    "detail": "The richly sculpted French Gothic west facade with a central rose window, deep portals and two openwork square towers.",
+    "filename": "125_reims-reims-cathedral.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "126",
+    "city": "Amiens",
+    "title": "Amiens Cathedral",
+    "region": "France",
+    "detail": "A towering Gothic cathedral facade with three elaborate portals, a broad rose window and two unequal square towers.",
+    "filename": "126_amiens-amiens-cathedral.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "127",
+    "city": "Strasbourg",
+    "title": "Strasbourg Cathedral",
+    "region": "France",
+    "detail": "An intricate reddish sandstone Gothic cathedral dominated by a single exceptionally tall openwork spire on its asymmetrical facade.",
+    "filename": "127_strasbourg-strasbourg-cathedral.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "128",
+    "city": "Rouen",
+    "title": "Gros Horloge",
+    "region": "France",
+    "detail": "A richly decorated Renaissance astronomical clock above a stone arch spanning a narrow medieval half-timbered street; use simple dial marks without lettering.",
+    "filename": "128_rouen-gros-horloge.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "129",
+    "city": "Blois",
+    "title": "Royal Chateau of Blois",
+    "region": "France",
+    "detail": "An elegant French Renaissance castle courtyard centered on the famous projecting octagonal open spiral staircase.",
+    "filename": "129_blois-royal-chateau-of-blois.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "130",
+    "city": "Chambord",
+    "title": "Chateau de Chambord",
+    "region": "France",
+    "detail": "A grand French Renaissance chateau with a central keep, round corner towers and a spectacular forest of ornate roof chimneys and turrets.",
+    "filename": "130_chambord-chateau-de-chambord.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "131",
+    "city": "Chenonceaux",
+    "title": "Chateau de Chenonceau",
+    "region": "France",
+    "detail": "A pale Renaissance chateau and long two-story gallery carried on graceful stone arches spanning a tranquil river.",
+    "filename": "131_chenonceaux-chateau-de-chenonceau.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "132",
+    "city": "Pierrefonds",
+    "title": "Chateau de Pierrefonds",
+    "region": "France",
+    "detail": "A romantic medieval-style stone castle with many tall rounded towers and blue slate conical roofs above a wooded hill.",
+    "filename": "132_pierrefonds-chateau-de-pierrefonds.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "133",
+    "city": "Beynac",
+    "title": "Chateau de Beynac",
+    "region": "France",
+    "detail": "A rugged medieval golden-stone fortress perched on a sheer limestone cliff above the winding Dordogne river.",
+    "filename": "133_beynac-chateau-de-beynac.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "134",
+    "city": "Albi",
+    "title": "Albi Cathedral",
+    "region": "France",
+    "detail": "A massive fortress-like red brick cathedral with a high square bell tower and semicylindrical buttresses above the historic city.",
+    "filename": "134_albi-albi-cathedral.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "135",
+    "city": "Vers Pont du Gard",
+    "title": "Pont du Gard",
+    "region": "France",
+    "detail": "An ancient Roman aqueduct with three distinct tiers of pale stone arches over an emerald river in a rocky valley.",
+    "filename": "135_vers-pont-du-gard-pont-du-gard.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "136",
+    "city": "Nimes",
+    "title": "Maison Carree",
+    "region": "France",
+    "detail": "A well-preserved ancient Roman rectangular temple with a high podium, Corinthian columns, deep portico and a triangular pediment; no dome.",
+    "filename": "136_nimes-maison-carree.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "137",
+    "city": "Arles",
+    "title": "Arles Amphitheatre",
+    "region": "France",
+    "detail": "A two-tiered oval Roman stone arena with prominent medieval defensive towers added above the arcades.",
+    "filename": "137_arles-arles-amphitheatre.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "138",
+    "city": "Orange",
+    "title": "Roman Theatre of Orange",
+    "region": "France",
+    "detail": "An ancient semicircular Roman theater with stepped seating facing an exceptionally tall intact rectangular stage wall.",
+    "filename": "138_orange-roman-theatre-of-orange.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "139",
+    "city": "Lyon",
+    "title": "Fourviere Basilica",
+    "region": "France",
+    "detail": "A hilltop pale stone basilica with four ornate octagonal corner towers, a decorated facade and the old city below.",
+    "filename": "139_lyon-fourviere-basilica.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "140",
+    "city": "New York",
+    "title": "Statue of Liberty",
+    "region": "United States",
+    "detail": "The recognizable green copper statue holding a torch aloft and a tablet, on its stone pedestal above harbor water; no written lettering.",
+    "filename": "140_new-york-statue-of-liberty.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "141",
+    "city": "New York",
+    "title": "Brooklyn Bridge",
+    "region": "United States",
+    "detail": "A historic suspension bridge with twin pointed Gothic stone arches in its towers, a dramatic web of suspension cables and an old city skyline.",
+    "filename": "141_new-york-brooklyn-bridge.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "142",
+    "city": "Washington",
+    "title": "United States Capitol",
+    "region": "United States",
+    "detail": "A broad neoclassical white building with a large ribbed central dome, long colonnaded wings and a green foreground; no flags.",
+    "filename": "142_washington-united-states-capitol.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "143",
+    "city": "Bern",
+    "title": "Zytglogge",
+    "region": "Switzerland",
+    "detail": "A historic medieval clock tower with an ornate broad clock face above an arched passage and old Bern arcaded houses.",
+    "filename": "143_bern-zytglogge.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "144",
+    "city": "Lucerne",
+    "title": "Chapel Bridge",
+    "region": "Switzerland",
+    "detail": "A long covered medieval timber bridge on stone supports crossing a blue river beside its octagonal Water Tower and old town.",
+    "filename": "144_lucerne-chapel-bridge.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "145",
+    "city": "Montreux",
+    "title": "Chillon Castle",
+    "region": "Switzerland",
+    "detail": "A compact medieval stone castle with clustered round towers and steep tiled roofs on a rocky island at the edge of Lake Geneva.",
+    "filename": "145_montreux-chillon-castle.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "146",
+    "city": "Philadelphia",
+    "title": "Independence Hall",
+    "region": "United States",
+    "detail": "A historic Georgian red brick civic building with a central white clock tower and spire above a symmetrical facade.",
+    "filename": "146_philadelphia-independence-hall.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "147",
+    "city": "Boston",
+    "title": "Old State House",
+    "region": "United States",
+    "detail": "A small historic red brick colonial building with a stepped central facade, white upper lantern and a tall cupola in an old city setting.",
+    "filename": "147_boston-old-state-house.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "148",
+    "city": "New Orleans",
+    "title": "Saint Louis Cathedral",
+    "region": "United States",
+    "detail": "A white historic cathedral with three pointed dark spires, a central clock and palms framing the front square.",
+    "filename": "148_new-orleans-saint-louis-cathedral.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "149",
+    "city": "Tucson",
+    "title": "Mission San Xavier del Bac",
+    "region": "United States",
+    "detail": "An ornate white Spanish mission church with two unequal bell towers, carved baroque entrance and a warm desert landscape.",
+    "filename": "149_tucson-mission-san-xavier-del-bac.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "150",
+    "city": "Sion",
+    "title": "Valere Basilica",
+    "region": "Switzerland",
+    "detail": "An ancient fortified stone basilica and clustered medieval walls crowning a steep rocky hill above a green Alpine valley.",
+    "filename": "150_sion-valere-basilica.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "151",
+    "city": "Saint Petersburg",
+    "title": "Winter Palace",
+    "region": "Russia",
+    "detail": "A long ornate green-and-white Baroque palace facade with gilded decorative details facing a broad historic square.",
+    "filename": "151_saint-petersburg-winter-palace.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "152",
+    "city": "Moscow",
+    "title": "Saint Basil's Cathedral",
+    "region": "Russia",
+    "detail": "The iconic colorful cluster of patterned onion domes above red brick towers on a historic square, with no flags or text.",
+    "filename": "152_moscow-saint-basil-s-cathedral.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "153",
+    "city": "Suzdal",
+    "title": "Suzdal Kremlin",
+    "region": "Russia",
+    "detail": "An old white cathedral with luminous blue star-decorated onion domes, green lawns and low historic Kremlin walls.",
+    "filename": "153_suzdal-suzdal-kremlin.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "154",
+    "city": "Veliky Novgorod",
+    "title": "Saint Sophia Cathedral",
+    "region": "Russia",
+    "detail": "A compact ancient white Orthodox cathedral with rounded vaults, several silver domes and one central gilded dome.",
+    "filename": "154_veliky-novgorod-saint-sophia-cathedral.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "155",
+    "city": "Derbent",
+    "title": "Naryn Kala Citadel",
+    "region": "Russia",
+    "detail": "A massive ancient stone citadel with square towers and long defensive walls descending toward the Caspian coast.",
+    "filename": "155_derbent-naryn-kala-citadel.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "156",
+    "city": "Garni",
+    "title": "Temple of Garni",
+    "region": "Armenia",
+    "detail": "A classical basalt temple with slender Ionic columns, triangular pediment and high stair podium above a deep mountain gorge.",
+    "filename": "156_garni-temple-of-garni.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "157",
+    "city": "Mtskheta",
+    "title": "Svetitskhoveli Cathedral",
+    "region": "Georgia",
+    "detail": "A tall medieval Georgian stone cathedral with a distinctive faceted conical dome above a large cross-shaped building and walled courtyard.",
+    "filename": "157_mtskheta-svetitskhoveli-cathedral.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "158",
+    "city": "Tbilisi",
+    "title": "Narikala Fortress",
+    "region": "Georgia",
+    "detail": "A rugged medieval stone fortress with towers on a steep ridge above old houses and a river valley.",
+    "filename": "158_tbilisi-narikala-fortress.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "159",
+    "city": "Baku",
+    "title": "Maiden Tower",
+    "region": "Azerbaijan",
+    "detail": "A broad cylindrical ancient stone tower with a projecting buttress beside old city walls and Caspian coastal water.",
+    "filename": "159_baku-maiden-tower.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "160",
+    "city": "Shaki",
+    "title": "Palace of the Shaki Khans",
+    "region": "Azerbaijan",
+    "detail": "A symmetrical historic palace with richly patterned facades, projecting wooden lattice windows and colorful geometric window panels among plane trees.",
+    "filename": "160_shaki-palace-of-the-shaki-khans.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "161",
+    "city": "Yazd",
+    "title": "Amir Chakhmaq Complex",
+    "region": "Iran",
+    "detail": "A monumental Persian arched facade with repeated pointed niches, two slender minarets and a broad historic square.",
+    "filename": "161_yazd-amir-chakhmaq-complex.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "162",
+    "city": "Shiraz",
+    "title": "Nasir al Mulk Mosque",
+    "region": "Iran",
+    "detail": "A historic Persian mosque courtyard with a blue and rose tiled pointed-arch portal, decorative tile panels and a long reflecting pool.",
+    "filename": "162_shiraz-nasir-al-mulk-mosque.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "163",
+    "city": "Kashan",
+    "title": "Agha Bozorg Mosque",
+    "region": "Iran",
+    "detail": "A symmetric historic brick mosque with a broad central dome, two elegant minarets and a sunken garden courtyard.",
+    "filename": "163_kashan-agha-bozorg-mosque.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "164",
+    "city": "Persepolis",
+    "title": "Apadana Palace Ruins",
+    "region": "Iran",
+    "detail": "Ancient Persian palace ruins with tall slender surviving stone columns, carved staircase reliefs and monumental gateways on a stone terrace.",
+    "filename": "164_persepolis-apadana-palace-ruins.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "165",
+    "city": "Mashhad",
+    "title": "Imam Reza Shrine",
+    "region": "Iran",
+    "detail": "An ornate historic shrine courtyard with a luminous golden dome, tall gold minarets and intricately blue-tiled arched facades.",
+    "filename": "165_mashhad-imam-reza-shrine.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "166",
+    "city": "Sanaa",
+    "title": "Historic Old City",
+    "region": "Yemen",
+    "detail": "Tall traditional brown brick tower houses decorated with intricate white geometric plaster bands and ornate arched windows.",
+    "filename": "166_sanaa-historic-old-city.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "167",
+    "city": "Shibam",
+    "title": "Mudbrick Tower Houses",
+    "region": "Yemen",
+    "detail": "A compact ancient walled city of tall closely packed mudbrick tower houses rising above a desert valley.",
+    "filename": "167_shibam-mudbrick-tower-houses.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "168",
+    "city": "Nizwa",
+    "title": "Nizwa Fort",
+    "region": "Oman",
+    "detail": "An immense round sand-colored defensive tower with crenellations, attached historic fort buildings, palms and distant mountains.",
+    "filename": "168_nizwa-nizwa-fort.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "169",
+    "city": "Bahla",
+    "title": "Bahla Fort",
+    "region": "Oman",
+    "detail": "An expansive historic adobe fortress with irregular layered walls, round watchtowers and a dramatic rocky desert setting.",
+    "filename": "169_bahla-bahla-fort.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "170",
+    "city": "Diriyah",
+    "title": "At Turaif District",
+    "region": "Saudi Arabia",
+    "detail": "Historic Najdi mudbrick palaces and towers with triangular crenellations and narrow earthen streets beside a green desert wadi.",
+    "filename": "170_diriyah-at-turaif-district.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "171",
+    "city": "Al Ula",
+    "title": "Qasr al Farid at Hegra",
+    "region": "Saudi Arabia",
+    "detail": "A single monumental Nabataean rock-cut tomb facade carved into an isolated huge sandstone boulder in open desert.",
+    "filename": "171_al-ula-qasr-al-farid-at-hegra.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "172",
+    "city": "Tripoli",
+    "title": "Red Castle of Tripoli",
+    "region": "Libya",
+    "detail": "A historic coastal fortress with warm ochre defensive walls, old arched gateways and Mediterranean harbor water.",
+    "filename": "172_tripoli-red-castle-of-tripoli.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "173",
+    "city": "El Djem",
+    "title": "El Djem Amphitheatre",
+    "region": "Tunisia",
+    "detail": "A colossal freestanding oval Roman amphitheater with three tiers of open stone arches rising above a North African town.",
+    "filename": "173_el-djem-el-djem-amphitheatre.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "174",
+    "city": "Kairouan",
+    "title": "Great Mosque of Kairouan",
+    "region": "Tunisia",
+    "detail": "A historic North African mosque with a massive square stepped minaret, long arcaded courtyard and warm sandstone walls.",
+    "filename": "174_kairouan-great-mosque-of-kairouan.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "175",
+    "city": "Algiers",
+    "title": "Historic Casbah",
+    "region": "Algeria",
+    "detail": "A layered hillside medina of white historic houses, domed rooftops and narrow alleys overlooking the blue Mediterranean.",
+    "filename": "175_algiers-historic-casbah.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "176",
+    "city": "Tlemcen",
+    "title": "Mansourah Minaret",
+    "region": "Algeria",
+    "detail": "A tall square ruined red stone minaret with intricate Moorish carved geometric arches above ancient city wall ruins.",
+    "filename": "176_tlemcen-mansourah-minaret.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "177",
+    "city": "Meknes",
+    "title": "Bab Mansour",
+    "region": "Morocco",
+    "detail": "A monumental ornate city gate with a grand horseshoe arch, rich green geometric tile panels and carved stone ornament.",
+    "filename": "177_meknes-bab-mansour.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "178",
+    "city": "Ait Benhaddou",
+    "title": "Historic Ksar",
+    "region": "Morocco",
+    "detail": "A dramatic earthen fortified village of tall reddish adobe towers with geometric decorations clustered on a desert hillside.",
+    "filename": "178_ait-benhaddou-historic-ksar.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "179",
+    "city": "Lalibela",
+    "title": "Church of Saint George",
+    "region": "Ethiopia",
+    "detail": "The famous cross-shaped monolithic rock-hewn church seen from an elevated view inside a deep rectangular rock excavation.",
+    "filename": "179_lalibela-church-of-saint-george.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "180",
+    "city": "Gondar",
+    "title": "Fasil Ghebbi",
+    "region": "Ethiopia",
+    "detail": "A historic Ethiopian royal stone castle with rounded corner towers, crenellations and arched windows amid green highland trees.",
+    "filename": "180_gondar-fasil-ghebbi.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "181",
+    "city": "Timbuktu",
+    "title": "Djinguereber Mosque",
+    "region": "Mali",
+    "detail": "An ancient Sahelian earthen mosque with a broad tapered minaret and protruding wooden beams against a clear warm desert sky.",
+    "filename": "181_timbuktu-djinguereber-mosque.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "182",
+    "city": "Djenne",
+    "title": "Great Mosque of Djenne",
+    "region": "Mali",
+    "detail": "A monumental Sahelian mudbrick mosque with three tall tapered towers and many projecting wooden beams above a broad open square.",
+    "filename": "182_djenne-great-mosque-of-djenne.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "183",
+    "city": "Masvingo",
+    "title": "Great Zimbabwe",
+    "region": "Zimbabwe",
+    "detail": "The ancient curving dry-stone walls of the Great Enclosure and its distinctive conical stone tower among green rocky hills.",
+    "filename": "183_masvingo-great-zimbabwe.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "184",
+    "city": "Kilwa Kisiwani",
+    "title": "Great Mosque Ruins",
+    "region": "Tanzania",
+    "detail": "Historic Swahili coral-stone mosque ruins with graceful surviving pointed arches, broken domed chambers and tropical coastal palms.",
+    "filename": "184_kilwa-kisiwani-great-mosque-ruins.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "185",
+    "city": "Zanzibar",
+    "title": "Old Fort of Zanzibar",
+    "region": "Tanzania",
+    "detail": "A historic coastal stone fort with broad crenellated walls and rounded defensive towers beside a green courtyard and sea.",
+    "filename": "185_zanzibar-old-fort-of-zanzibar.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "186",
+    "city": "Cape Coast",
+    "title": "Cape Coast Castle",
+    "region": "Ghana",
+    "detail": "A historic white coastal fortress with a large inner courtyard, angular bastions and Atlantic waves below; no people or dramatized scenes.",
+    "filename": "186_cape-coast-cape-coast-castle.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "187",
+    "city": "Ouro Preto",
+    "title": "Saint Francis of Assisi Church",
+    "region": "Brazil",
+    "detail": "An elegant historic Brazilian Baroque church with two round bell towers, ornate carved entrance and rolling green colonial town hills.",
+    "filename": "187_ouro-preto-saint-francis-of-assisi-church.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "188",
+    "city": "Salvador",
+    "title": "Pelourinho",
+    "region": "Brazil",
+    "detail": "A vibrant historic Brazilian colonial square lined with pastel-colored baroque houses and an old church facade.",
+    "filename": "188_salvador-pelourinho.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "189",
+    "city": "Cartagena",
+    "title": "Clock Tower Gate",
+    "region": "Colombia",
+    "detail": "A bright yellow historic city gate with arched passages and a tall central clock tower, framed by old Caribbean houses.",
+    "filename": "189_cartagena-clock-tower-gate.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "190",
+    "city": "Quito",
+    "title": "Church of the Society of Jesus",
+    "region": "Ecuador",
+    "detail": "An intricately carved dark volcanic stone Baroque church facade with spiral columns, ornate portals and historic Andean city surroundings.",
+    "filename": "190_quito-church-of-the-society-of-jesus.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "191",
+    "city": "Antigua Guatemala",
+    "title": "Santa Catalina Arch",
+    "region": "Guatemala",
+    "detail": "A distinctive yellow colonial street arch with a small central clock turret spanning a cobbled street beneath a distant volcano.",
+    "filename": "191_antigua-guatemala-santa-catalina-arch.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "192",
+    "city": "Granada Nicaragua",
+    "title": "Granada Cathedral",
+    "region": "Nicaragua",
+    "detail": "A bright ochre-yellow and white colonial-style cathedral with two front bell towers and a large red central dome beside palms.",
+    "filename": "192_granada-nicaragua-granada-cathedral.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "193",
+    "city": "Leon Nicaragua",
+    "title": "Leon Cathedral",
+    "region": "Nicaragua",
+    "detail": "A broad white historic baroque cathedral with twin squat bell towers, sculpted facade and a spacious sunny plaza.",
+    "filename": "193_leon-nicaragua-leon-cathedral.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "194",
+    "city": "Santo Domingo",
+    "title": "Alcazar de Colon",
+    "region": "Dominican Republic",
+    "detail": "A two-story early colonial limestone palace with long open arcaded balconies, a broad historic square and tropical greenery.",
+    "filename": "194_santo-domingo-alcazar-de-colon.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "195",
+    "city": "San Juan",
+    "title": "Castillo San Felipe del Morro",
+    "region": "Puerto Rico",
+    "detail": "A historic coastal fortress with layered angular stone bastions, a distinctive domed sentry turret and deep blue Atlantic surf.",
+    "filename": "195_san-juan-castillo-san-felipe-del-morro.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  },
+  {
+    "id": "196",
+    "city": "Morelia",
+    "title": "Morelia Cathedral",
+    "region": "Mexico",
+    "detail": "A pink stone Baroque cathedral with two very tall ornate bell towers and a central dome above a historic Mexican plaza.",
+    "filename": "196_morelia-morelia-cathedral.jpg",
+    "palette": "deep cobalt, turquoise and warm amber with small ruby accents"
+  },
+  {
+    "id": "197",
+    "city": "Puebla",
+    "title": "Puebla Cathedral",
+    "region": "Mexico",
+    "detail": "A grand historic cathedral with two tall dark stone bell towers, a Renaissance facade and an elaborate tiled central dome.",
+    "filename": "197_puebla-puebla-cathedral.jpg",
+    "palette": "emerald, sapphire and honey gold with muted rose accents"
+  },
+  {
+    "id": "198",
+    "city": "San Miguel de Allende",
+    "title": "La Parroquia",
+    "region": "Mexico",
+    "detail": "The recognizable pink neo-Gothic parish church with dramatic pointed pinnacles and a tall central spire above a colorful colonial square.",
+    "filename": "198_san-miguel-de-allende-la-parroquia.jpg",
+    "palette": "rich teal, lapis blue and copper amber with deep crimson accents"
+  },
+  {
+    "id": "199",
+    "city": "Arequipa",
+    "title": "Santa Catalina Monastery",
+    "region": "Peru",
+    "detail": "A historic convent courtyard with vivid cobalt-blue and terracotta-red walls, pale volcanic-stone arches and a distant Andean volcano.",
+    "filename": "199_arequipa-santa-catalina-monastery.jpg",
+    "palette": "royal blue, burgundy and pale aquamarine with antique gold accents"
+  },
+  {
+    "id": "200",
+    "city": "Cuenca Ecuador",
+    "title": "Cathedral of the Immaculate Conception",
+    "region": "Ecuador",
+    "detail": "A historic red-brick neo-Romanesque cathedral with three large blue tiled domes above a green Andean city square.",
+    "filename": "200_cuenca-ecuador-cathedral-of-the-immaculate-conception.jpg",
+    "palette": "forest green, warm garnet and golden ochre with light turquoise accents"
+  }
+]

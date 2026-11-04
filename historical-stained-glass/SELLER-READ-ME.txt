@@ -1,0 +1,27 @@
+HERITAGE IN GLASS — SELLER NOTES
+
+Product language: English only.
+
+The customer product is 200 distinct JPG artworks, not 200 cities and not color variations of a small set. Some cities have several different buildings. The images are newly generated; they were not downloaded from or copied from the reference Etsy seller.
+
+QUALITY AND DISCLOSURE
+The exports are 3000 × 3000 pixels. Original generation dimensions are separately recorded; this is a resized raster export, not a claim of native 3000-pixel generation or vector detail. Keep this disclosure in the listing. The artwork is stylized, not an exact historical record. No physical print or sublimation test has been performed.
+
+DELIVERY
+The full-quality collection is large. Ten numbered ZIPs each hold 20 unique JPG files. They are intended for external hosting; do not assume the large ZIPs fit Etsy's direct upload limits. The prepared Buyer Download Guide links to the hosted files. Upload the guide as the customer-facing file only after verifying that the chosen links work for buyers.
+
+GitHub delivery links in this project are public download links, not buyer-only access control. The repository is also a public distribution route for the working files. If private customer delivery is required, move the archives to your own appropriate permanent host and rebuild the guide with those URLs. Do not publish this seller note as part of the customer product.
+
+LISTING IMAGES
+Use 01_Hero.jpg first, followed by images 02–06. They show the actual generated artwork, not imagined example content. The files are 3000 × 2250 RGB JPGs. Check the actual Etsy thumbnail crop before publishing.
+
+LISTING TEXT
+Etsy-Listing-EN.txt contains a title, description and 13 tags. Keep the AI disclosure and the delivery/file-type details. Check current Etsy policy and your target-market obligations before publication; no legal compliance certification is provided.
+
+EXCLUSIONS
+No physical products, transparent PNGs, SVG files, native vector files or machine cut paths are supplied. The included usage permission permits personal projects and physical products for sale and prohibits redistribution of the digital artwork; it does not promise exclusivity or universal rights clearance.
+
+REBUILD
+export.py converts individually generated originals into the JPG export format.
+build.py builds the Design Index, marketing images, archive parts and download guide.
+Source generation prompts and metadata are in source/. Original generated PNGs remain in the cloud workspace; the downloadable product contains JPG exports.

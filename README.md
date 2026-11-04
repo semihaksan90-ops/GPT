@@ -43,3 +43,7 @@ Die hochgeladenen Original-PDFs (2.0) wurden geprüft und korrigiert. Verwende d
 - [Englisches Upload-Paket](https://github.com/semihaksan90-ops/GPT/raw/refs/heads/main/etsy-blackout/Etsy-Upload-EN.zip)
 
 Die Upload-Pakete trennen Kundendateien (zwei PDFs) von Produktbildern und Verkäuferhinweisen. Nicht das ganze Verkäuferpaket als Kundendownload anbieten. `python etsy-blackout/preflight.py` prüft die erzeugten Dateien.
+
+## Heritage in Glass — English artwork bundle
+
+[Open the 200-design historic landmark coaster collection](historical-stained-glass/README.md). Includes individually generated circular stained-glass-style JPG artwork, ten archive parts, an English design index, six Etsy images and English listing text.

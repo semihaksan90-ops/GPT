@@ -1,0 +1,66 @@
+{
+  "result": "Technical file checks passed",
+  "designs": 200,
+  "unique_jpg_hashes": 200,
+  "unique_original_pixel_hashes": 200,
+  "source_dimensions": [
+    [
+      1254,
+      1254
+    ]
+  ],
+  "export_dimensions": [
+    3000,
+    3000
+  ],
+  "profile": "RGB/sRGB",
+  "dpi_metadata": 300,
+  "resized_from_generated_originals": true,
+  "initial_100_retained_byte_for_byte": true,
+  "archive_parts": [
+    "Heritage-in-Glass-Part-01.zip",
+    "Heritage-in-Glass-Part-02.zip",
+    "Heritage-in-Glass-Part-03.zip",
+    "Heritage-in-Glass-Part-04.zip",
+    "Heritage-in-Glass-Part-05.zip",
+    "Heritage-in-Glass-Part-06.zip",
+    "Heritage-in-Glass-Part-07.zip",
+    "Heritage-in-Glass-Part-08.zip",
+    "Heritage-in-Glass-Part-09.zip",
+    "Heritage-in-Glass-Part-10.zip"
+  ],
+  "total_archive_bytes": 637893458,
+  "index_pages": 10,
+  "guide_pages": 3,
+  "listing_images": 6,
+  "perceptual_similarity_candidates": [
+    [
+      "126",
+      "152",
+      4
+    ]
+  ],
+  "visually_reviewed_candidates": [
+    {
+      "ids": [
+        "126",
+        "152"
+      ],
+      "outcome": "distinct artwork; not a duplicate or color variant",
+      "reason": "126 depicts the pointed Gothic portals, rose window and square towers of Amiens Cathedral. 152 depicts the red facade and patterned onion domes of Saint Basils Cathedral in Moscow. The frontal church silhouette gives a similar low-resolution difference hash, but the subjects and detailed compositions are visibly different.",
+      "jpg_sha256": {
+        "126": "e948d31c588f16d801b2b54730615f75cedd888a899be2ee798349d69cb5b33a",
+        "152": "ba256fd775528f52279560a51ef0714c1dc861a34adec25c156a80c4fd5bd346"
+      }
+    }
+  ],
+  "unresolved_similarity_candidates": [],
+  "visual_review": "All 200 artworks and six listing images reviewed",
+  "source_edge_flags": [],
+  "not_verified": [
+    "Physical print and sublimation results",
+    "Exact historical or architectural fidelity",
+    "Current Etsy policy and uploader constraints",
+    "Buyer-only access control; GitHub links are public"
+  ]
+}
