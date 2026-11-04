@@ -48,3 +48,7 @@ After a fresh checkout, run `python restore-jpg.py` to restore the working JPG f
 The original generated PNGs remain in the cloud workspace; metadata records their paths locally. `export.py` creates the JPG exports. `build.py` creates the numbered catalog, ten ZIP archive parts, six Etsy images and buyer guide. `validate.py` checks the actual output counts, distinct hashes, file specifications, archive contents and PDF navigation.
 
 Generated JPG working files are excluded from Git to avoid duplicating the large artwork archives. The ZIP parts contain the complete JPG product.
+
+## Hosted download checks
+
+All ten archive links were tested with small HTTPS range requests. Each returned a ZIP header and the hosted length matched the local archive. The buyer PDF links are pinned to the artwork commit. Results are recorded in `Remote-Download-Checks.json`.

@@ -11,3 +11,5 @@ Archive contents, image profiles, numbering, PDF labels and download buttons val
 Exports are resized 3000-pixel JPGs from 1254-pixel AI originals, with this disclosure in the listing and buyer documents.
 Physical print/sublimation results and exact historical fidelity are not certified.
 GitHub archive delivery is public, without buyer-only access control.
+
+All ten hosted archive URLs were checked through the session HTTPS proxy: each returned ZIP data, and its hosted byte length matched the local archive. The buyer guide links are pinned to the artwork commit. No Etsy shop upload or checkout test was performed.
