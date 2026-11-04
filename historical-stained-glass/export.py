@@ -4,6 +4,7 @@ from PIL import Image,ImageCms
 import json,hashlib,csv,sys
 P=Path(__file__).resolve().parent
 specs=json.loads((P/'source/motifs.json').read_text())
+settings=json.loads((P/'source/export-settings.json').read_text())
 profile=ImageCms.ImageCmsProfile(ImageCms.createProfile('sRGB')).tobytes()
 rows=[]
 for m in specs:
@@ -15,10 +16,10 @@ for m in specs:
   if size[0]!=size[1]:raise RuntimeError(f"Non-square original {m['id']}: {size}; needs review, not automatic cropping.")
   if not out.exists() or src.stat().st_mtime>out.stat().st_mtime:
    im=im.convert('RGB').resize((3000,3000),Image.Resampling.LANCZOS)
-   im.save(out,quality=92,subsampling=0,optimize=True,dpi=(300,300),icc_profile=profile)
+   im.save(out,quality=settings['quality'],subsampling=settings['subsampling'],optimize=True,dpi=(300,300),icc_profile=profile)
  with Image.open(out) as im:assert im.mode=='RGB' and im.size==(3000,3000)
  row={k:m[k] for k in ['id','city','title','region','filename']}
- row.update({'source_width':size[0],'source_height':size[1],'export_width':3000,'export_height':3000,'export_dpi':300,'bytes':out.stat().st_size,'sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'method':'AI-generated original; resized JPG export'})
+ row.update({'source_width':size[0],'source_height':size[1],'export_width':3000,'export_height':3000,'export_dpi':300,'bytes':out.stat().st_size,'sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'method':'AI-generated original; resized JPG export','jpeg_quality':settings['quality'],'jpeg_subsampling':settings['subsampling']})
  rows.append(row)
 (P/'source/export-manifest.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2))
 if rows:

@@ -8,7 +8,7 @@ QUALITY AND DISCLOSURE
 The exports are 3000 × 3000 pixels. Original generation dimensions are separately recorded; this is a resized raster export, not a claim of native 3000-pixel generation or vector detail. Keep this disclosure in the listing. The artwork is stylized, not an exact historical record. No physical print or sublimation test has been performed.
 
 DELIVERY
-The full-quality collection is large. Ten numbered ZIPs each hold 20 unique JPG files. They are intended for external hosting; do not assume the large ZIPs fit Etsy's direct upload limits. The prepared Buyer Download Guide links to the hosted files. Upload the guide as the customer-facing file only after verifying that the chosen links work for buyers.
+The full-quality collection is large. Five numbered ZIPs each hold 40 unique JPG files. They are intended for external hosting; do not assume the large ZIPs fit Etsy's direct upload limits. The prepared Buyer Download Guide links to the hosted files. Upload the guide as the customer-facing file only after verifying that the chosen links work for buyers.
 
 GitHub delivery links in this project are public download links, not buyer-only access control. The repository is also a public distribution route for the working files. If private customer delivery is required, move the archives to your own appropriate permanent host and rebuild the guide with those URLs. Do not publish this seller note as part of the customer product.
 

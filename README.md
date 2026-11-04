@@ -46,4 +46,4 @@ Die Upload-Pakete trennen Kundendateien (zwei PDFs) von Produktbildern und VerkÃ
 
 ## Heritage in Glass â€” English artwork bundle
 
-[Open the 200-design historic landmark coaster collection](historical-stained-glass/README.md). Includes individually generated circular stained-glass-style JPG artwork, ten archive parts, an English design index, six Etsy images and English listing text.
+[Open the 200-design historic landmark coaster collection](historical-stained-glass/README.md). Includes individually generated circular stained-glass-style JPG artwork, five archive parts, an English design index, six Etsy images and English listing text.

@@ -11,7 +11,7 @@ RESOLUTION DISCLOSURE
 The artwork was created using generative AI at the original dimensions listed in Design-List.csv and digitally resized to the 3000 × 3000 JPG export dimensions. Export pixel dimensions and DPI metadata do not increase the original captured detail. These are raster illustrations, not vector artwork.
 
 HOW TO USE
-1. Download all ten numbered archive parts and extract the ZIP files.
+1. Download all five numbered archive parts and extract the ZIP files.
 2. Choose a design using the numbered Design Index and matching filenames.
 3. Import the JPG into your preferred print-layout software.
 4. Match the outer circular artwork to your blank or template. The square canvas includes a narrow ivory margin; its width is not the exact diameter of the circle.
@@ -28,4 +28,4 @@ USAGE
 See License.txt for the included permission for personal projects and physical products. Do not redistribute the digital artwork files or resell them as a digital bundle.
 
 FILE DELIVERY
-Parts 01–10 contain 20 different JPGs each; download all ten to obtain the complete 200-design collection. Bonus documents are in Part 01. There are no duplicate JPGs between parts.
+Parts 01–05 contain 40 different JPGs each; download all five to obtain the complete 200-design collection. Bonus documents are in Part 01. There are no duplicate JPGs between parts.

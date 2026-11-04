@@ -1,0 +1,9 @@
+{
+  "quality": 90,
+  "subsampling": 2,
+  "target_pixels": [
+    3000,
+    3000
+  ],
+  "reason": "Five delivery parts under the GitHub per-file limit; encode from original PNGs, not from older JPGs."
+}

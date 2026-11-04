@@ -1,0 +1,3202 @@
+[
+  {
+    "id": "001",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      10,
+      16,
+      1237,
+      1235
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "cb180f2ee9a8d5fdf5ce327c4a10c3625be9de019ca7de5af1b5382e97ea06ab",
+    "pixels_sha256": "af40c4418fe9f50f179030e3b004ea8ae2fcf4cd1c3e843e0414b13d5eebee74"
+  },
+  {
+    "id": "002",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      16,
+      17,
+      1233,
+      1230
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "0a85895352cf8f10d5ffebd611db082afe0bb0cbab2f14141c25f1e52d0395b4",
+    "pixels_sha256": "8aaa88d6425d44896f61087b58540f8d242dffa8dfa96442abd04315c3702f34"
+  },
+  {
+    "id": "003",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      21,
+      25,
+      1230,
+      1225
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "acbb2a2314b4083a37ae1df35e5fce468a7ea5d23f4059fc897c850ba5fa31fe",
+    "pixels_sha256": "c71491be144492df7f8f2904df801e04015126c1f1bdbb2146b620adb938ad12"
+  },
+  {
+    "id": "004",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      19,
+      17,
+      1234,
+      1230
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "74d88aeb86f205d1791e466187dbc5f10fd64c7869b49b2279e43b0c64e82f15",
+    "pixels_sha256": "add6b62e7e70e064216bbeea56f57c0ab94772d479cde0ef3b1df17d21e5d423"
+  },
+  {
+    "id": "005",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      24,
+      1235,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "1508ed2c2b2aaf78c20f94211598463c3e46cae50c103a0ac4084da2c1dee24d",
+    "pixels_sha256": "22357c460deecfe4724db90a82721a7c1ad87c43e0dec811719698147657a9ff"
+  },
+  {
+    "id": "006",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      16,
+      20,
+      1236,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "ba3f58ac0a9986e7cde704d4443e520a4e93b1c53eb1f384209607177cabcb88",
+    "pixels_sha256": "b9747c4e6bb1c6344d5a117f50debf17ef03ff67b6a45b15e8da54c2eae5729a"
+  },
+  {
+    "id": "007",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      12,
+      14,
+      1239,
+      1234
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "b2888622e50c13cc9acf270f21d9fcba24b373761d7affc0d255f7e3260abb68",
+    "pixels_sha256": "94b8af8d444f1a2ad9890ef1ca28304b768eedc7eb5fbc7c5a77b2871c36672f"
+  },
+  {
+    "id": "008",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      9,
+      16,
+      1240,
+      1239
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "bf4b4299a4b0efbc26a0525e606969d887444efec27927416ecf1ded5aea7230",
+    "pixels_sha256": "6e174121e14cf71a6427b34967c7f4b31e268f6bb1cca922d9a33598ae4034a9"
+  },
+  {
+    "id": "009",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      17,
+      20,
+      1232,
+      1230
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "79150683857671c14b81daa4894191781f3128f8f5beebf6711aeb55a23748fb",
+    "pixels_sha256": "b6dafb66fff68e584d2fa7a41da10a4e56b479a7ad93ec05b96dbbc284c6c5e3"
+  },
+  {
+    "id": "010",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      18,
+      1236,
+      1235
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "e1c14cea1a07e93c5c3a3f0c51db9d8f7f8cbe776899373c97e134250d81d53b",
+    "pixels_sha256": "dee51fa8de3a169bc6f4aecabda0841647d6f0002c407e7f8178b9b9db37c175"
+  },
+  {
+    "id": "011",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      17,
+      17,
+      1236,
+      1236
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "d230f005c357ec5a5c0614b00dfa36bc0aa1299ac24bd31b40131f8867d3368a",
+    "pixels_sha256": "5795dacc4736e75401d917e1934df198d5901bcf246903a11ec08c51142dd847"
+  },
+  {
+    "id": "012",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      13,
+      16,
+      1240,
+      1237
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "0ef8d2d075aff86a7f4c79757c4f0f6f645faf824728bee59faf6b057f924db2",
+    "pixels_sha256": "91bfbd38293217e96199aeeae464acb5eb32c75f6267420561a513c1179145cf"
+  },
+  {
+    "id": "013",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      22,
+      1235,
+      1230
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "dbeb46d67005ddf116e69a2a8aeafc806eebf4b7c8c09d384a78c8c31c45f3b5",
+    "pixels_sha256": "ebf47a839f7f1f4360b94bbfc0e037e6c712ff034700fecfbbb0e1e8710d28f0"
+  },
+  {
+    "id": "014",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      12,
+      16,
+      1238,
+      1236
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "c5229e4030b3915d84abcb106dff48d2e96e8d45d19ae4d0f783b287e568dd9a",
+    "pixels_sha256": "1ffb91b9704dad9f4af5019f82fd2e2a83a91353b3197916b233d425a73c1311"
+  },
+  {
+    "id": "015",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      17,
+      15,
+      1233,
+      1227
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "57e48c0d4f69fbd48b822bbb001cc985ee062eb9fec938ec64d742a6211fa78a",
+    "pixels_sha256": "0876b500f37b8ce444aecd6c168214c5cde55037d39adc4c7cd9d47a8216c280"
+  },
+  {
+    "id": "016",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      13,
+      16,
+      1236,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "cdcc09e6e4db360b37c6adf7c0c9cbb1ba80fdb9e2f707a451aa1b2b88aa5e23",
+    "pixels_sha256": "21731b7917750b32bc63e4034a1c6d63126dd4d84854e8644da18b81eeba8838"
+  },
+  {
+    "id": "017",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      21,
+      24,
+      1227,
+      1228
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "08284b6706f041dfcadc91603136919caed5da596ac29ef100e5b7f9746c295c",
+    "pixels_sha256": "741da303b2dde6e3378a5446ef42e0de587156d1769996df2968d94a6ceafff5"
+  },
+  {
+    "id": "018",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      16,
+      1233,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "bef56470fefd588a2d3f442ea2b487a95156c8130a9089cb55abd78129dd1e9d",
+    "pixels_sha256": "ff42f3831f9832d59a6f908995c26440a22defe389907217e7874f42cdf443e7"
+  },
+  {
+    "id": "019",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      17,
+      18,
+      1236,
+      1234
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "0ab89899a0ee3f4fb20e7c23bb8571cdd654de942adbeadc6dcb8ccc95c66819",
+    "pixels_sha256": "e640a5a3ba2a75e45174b19a9fc58b6273a2bc4a415f4ab97abd88dd9b0e5c01"
+  },
+  {
+    "id": "020",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      17,
+      1233,
+      1235
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "4f8c5591b9461189114b266684db71234871e6bfa7f6eb5756c42318f0e676a8",
+    "pixels_sha256": "3fd7e3eb599c4d6c5be6071a01953d161b595e5cda189f100c1f9ca285ee8e39"
+  },
+  {
+    "id": "021",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      16,
+      1237,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "9debcbdd52adbe0a95d14ad02975270fd13406904d63fc66f5564185eb95af7d",
+    "pixels_sha256": "d423011e148a8447955ebac800a54eb11291cf0d19abc5c22576832b0cc68660"
+  },
+  {
+    "id": "022",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      17,
+      1232,
+      1228
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "4ac6ae843e2e5b90c86c19b1c390f1f2785340d874f841f3d430700cce96e0b4",
+    "pixels_sha256": "1da77fdf1fc9920c12d0f911a00b26fa2f700fe4a25e1dc5c72a01ed4b278887"
+  },
+  {
+    "id": "023",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      24,
+      22,
+      1228,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "6383cb6d1c152994eebaad42989a646a1a482b9ba94ebbb977412ea535fb2d1a",
+    "pixels_sha256": "9726734943b33d0be50dc0d4fb98206dd177fbf24217e324658878625ac0e0b0"
+  },
+  {
+    "id": "024",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      16,
+      18,
+      1231,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "27375b83d17379feb382f8f4ffbd241acf86ff3868ac9bde91a9cad2f2e24fac",
+    "pixels_sha256": "272b13257851277629588c14abe181098d8b36b78644aca92aa86fbde9e9c83d"
+  },
+  {
+    "id": "025",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      17,
+      1232,
+      1234
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "270c2fb23195459e6787ea42dd710a66bbf5890ab378ffd760372a35402b244a",
+    "pixels_sha256": "0ffa8cebdcbc6d23479973e434efd7da8c5d2bdd6e9c6cab95079a108c90ca82"
+  },
+  {
+    "id": "026",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      16,
+      15,
+      1233,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "848a5db9ae6e0507cfaf199478181cb67ccec6e852999d114837ff8bc6dc5b4d",
+    "pixels_sha256": "a987d77afe071433097b30212706fa1d9d92ecf18f0e369af5c85212b232e95f"
+  },
+  {
+    "id": "027",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      21,
+      1235,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "7f4b2fd6898801991f08ed3c8e7eab2de04cfbc27819df9b85d7f53027410037",
+    "pixels_sha256": "ee6be7ea3ce024f8c0ca82cb7ef138664aec76585004e9e34b2bc1572c18e209"
+  },
+  {
+    "id": "028",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      8,
+      12,
+      1241,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "0007e5a338e9e80e77312ae3e3b47df20f4ec479b5ce00034281fe059d30b102",
+    "pixels_sha256": "fdbd184d5602cb6715058fda114b00250467e623e4c9f85fefc9e0259e2ebf76"
+  },
+  {
+    "id": "029",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      12,
+      16,
+      1239,
+      1237
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "ec5ca90c46f9b5819cdafcf3dc7ff08c9a8f16896b8813d257616b1578fa2b7c",
+    "pixels_sha256": "6817dd09b1ed7a667107ddb00a758959e4fb86131a837254eaa41e61ace7fb89"
+  },
+  {
+    "id": "030",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      12,
+      13,
+      1231,
+      1234
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "903b84651e1eaf9ef254729fa6c0c35c1d272f9b1174244aa7e1644812d84a55",
+    "pixels_sha256": "93db2992d6aff56090f78e748591d4613a31510827f3de3249130e9c3b4de15a"
+  },
+  {
+    "id": "031",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      9,
+      18,
+      1242,
+      1235
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "1dd22e18c3a8a711c46f78f7c0a0ba794dc14e6e0a1e428373e0933ac6cb8ac9",
+    "pixels_sha256": "a333070adf82b5007910d8f2d8edc8a1b0c3fada53e54a6ea67c992df27edbe1"
+  },
+  {
+    "id": "032",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      23,
+      27,
+      1227,
+      1228
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "c394d7dfcdff78f5dc7359e94fa32c77b118e116516321847d962998a2dbe776",
+    "pixels_sha256": "706d81f05fdbeed90827e38dc078787e027367d056f1a064ed96c5c4e3cd6b73"
+  },
+  {
+    "id": "033",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      21,
+      1236,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "c43d496cb470cfe8c40eb32571bac20ea8f7364a920d51ebc79d7eb66ea89139",
+    "pixels_sha256": "f5731469320929f876fb8386fccf6b94de51cb6f00a50299efc77fcf92380110"
+  },
+  {
+    "id": "034",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      10,
+      15,
+      1239,
+      1238
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "c7ec911144fc2b7e3b0abe7b3ae21ab94e4e3cbac6667bbea8a252a1238e7c49",
+    "pixels_sha256": "6e4bc2847d1e0d813830b7e3017daae0f4292585bf256dfab0bdb1c975c83ada"
+  },
+  {
+    "id": "035",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      13,
+      15,
+      1235,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "c196477e7db3d1446518270cfd8548a9aa97b714a427e6808fd96b5650664130",
+    "pixels_sha256": "52be8cef3037b81f53b3a58483c662a54f28b639de069c3b0cd3462dcc364a5b"
+  },
+  {
+    "id": "036",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      20,
+      1235,
+      1230
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "8d6dbefaa26414bc5734b7c3a80ad2328ba60152a3a644c9b0e2b01cc65fb186",
+    "pixels_sha256": "3fc163f4e1605bd75813bbfae311596799a8b63c0a239779c39049c2ee6deb44"
+  },
+  {
+    "id": "037",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      18,
+      19,
+      1230,
+      1222
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "9cc8abe81727ef3a9541addda739760d3f09870634bff9e95c90a39a44263a22",
+    "pixels_sha256": "c1b6ca24c099807ed6195149a578f342556f8ceef8bd57a365e7d91b60b79b81"
+  },
+  {
+    "id": "038",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      18,
+      1237,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "70a219417484981325ee83dc0cde4903734ad3ea6fceea70e82f5dfe19f9894c",
+    "pixels_sha256": "56eadc72ab312e8cc3420259b1f019c679cd8cd59c5e8175b10667ef967b6315"
+  },
+  {
+    "id": "039",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      21,
+      25,
+      1229,
+      1222
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "eb350b92c758924e56305513dd9d7c1c0dbe6e3890f9393820da39d06e0e3e7f",
+    "pixels_sha256": "5ae73dec9fed02ff48457bd8b1e50fe079593d895a2725eec15f5475c889dcbd"
+  },
+  {
+    "id": "040",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      17,
+      17,
+      1232,
+      1235
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "f2e4c8cca897b8207791d23bec109c1e4e060713085760c9a91a8ebfb85cb936",
+    "pixels_sha256": "871ee511f9b2bcb72535d2ff7ded1ba3799bd91d136258495ca40954029527fe"
+  },
+  {
+    "id": "041",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      18,
+      23,
+      1235,
+      1226
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "0571150a5da7da9833d2d31eb5e1a3cc267085930eccfcaab24204adfc495401",
+    "pixels_sha256": "fdde82d5e5f8dd6f6989de67a1c6ded00b8da2ad2a756c448e8203245f0a8fe5"
+  },
+  {
+    "id": "042",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      19,
+      23,
+      1231,
+      1229
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "63d9bd63b02a96c0f41f7dee71a602c2b0de1c2a453120a76a109c6409ae3118",
+    "pixels_sha256": "c4d973c29a8b0c2e34ec33d27a779ae8225b7f27710faa9ded945e0681fb4931"
+  },
+  {
+    "id": "043",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      18,
+      21,
+      1232,
+      1230
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "53944e12d71c0d6cc97cac687825dae043ee10fd75992202ed0d2ae5627b4f4f",
+    "pixels_sha256": "f3c7fb26d2b50ce80b252c669c2f721832b75c62bbae3c4b7ed87f4a36c78ba5"
+  },
+  {
+    "id": "044",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      17,
+      19,
+      1236,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "bd8c079ffd801f97ebba6762b00603815f633b106d991fdffaef8c0a79972d87",
+    "pixels_sha256": "592bc4ae115ca5591ce57ae39f16dbc18228bdf13be0b6281b0cbcda309f16b2"
+  },
+  {
+    "id": "045",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      19,
+      17,
+      1228,
+      1229
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "0526077436497b1dbf797ada290c0caf511e7a7fa51511b5da3a91d253bc8e06",
+    "pixels_sha256": "c9f268a2e78f8d9d9a89395bfc22cbdc78ddb323aeaf6462ada23bb2465a190a"
+  },
+  {
+    "id": "046",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      17,
+      20,
+      1233,
+      1224
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "97789ec62708699974884f9de7fc320bcace722dd698cd3186b9432eb6028dd3",
+    "pixels_sha256": "80eb476dcc0b3e65a9c45f59da37262f15186a59dcbbb0b771e172db76118a34"
+  },
+  {
+    "id": "047",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      22,
+      30,
+      1227,
+      1223
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "470b9036b65d34522a8d508fe05fd3940530e6e304af87be5fb69b2cff618961",
+    "pixels_sha256": "58ee7d71c68594458c0787f4410ae17fb32599fec07c9f0d70d88aad4824309d"
+  },
+  {
+    "id": "048",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      19,
+      26,
+      1233,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "e6eed1d2c763640dd652144f1b03122fed5e539b64ab107c98c4170e6084a149",
+    "pixels_sha256": "78782dc862dd6681e4218eea2d6374a0fa28490ef5cd491b686eb1fa88c59ee8"
+  },
+  {
+    "id": "049",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      19,
+      18,
+      1230,
+      1230
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "6d2ac99e549ace10c4dc17fced812a61c6c7898ae42f93b77af6ffe83f04a0dc",
+    "pixels_sha256": "59f227ac66e29ede092b1cda142de802ca4b7ca33479b63dd88815ac0e83df2b"
+  },
+  {
+    "id": "050",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      17,
+      1234,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "a5ad0d6292073a752c35bf017307f0ab7bf01fff27ed8943fd1f74668991a34f",
+    "pixels_sha256": "476d949b40ad5d079528fdc000b8dbad4cd56c38e0ecf30b9d2aed28d229bd4c"
+  },
+  {
+    "id": "051",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      22,
+      1235,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "2b49d9e571707d5c37ad2c5a6a4ff6a922001b3f26b4e53daacf2c10cd115930",
+    "pixels_sha256": "d0729e28797d19c8595da3d835288899c4843f9c843de31b48dec50bc18eadfd"
+  },
+  {
+    "id": "052",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      19,
+      24,
+      1229,
+      1226
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "bd2073be26f9bb87052b338a249c8b5bc0f25fd77776d192164ffcbb8edbc1cf",
+    "pixels_sha256": "43120c63e4fc9b0a7856f2cf459bc892bf20fc29f02bd0f50c07b7f22a1fe5f8"
+  },
+  {
+    "id": "053",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      17,
+      21,
+      1234,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "1c540c8631b9e3fe43a8e94871ea89a7e70b26ace74da61df25d19411530fdce",
+    "pixels_sha256": "b5a47d2c6d82ff441bc7b7f68f96b940a54a1ecdfb6f3a4ae1bc6dc6f99c501c"
+  },
+  {
+    "id": "054",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      21,
+      22,
+      1228,
+      1228
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "4b53253fac898f6053e620202946e468733d80f875b5635731b45e9e77e43268",
+    "pixels_sha256": "547f741b53137796654d7da9a4568f2c0656b378d2b5f2a03fe573ce333aa5b7"
+  },
+  {
+    "id": "055",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      20,
+      20,
+      1231,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "f828ee63d431bf96d78d7e7261b15a8f61723a8e854ac9011de4f52a93e87af4",
+    "pixels_sha256": "643159acc0e9c03306ab6836114e58061d1582da094ff6ceafdd1568e3b07a0e"
+  },
+  {
+    "id": "056",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      22,
+      28,
+      1229,
+      1225
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "f052c92148cff7d2933788a9da5f615368fa67b09eee21d58c8fb6bb7ef2b037",
+    "pixels_sha256": "62cf02d8394255c5066f76542c58a4a6da51639c021109909c8529e8302defbf"
+  },
+  {
+    "id": "057",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      9,
+      16,
+      1237,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "689e972796a96dc26801fa097a509d861dc67d790d1db52ce1f554dd17f22a8e",
+    "pixels_sha256": "c3e43a6417dff8c161fef5f744af4c08ec5625720ba249c9f9b9c6ef994df874"
+  },
+  {
+    "id": "058",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      15,
+      1235,
+      1230
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "1e5fc3869915ec4f2dc7f108dd8cfea718f2da934b189d282798ee0cdeb355f1",
+    "pixels_sha256": "c80e2b895aa84ba82cdcd4e43a751768df3529cadc98c4f5db3a5dbd85b35656"
+  },
+  {
+    "id": "059",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      22,
+      25,
+      1227,
+      1227
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "f0b7accb1324b588dcd846238922c2bee249cf88206b899442228bd9eb2d9a85",
+    "pixels_sha256": "1c3b5fe13f49bb1803d3ad8a73c40950015e706d85b1ea0e6ced950d6200f86e"
+  },
+  {
+    "id": "060",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      18,
+      21,
+      1234,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "23dc1858e613d84a12d9b9bcf397ce4d66fa4f8e8164009ecfefd7e53e36c9ce",
+    "pixels_sha256": "50381a360c17a07ac1ca1c9e9a68769f0e22e0bd84e0dc60df99d0c297498ab1"
+  },
+  {
+    "id": "061",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      19,
+      17,
+      1233,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "fd6d928e755b305ec38391fbfc63c1d9951bf1278bb55e162d3f92a02d10dfb0",
+    "pixels_sha256": "cb411e93ab4d261b5cc98a2628304487ab06e801bae4578d751bd3596820390d"
+  },
+  {
+    "id": "062",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      13,
+      16,
+      1237,
+      1235
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "8f05b6cdd670bfc7da8a82b6e52b989bad40b17f87cb28d4f5bdfca50883cf88",
+    "pixels_sha256": "a24cdb492f51276858633bb65c17578a021f3d1e8c9170a5523b9598b56bf7cd"
+  },
+  {
+    "id": "063",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      17,
+      1238,
+      1236
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "4a415ad3df89dd1e79027306a16068d5e3dcd599c6574cbdf0022089ff4c19be",
+    "pixels_sha256": "52b9dc0cb97188c9d77ed15dd7cc8e1ab5925ca54e4b7e239d6425af336e3777"
+  },
+  {
+    "id": "064",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      15,
+      1232,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "8c4a2cb8d1f94775706c50c78c300bc72e7df967cd59cde8e20931f55f5c1a3e",
+    "pixels_sha256": "0f828217aea45967c79fc4cbd14f8d649281b442992e6c0f82827181e310ed72"
+  },
+  {
+    "id": "065",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      19,
+      1234,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "dd06e6188efed8503852490ed052eae393768e8409a5dc3eff4c828d234655d8",
+    "pixels_sha256": "b730afb5402c2f0ec60e55ddf87cf477f807cad0a3947f8bcc09de892b93c068"
+  },
+  {
+    "id": "066",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      19,
+      1239,
+      1234
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "51dd4aeb4579805faa6d20e92b4378912fbd895db8405e194fc19a25d25b937c",
+    "pixels_sha256": "0da32688ee5741a17f83998d0292cbcd57ea8bf995e72d544807dbec29fec7d9"
+  },
+  {
+    "id": "067",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      18,
+      19,
+      1234,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "91af579723c3c72fed1a94de8a0b660503c65f246d5e8600246f75d9049265f3",
+    "pixels_sha256": "793c9e848b240dfbee75b4ebcd8101c97774c3e4752a1b6f52572371ae42d29e"
+  },
+  {
+    "id": "068",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      19,
+      20,
+      1232,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "3af3904a24ff07c9c879c985dcea19ef8350f9a3fe00bd9d66f09e62d7e1ded1",
+    "pixels_sha256": "452f23d182737e001e94cb692c283b69042dd0a6fceea39071b8bec36a6b9789"
+  },
+  {
+    "id": "069",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      13,
+      16,
+      1239,
+      1237
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "357ba6e3cf594f0b5996205e3f7b5c13b3f14832f12462a5235bca28dbc16545",
+    "pixels_sha256": "351437f2d9b185a3e050dba612364e33150cee905b5a55593bbf8fe4d068c4e0"
+  },
+  {
+    "id": "070",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      13,
+      30,
+      1234,
+      1237
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "db076199398ff95ddc992e907ccbb1d1115234adc97e0df9fd61e1bd9884edf6",
+    "pixels_sha256": "7698244ce60422b5c614e4ec9d7fa42f96ce9eaaca99d5ca91d46df239b84a1f"
+  },
+  {
+    "id": "071",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      11,
+      16,
+      1239,
+      1241
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "bc5e3c95f56f3fb71f37dee5635d9130aa7402fd4a200f7196c86e377fddef69",
+    "pixels_sha256": "d0918a3cedb64d9e566dbdf6d45bfa0bcd176499f5f29bbbd3f1a0ca80a5cbbe"
+  },
+  {
+    "id": "072",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      17,
+      25,
+      1233,
+      1228
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "f2ddf9922553a4431130ac1983a2728e257d2c0592f4fd886881f9f6b9b07c28",
+    "pixels_sha256": "0728f7d33da3a10e59ae6ce5478871b875f75879aca0ac74b3bbf0a149629ce2"
+  },
+  {
+    "id": "073",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      19,
+      20,
+      1231,
+      1230
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "75171bbe0c5209c36fac26a23d1791224acc95a32d02f99d9cb463f1a244903d",
+    "pixels_sha256": "50f784b36713df4185bfb72c7f4d08d1316f45e4e9ab606be4a3dea74c21246e"
+  },
+  {
+    "id": "074",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      13,
+      16,
+      1238,
+      1235
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "89bbf3059adeca98887ebc3678928c9f7f2dba8a5db2207b7fb0e43580308d6f",
+    "pixels_sha256": "d4022104d7d45f87ad10af82cac1af4045d609173760d3a5eec333a9475a1a82"
+  },
+  {
+    "id": "075",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      22,
+      21,
+      1228,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "552aef99d80852d8e7b9da9cb4c198f30070f29beeee0b0de0b1a7ec11568d3c",
+    "pixels_sha256": "e2f9c7d98ad407d771c434aadd8936e1759096b83760bd9812baec5954a1bc41"
+  },
+  {
+    "id": "076",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      10,
+      14,
+      1241,
+      1238
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "4cfded3c2015ff7e58f091753868e2af5704e6cc2a5b644e21a433a003828155",
+    "pixels_sha256": "52dcc10918c7f9c85105659cc75e445c4a6155973296bbcda6d0adab6e9fb587"
+  },
+  {
+    "id": "077",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      22,
+      1236,
+      1228
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "15d50efe70021bab506d1f069500f1ab28d675b76bad6ea28dfa7176bcce9cd9",
+    "pixels_sha256": "7e61fb3437eeef5eb46c96d51ad0c040143c973e21da4c61277b5eb39ff3348b"
+  },
+  {
+    "id": "078",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      9,
+      11,
+      1243,
+      1240
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "269e01cc48657bb892a07952a3be111b8b68314258b546fc1d27463465b44a8a",
+    "pixels_sha256": "2ca248e96a064727f2d0cb5935c37bf84d59ef46f80c7ba8fd62516d195096a5"
+  },
+  {
+    "id": "079",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      19,
+      1234,
+      1229
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "57325a9cb3a7f8c39888c406bb0f8f8800ccaf07d02e3567b949555743f96e97",
+    "pixels_sha256": "07b0c56ced8a78fa6d855a27510d2392d95405f429df8be76b7ac67469448613"
+  },
+  {
+    "id": "080",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      12,
+      17,
+      1236,
+      1235
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "65bd60fce973a1a48f4b42efe4e1e98e006f4ea97669d72de409600ab9738b0c",
+    "pixels_sha256": "ac7309c867d656322712152736923339974960ae4b027bf8a7c7b10e40226e23"
+  },
+  {
+    "id": "081",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      13,
+      13,
+      1236,
+      1236
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "35421d96cab4b310e9f29036462c72f23fd864044885b67520c4b01e3e0fd369",
+    "pixels_sha256": "18e7b90b0e2833d7f6ca4b2eb78122fdbe5bf232b259a598690281e8a3680790"
+  },
+  {
+    "id": "082",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      17,
+      22,
+      1233,
+      1229
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "b680330e6bcf5b1c271f650ce2d2c85e1e6404b25ff208f018d7402d881a6032",
+    "pixels_sha256": "609c2099e1f9bd77fac8804eb2de189b0bf8f8a5ba528f2864035c965bd9531f"
+  },
+  {
+    "id": "083",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      12,
+      17,
+      1234,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "ed56020a4ec9edf4cecfc7f206438533e65ad741907ea0009fc7bb20d3160c3f",
+    "pixels_sha256": "531d48ad692fcd666a61a414927b404c6b2e097043678bde157bba7684785b73"
+  },
+  {
+    "id": "084",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      17,
+      1236,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "876cef0a390b5d65b85efeebd83f167c3adb0d9ec68d817da5b1f663d4299117",
+    "pixels_sha256": "76b18492a7658fa6a6f3a6a37466345a2020a953c3cee06f125c1186ae803e98"
+  },
+  {
+    "id": "085",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      13,
+      15,
+      1235,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "46e3bd7181389aba9b8369eb1b300f1164cc8f2d8a290fa24423fba2fac68e1d",
+    "pixels_sha256": "652b2f9a97c013378df08fb8742a42ffcd79ccca8066f8e9e4e6fb4999fc5c18"
+  },
+  {
+    "id": "086",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      20,
+      19,
+      1233,
+      1229
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "2f1441414c4d2c67a8348d2c4ef2282de58e21d7432d41ceb15d2cbcbb8cd3fd",
+    "pixels_sha256": "f4aeddfab407bb279e91d2b2a5b02fa66737c151efcf3a4b31107776e47d4697"
+  },
+  {
+    "id": "087",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      18,
+      20,
+      1235,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "62c6b3c30e20040e63e06efcd3ea06263acfb6f7a350c4bf6ac84b3e72f01fdd",
+    "pixels_sha256": "becf437318fd91f140ecc7bf78aaa804a3bf3070b0aafcc706ad6436cc97be90"
+  },
+  {
+    "id": "088",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      12,
+      16,
+      1238,
+      1234
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "06bda65cda3c8561d2535a486468ce6a2648c9b0a00400468dd3139e4b594c99",
+    "pixels_sha256": "c20db1ac0d31cb3c357948cfba5775cfaa3c00b82ede407636aa05c46be4fce5"
+  },
+  {
+    "id": "089",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      17,
+      1233,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "0ec0708f6d66409c7091c8ddce03a1eaf5685190d207b0fe11e9a9ad29dc247b",
+    "pixels_sha256": "dab4ad668df6a22844bbdf5595b8c4ccf2fcfa18ded418c096a0672e7d37bf73"
+  },
+  {
+    "id": "090",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      17,
+      1238,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "2fc35614baa194a1b6d1cc3e3260f69ff3bc95da005af56037deaab53ec057ad",
+    "pixels_sha256": "fccc12f69c9a9f3b374a9d0bcc88447313a79d8efbbceb1038fdbc68c74333b0"
+  },
+  {
+    "id": "091",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      21,
+      25,
+      1228,
+      1225
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "1ab2be9b023d2e46b2216f98fc61546460d59d2ca504dd3870044bbc75d2f237",
+    "pixels_sha256": "fb43e065a05fd5a92f421353ed9c7b5d0e9ce5343b8d31854a609f3ee91b553d"
+  },
+  {
+    "id": "092",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      16,
+      19,
+      1232,
+      1228
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "a0809fc1c3ad46734d430d066771bd09ba0a99f5ebfe960984146b415aaf90c3",
+    "pixels_sha256": "2b4651402ddda9810dc049e2aa5a7d591c84e1b6590e73070b76224e0eea7ac4"
+  },
+  {
+    "id": "093",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      17,
+      1234,
+      1236
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "c95ba46bbec0ea087253897c51d444021f67b635f67f340f7425ab0a115422dc",
+    "pixels_sha256": "625c78338cc41b28d81ac5bcd1e2aac211e253dcc9730fb5cfa1719a893e3c22"
+  },
+  {
+    "id": "094",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      18,
+      1236,
+      1229
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "f3c8eee786c54a7b7da7ddd01115e1c37d2461eac6633b1918041a637bd382e4",
+    "pixels_sha256": "6987a083a9a454a523b322d6d4201f2632e02d2b8587280de35ec30de74150b0"
+  },
+  {
+    "id": "095",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      18,
+      22,
+      1234,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "5d7e960fca266affef223a13a2a6685b71b4ce5dff1098d58d71b06f58ccd03e",
+    "pixels_sha256": "9eadcfb6f579261d62efb1f2ed86e55494c0f6559948f8ccf6b9e0f6dda94f9c"
+  },
+  {
+    "id": "096",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      17,
+      19,
+      1236,
+      1228
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "645f0e1e8c26dc960e239412b563af79c5850ee4114aaf9d21fdcf80b1938242",
+    "pixels_sha256": "e0f09322ea63443b55aa27851b69b92b8a799ccab3d3d31c04a34d422c59cfa1"
+  },
+  {
+    "id": "097",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      16,
+      18,
+      1232,
+      1226
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "aab69f7a14691f803e41dfc2b64495e6dc4200a5d5a2b04523ee43b9c1484057",
+    "pixels_sha256": "8bbcffaf773c22c36dd1321759f9c9b7c041ab61d77be5371fb93376c5888f67"
+  },
+  {
+    "id": "098",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      16,
+      1237,
+      1235
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "7828489c127684d9cc07b6ffb2222f6d0f17b0e66ec0460da881a290dd5163f6",
+    "pixels_sha256": "040a6a270da6bc54e286046e917c9e5d9654675df7bc1ad9c3b11283353cb77f"
+  },
+  {
+    "id": "099",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      20,
+      25,
+      1228,
+      1226
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "f1c3657f90d249442afd3b1be2469682529c6f273382e04f6f249c52d9239589",
+    "pixels_sha256": "20cb7467d1ce3a76d3cdf081834357a761a797e943d402eb9eaf25a2db6e4594"
+  },
+  {
+    "id": "100",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      20,
+      20,
+      1228,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "f5c259ca9a6c4e48ace9e8082e138d561c9a17d7723484e8d30a298dee81bdfc",
+    "pixels_sha256": "c6733e1e59729dc82d0f45f7ad347eddbb144a125fee25557dd06d07c4eab5c8"
+  },
+  {
+    "id": "101",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      12,
+      17,
+      1237,
+      1236
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "4dfc1265ddc576d4daa1eb6bc6988942649ea5c42a9b3692939aef8e54af6cca",
+    "pixels_sha256": "3493193381a3e5a0ce488bb0617f243a828f8a96b0dda9146d84e028a3dd2c1c"
+  },
+  {
+    "id": "102",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      20,
+      17,
+      1231,
+      1224
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "4f3e1fb36d7601b5d34df8135e36df6fcc6439fc76b0e5650e43d2f04a69a123",
+    "pixels_sha256": "1a7176e23d292755e966598798057a322f895b6926e00ece1f0b441d132df72b"
+  },
+  {
+    "id": "103",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      12,
+      14,
+      1238,
+      1237
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "bc87e474dfc78d5353e23ed4ae979ea32698907242b0937c14f509b790c19c83",
+    "pixels_sha256": "215acf6427d7cedccea059e840c33b62880c2b41bbaa219a93cb7edc44ce0e5d"
+  },
+  {
+    "id": "104",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      10,
+      19,
+      1238,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "95ffe8729d7e787ef0497839707e660c1071f5225f32a053b78cd1dd2c107632",
+    "pixels_sha256": "169b83a77372444c10ff0615c93d8c011c5cb11ff5176e9a7a7eaf55a8ecfad7"
+  },
+  {
+    "id": "105",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      16,
+      17,
+      1234,
+      1228
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "71c085726471b2d0d2dc5f120ae8c718c7d07de5c68ab2d425f8e50798392219",
+    "pixels_sha256": "246162c3269d4de6b77fdd991bece87e6c176d71019b325e03ee70a8788e4ee0"
+  },
+  {
+    "id": "106",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      15,
+      1234,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "3bff265bb4538ce40760d52ad010fd9f76cce12445d45328483d9df6ea91ae5e",
+    "pixels_sha256": "bcb59cfd1a05e742372b6828aa5e5b623805de3dcf0e7f4b01f158f9c0ac63fb"
+  },
+  {
+    "id": "107",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      21,
+      21,
+      1231,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "69e0c441e0596602105426246f99f7dc74e5e3e1e2c45d4b6e0b038f3b91370d",
+    "pixels_sha256": "b3710da431f113b7f56f4a825cc91f1cc20d65e06453941c27eee258135f0e7a"
+  },
+  {
+    "id": "108",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      17,
+      16,
+      1232,
+      1234
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "f4d1ad3fd0b149669110b79e380186827aa868b986bfe134202da497bd6c49ae",
+    "pixels_sha256": "e7f880e96f9483b7be84a2f43b53cd889606ad234969c434a84215b96c16ed5d"
+  },
+  {
+    "id": "109",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      19,
+      1234,
+      1234
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "497f0577f9bf6c80ec1fff7aa88ced6fe35bc95def41cc14a5d1efb6e4e5ad84",
+    "pixels_sha256": "97f58cf59d3504166526399c24dc4792ec689350ac903a69ee1b35905314f3c1"
+  },
+  {
+    "id": "110",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      20,
+      28,
+      1227,
+      1223
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "4c4f8f61a95160a584ad71bfdb3de19c046afdb78012a35f1172d1e13c7bec90",
+    "pixels_sha256": "2bb19244f424d4a95c6edc867c89bfc8b3cef4c45b97cdcab2a3e592db6a9f5c"
+  },
+  {
+    "id": "111",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      16,
+      16,
+      1230,
+      1235
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "bda2d1600163debef730effab7f10fc0018ff2829f0cb068cfec8cb48e91b864",
+    "pixels_sha256": "75151b914cd4c16c464c6ecf9e7f82cbe552d3f56a709958238f1072b2752c68"
+  },
+  {
+    "id": "112",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      19,
+      1236,
+      1235
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "6e612e8b5a06f6715850d2698fe4983445f5fb40350c78cf95befafd650ed0b7",
+    "pixels_sha256": "28e8dc3f9c5fd69c9df90c1835044a7eeede76dd4fa48c8d5d8ae5cc3f1e033a"
+  },
+  {
+    "id": "113",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      12,
+      13,
+      1237,
+      1238
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "22cab9a2fc8c140f08c692c92ef4e8e4a3f21964d21ea80fd6c7dfed72354758",
+    "pixels_sha256": "8552d176c1da709d6e683cd4610c3073483384b687387da1c37beed75777fb87"
+  },
+  {
+    "id": "114",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      14,
+      1238,
+      1238
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "a922248bcbb44d80e2e3e9265b226ed7b1997c0ba6235eaf91939d8b029bf7b9",
+    "pixels_sha256": "3af3ba681302262b27a8ebd4db26a21f36bd0478336c4d3b111225c325cf4bf0"
+  },
+  {
+    "id": "115",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      9,
+      14,
+      1240,
+      1234
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "5c7f23196855e2172f30ce2e6e1889db606c3703d847ca70f1aac0b95ad91531",
+    "pixels_sha256": "b5561453589917a425b45b5e51c46978ba72c438f8157e6942f1cb3d2421b361"
+  },
+  {
+    "id": "116",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      22,
+      25,
+      1227,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "1bb469778bdb0184b7e9f4963d5c5c5d8242c464040a3648a07503e7c4ab6ef5",
+    "pixels_sha256": "a839c64978a2bc6fdc68d1916d5c7c3cc73b00731bdddd9bc1ffeaf125b8f42f"
+  },
+  {
+    "id": "117",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      19,
+      1237,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "058030bbc5e6c2b81b02164cb1f414ca0b8b9d26c27c05802091c14d76316831",
+    "pixels_sha256": "5401c55109dcc0c91a9f80f33f2497a3a6d8fc317dbde3f3d7001fdd3152f49e"
+  },
+  {
+    "id": "118",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      12,
+      16,
+      1239,
+      1234
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "98a916908325444cbfbba9c1e04c3100e25cdebdc6c2c61feb6e3acb851ed652",
+    "pixels_sha256": "f38c569f8a2bc0f142c56ae72235f70d4611d850c64b4f4d5f3c44f8e9e04b00"
+  },
+  {
+    "id": "119",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      20,
+      1234,
+      1229
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "495452bd6042a18b7e5b4e4eecd78e35d674b7c0a6d77200bb17deecede826db",
+    "pixels_sha256": "5c0e1b52e4f497d14a0198672db399cac5944627d9a6c004a18ae0df79511098"
+  },
+  {
+    "id": "120",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      20,
+      21,
+      1230,
+      1228
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "f9c63c773bebb1a88380f6c6782c5a75501faa2264023f74ecd1542a68a5b4ea",
+    "pixels_sha256": "16997b7353bd517e7b1a39e6f4cf0cbdfff4589f6282bb7b13d2c3a41dc4cd0a"
+  },
+  {
+    "id": "121",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      18,
+      1238,
+      1234
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "2dc0c1192e5a7fe898f2ef1b2b77abb6efd10b9c9e6e64ff278c760e6d84ed44",
+    "pixels_sha256": "bc8a81bfc0894478bac44f892e31e10c622d631ccfd88487cdfd7edb2300f3fd"
+  },
+  {
+    "id": "122",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      11,
+      14,
+      1240,
+      1235
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "c85a6ed023c277a37026af3a141778f817df33a7df6c87e80c60e8ab8aa38395",
+    "pixels_sha256": "0f4e9292acdf693903a3455668dc87fad7bf3c67307a0338c267bd1960d2738f"
+  },
+  {
+    "id": "123",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      11,
+      16,
+      1240,
+      1238
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "000ec3d2d82bfa7f355f6ded56a2d3ed2a3f951455583fcb175a0c09322c8dcb",
+    "pixels_sha256": "02d8d18c5e0def7dff580b0ce05f95ab206e9ea2b65b5cfc84de5346d8401bce"
+  },
+  {
+    "id": "124",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      16,
+      19,
+      1237,
+      1234
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "15a8c49bb18efbaf1fd64ab1dae67839594ecddf4ecc0b8e7d86a10d2e88851a",
+    "pixels_sha256": "296358d97c0cf05b3bf514ae53b30b9e9d3c1a0301f06304713f89719324b0f7"
+  },
+  {
+    "id": "125",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      18,
+      21,
+      1233,
+      1230
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "5a9cbee9743e37281edc678191da424f55fb08b53241080a28f121686dddd665",
+    "pixels_sha256": "ccf43b068b32f8ecda5e6dc1854dc671a9113742436242d966b48f7dd542bc83"
+  },
+  {
+    "id": "126",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      16,
+      17,
+      1235,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "696d135d1707cb62fbb2263bf900cc10f1e9486b006fd314c0b5254fdd47de1d",
+    "pixels_sha256": "fa271eedd8dd6d8998db8c2d9e10268306fff9c8683a9cd235322d41ff73a578"
+  },
+  {
+    "id": "127",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      18,
+      1233,
+      1226
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "4e015a4932cd41c4805bc129f7d59a46e7867646663a054e50f8aafbbe2cd27a",
+    "pixels_sha256": "0eaa231bdd44fe7822eb4444b925aff197529f57eaf36f3151a2eb1f433f4333"
+  },
+  {
+    "id": "128",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      16,
+      1231,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "f85ff069415a1aa2f702e57eece83cf496c60e0d1e17a447e79e6eabb5ccb6f3",
+    "pixels_sha256": "efd6e78d5fac5bbdebd7709de1d29a523d61c6f66fe48fd584546b4d3aeebe99"
+  },
+  {
+    "id": "129",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      19,
+      19,
+      1234,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "9f0af39856679d30479c3153d47bbf891ffa4301934823f55453ebdf24951a21",
+    "pixels_sha256": "87a318ea3653b7117614ac4439623d28f6ab4e4730fa3be0eb70ce885934b3bf"
+  },
+  {
+    "id": "130",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      11,
+      24,
+      1238,
+      1238
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "ebcde646b42ba0e847db21b30034f81312ba2155b3cb047252c20fd713b73dd1",
+    "pixels_sha256": "fdd5e64c3d022167a536bb396ce677c8cda1fb661a85e6996f271c40f1cd6376"
+  },
+  {
+    "id": "131",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      19,
+      20,
+      1232,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "c559a964555bce8d6843b62ac798b3cffedfcac4f749cd0941fd9c7ef9d6eec8",
+    "pixels_sha256": "26d7d6776c4858eb118028ea73ff78a2dee2c2c0b01c0b1df860c36a3b1e24a3"
+  },
+  {
+    "id": "132",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      16,
+      19,
+      1235,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "ccacb19c8835e0af8f09f338e8a1940c744ad37c329117579e398841ed4b8677",
+    "pixels_sha256": "7f828f421a934976b846b9ab8aaed6b682acc179c7c48ce5e08b736b96d9f2d5"
+  },
+  {
+    "id": "133",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      17,
+      14,
+      1236,
+      1234
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "c137173fa505750f4c6a85d4706cd949c24b3e040e8f267be407d7818c33f2a6",
+    "pixels_sha256": "44306f19820ae8250928380ffaf9f1cf0b4543318866f94b83e4e585ad91ac4d"
+  },
+  {
+    "id": "134",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      12,
+      15,
+      1238,
+      1235
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "770bf3e0ac45def51f693f5e3bf05df50b27818c1447de348af07e7febbae6ca",
+    "pixels_sha256": "a8166cefc9431cc39707e08a44caaac7aa92eafcc79dc0768634ca4227a20ab5"
+  },
+  {
+    "id": "135",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      12,
+      18,
+      1238,
+      1234
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "8ab96d15869fa821d81501ea62dc3f11118cdd883d45dea4b1efbca84ded666e",
+    "pixels_sha256": "c62b47fdee12becd267dc29177a1331d1dae15ce98094ff946857e0dfb56f2e1"
+  },
+  {
+    "id": "136",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      12,
+      15,
+      1240,
+      1238
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "a9ea3e87da216a074a7593f460b5ec16360c13b4aa24eec583841f5ca783f83e",
+    "pixels_sha256": "316e6791b9a52c6ac733d5cc64736d191821016a94e5994e1eeede9e65d693bb"
+  },
+  {
+    "id": "137",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      17,
+      24,
+      1232,
+      1227
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "844024c8ae4be73ce8cb2091fa4bc30d166741b0bbb5b5d8ab4c134bbafef77c",
+    "pixels_sha256": "cf5180b20a0d82c78ce93f4ea294bb8ca946a4637f2dd976ecb416c728ed31e2"
+  },
+  {
+    "id": "138",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      8,
+      14,
+      1241,
+      1240
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "76895b96fdb7877b2ba809f992050fb657f4f22dc953dea141552aa9a5d715f1",
+    "pixels_sha256": "df86654601bb3a35687abfa78d41c83399f4a119849543a5c962298ed610099b"
+  },
+  {
+    "id": "139",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      13,
+      14,
+      1236,
+      1237
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "e767cf6a165321e5a0119142193f6193f0c38df254219ccb4c6d4f993ebf0c6a",
+    "pixels_sha256": "289e0dc5a89daf4faaa1924e66e196543a68c5f0d5d49627f2d3180feba33e05"
+  },
+  {
+    "id": "140",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      17,
+      18,
+      1231,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "b78133e2f5ec90eea5b9312e2756da69109f49b587ba926e2b2ea7b9a8af85dc",
+    "pixels_sha256": "56c1de46ebde6698501f18a3c0908a81377cc11921c67e9530e8473534b242ed"
+  },
+  {
+    "id": "141",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      13,
+      24,
+      1237,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "59d328d65f87be06de72ee958210dbfefcf5d7dfc11fa096fd97e3adcf99ce4e",
+    "pixels_sha256": "ec6a61bf977228fbc484291a36d251a7278407b483d621104d9b6d8f6cb89945"
+  },
+  {
+    "id": "142",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      28,
+      31,
+      1223,
+      1223
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "5ef60e2731ffda1ff101b1f38ff9fae8d02e5846e9010839163c4406232c26f4",
+    "pixels_sha256": "26ca35d6a45192333d5a9702e4388cd99d371736685d284b60bdb0640af00767"
+  },
+  {
+    "id": "143",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      19,
+      20,
+      1232,
+      1235
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "b2308be0f180ac32d8917f6572e01e264695ce43a9e87df7bc20d7507d2f0b78",
+    "pixels_sha256": "175d81767c6c8eefa49783af51718a21cf5213ddaebae3f157a93971a406376c"
+  },
+  {
+    "id": "144",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      16,
+      19,
+      1232,
+      1230
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "bdfcb8703b6bee73b734a3612549536211511aa7e0f3126e213cbce03c486430",
+    "pixels_sha256": "4bc233c30414e0560e09f4a419673395c6ed7ea23a4037d4ff2002594b6f0315"
+  },
+  {
+    "id": "145",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      18,
+      21,
+      1233,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "c4e1aba2dae755a3582ba41ec6f02134473f28f8967a096ed458686990bbd379",
+    "pixels_sha256": "963e62e64c02ef3afab89e697def574bcef84ec0acb7bd7d9be09d70f95bd839"
+  },
+  {
+    "id": "146",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      12,
+      15,
+      1238,
+      1238
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "bbfbf5c832df578819c292728adbd12a2fb9777f921348f174a2c43787fba8f7",
+    "pixels_sha256": "ec6f9d4cf4dee499535ae18be2745cf37f9efb46794545475da1ac1c3aca70fd"
+  },
+  {
+    "id": "147",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      15,
+      1231,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "312de7f5b2515d7c9852f2c010e7b7653885bc56a93053c344d0dbabc217acb4",
+    "pixels_sha256": "75ba0aa6f4c8ec2df73d47c39d99827fee20985b9ec7de5c2b73b9550e058a6e"
+  },
+  {
+    "id": "148",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      18,
+      19,
+      1235,
+      1230
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "6061c663e18df79a7b35c819b97d886e7e1976f48c8fad389456b45e36880824",
+    "pixels_sha256": "d0f4e930a6b964b175ee53dfa34634e323874f8cba9c629a8f401f7ec63f9618"
+  },
+  {
+    "id": "149",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      17,
+      1237,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "5e518619f948f9dea78aa718e12132e410ccfb0deb557ed885c070faa9a878aa",
+    "pixels_sha256": "6f36fe961bb1b8276fc6d03d0405e19f6b39ab43612ed0914e362226f7a7136e"
+  },
+  {
+    "id": "150",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      16,
+      25,
+      1234,
+      1229
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "d4a85e08f95e3270871cfce9c4c01cc316b68baedd2d94d9d32b101d0676e3cb",
+    "pixels_sha256": "4f20f8cdb13adcf0b7196f424fa2423133dc42d377a2f93b33e1c0960532fe85"
+  },
+  {
+    "id": "151",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      8,
+      23,
+      1241,
+      1243
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "e70e4c6455d467ac6615e72704cdc17c5c42a1e8ed43d22ca9e7f01f33f75c1b",
+    "pixels_sha256": "62b164d1fdd6b2f0d6c541787cd5bd538c425da1fbf16c057e9e5d14394cd0dd"
+  },
+  {
+    "id": "152",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      17,
+      1235,
+      1236
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "0c097fc5d45bea4eaebc866d625d64ac6dcbab0b1de97b1cc513d3b75493b626",
+    "pixels_sha256": "2fa7175fb60bfe3291cebff54c74fa96a46f4373301da0e361e27ff93363dcca"
+  },
+  {
+    "id": "153",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      18,
+      21,
+      1233,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "4577963c42cc14a5cf0946747ae6db0d54f5491428f35bfeeb983ade1e4692a7",
+    "pixels_sha256": "3edf207bdf25e73c6babed6c5346bedc119469f14c735009fce2be4270c65c98"
+  },
+  {
+    "id": "154",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      15,
+      1235,
+      1238
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "aa9cc2f31ea908a12348d5746ae7646b7333baf009ec9fb087cb3b7460f47cc5",
+    "pixels_sha256": "0bd645a70ddeaffb0450264c2ef9d8de2788e5103aee51edf03c3662b1d86580"
+  },
+  {
+    "id": "155",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      10,
+      17,
+      1240,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "c6e5a84badca2eadb61709a61a8e25ec8aada987d242d9b10306a868b7a1396d",
+    "pixels_sha256": "b8561f7f39580a90467aa76729c631933e741ef8f13b13798fbcaa9a81c17f48"
+  },
+  {
+    "id": "156",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      19,
+      22,
+      1229,
+      1229
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "64971f37a5b21a97c2387f8c4a46bbecceea2b48d8359cfba624cf758dfcd3df",
+    "pixels_sha256": "11ba73d9adcb2b17aed24409bc0b2f89686773fc60933db53c879c3716bd0d2e"
+  },
+  {
+    "id": "157",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      13,
+      22,
+      1237,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "0ef9d78b6932e3591a46153579b5e148a774bd4454e7a26d93726ed08814530d",
+    "pixels_sha256": "a37dc91beef8703f6911795c9ace1a5f24ec425a4ab31041fb49ac117d8319e7"
+  },
+  {
+    "id": "158",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      19,
+      22,
+      1225,
+      1227
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "a776468d66eac5d08613a18ca28bd4762c400991be82f32baf5c1e6e04592c90",
+    "pixels_sha256": "6edfa7f5ec9264f5ca3b8a3e22737d5bf4e85355a22a19197080294f660fb6f0"
+  },
+  {
+    "id": "159",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      22,
+      19,
+      1230,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "c46feb21a099a7360f1133cfaab76d4df819feec16d7b13d4224392cc87ec75e",
+    "pixels_sha256": "dc9aa692421269dc2b58fe55cf35528e8b26b761b0e60806dc291f4ab68e102f"
+  },
+  {
+    "id": "160",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      11,
+      19,
+      1240,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "6a12e816bdbfdc3eec388c9223e983a7f8858cb5f0bcb3c7db3a7c0ea5bd3c1c",
+    "pixels_sha256": "635373e81239d74684a8b7cd09959d46aadcb303a19b2314afea73e2f0002ea1"
+  },
+  {
+    "id": "161",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      13,
+      14,
+      1240,
+      1238
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "d6bd6746c8c5db9a9445df689c3e61471aea08ba29ab724b9ffe9d23ad8fc6ec",
+    "pixels_sha256": "6f4dc9ffc70638f2f26126dc1bb020464fef7d9f2d8ab98f6b64e930897f6a5e"
+  },
+  {
+    "id": "162",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      12,
+      17,
+      1242,
+      1237
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "487996e2b98d9cc4b664eeb556e93694b2fa552d8204baaad870770cbda531be",
+    "pixels_sha256": "e93d5f9749b1770236bac6f16770e810cdf34e97cad1e852faa0976539b6703e"
+  },
+  {
+    "id": "163",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      9,
+      12,
+      1244,
+      1241
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "e9fb0fd7a6f36ee546d5bda365cee9d1e7f6b1b8528f884ea96a2eabfe76fafa",
+    "pixels_sha256": "c9e566ea416683636655178859a4990ce91dd6032f8553f800bc6fe6d55c08bc"
+  },
+  {
+    "id": "164",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      24,
+      27,
+      1228,
+      1220
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "aed346da8b53171b2c88f3a094b7f6968e3e0779cc8b2b85fc75f5187fcc44b1",
+    "pixels_sha256": "b26bbba4eab2a185241193139003fbe245962ff4e894b21d65f683a5aea85bd6"
+  },
+  {
+    "id": "165",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      16,
+      1236,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "da34f20d5b9e0b10659ac4d5336e9dec3c5d153625e9cab93af5449bd4131d2b",
+    "pixels_sha256": "06c500c6e1b2fcf683482bc3709b72e565a52f9f33ba29167653516c157d991b"
+  },
+  {
+    "id": "166",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      18,
+      1239,
+      1236
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "ddead8db79aa63d41d504b466d8a89af26c907223f8f80751ff5601a41e4639f",
+    "pixels_sha256": "be4b7ed966e13142c3b42946895ac954a9d0107ab3a86123b21edc159cbce2ea"
+  },
+  {
+    "id": "167",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      19,
+      22,
+      1233,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "da92ecbc64ef5b2a70fd0781a8c3e467377a6d84ffc694c209d11d532c45bacb",
+    "pixels_sha256": "fa1c98268cdd9d09f429fbe66b5aa7b6b5b372657f2529ccd2f13f5f4920355f"
+  },
+  {
+    "id": "168",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      13,
+      19,
+      1238,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "198157fe6b0036bc19e086b47f1c68da16a1307391db263aa55405cd4ed4ea35",
+    "pixels_sha256": "beed6210c0a0ab92da2613df8746f060ede9b00016eedbc5390097e6c0894e1d"
+  },
+  {
+    "id": "169",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      16,
+      18,
+      1233,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "53aa06227111d8e1f43d2785c48c3ad659ed61125b132e821936114ec96eca2d",
+    "pixels_sha256": "9d1799eae649704825e868c6788bca0ab9d5a85000c50cd07bf493fbd49a84da"
+  },
+  {
+    "id": "170",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      23,
+      1236,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "30346b6663d5715ba830ee85c89a83942abb35829df08d278a4d2f295fa47751",
+    "pixels_sha256": "4ec08804c5f890d30690b5e52f134d219e3402d8b5e22476db854ca6574c5719"
+  },
+  {
+    "id": "171",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      22,
+      25,
+      1227,
+      1223
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "a9dd90d668f8c6e6fb5713f6a4a7068ab915c3bddd10b0990c06cfd3e13236c0",
+    "pixels_sha256": "26cfd37335728b789956d600e1eb12b0e5fb9e2e1586e7a8bb0158cd8219578e"
+  },
+  {
+    "id": "172",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      10,
+      17,
+      1232,
+      1231
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "2dbee1a0c7fd97c38cc94ae983bce323500d691d0c58ecb09ea4caa6bf5134d0",
+    "pixels_sha256": "3570aac6b9bf871d65a0ba6592470e9639391fe106bb47515285f415e215e439"
+  },
+  {
+    "id": "173",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      23,
+      31,
+      1227,
+      1224
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "e6f6554d36f30c96e7e3b55070f6fc419a40f543dbec29221f06d6c2d41e35be",
+    "pixels_sha256": "bbb3f5cbdc60c7e7fba0abf98f4a31d3582d5b778355264a5bdeba8b7d5aa028"
+  },
+  {
+    "id": "174",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      9,
+      13,
+      1240,
+      1241
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "8d19e4519473c9a45bef3794c42e0184732995f83599088e343418884202cc32",
+    "pixels_sha256": "02b8490bfb840593cd6eb937c72b4df6997bdef92695b6abf6fbdb3a9fc40114"
+  },
+  {
+    "id": "175",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      16,
+      17,
+      1235,
+      1227
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "62a9a2d63622f80c2c4265835d6bc4270120f5e15b5769de922cfa4818595271",
+    "pixels_sha256": "3d6e24d7a296ad15ce937c958b8121a8e33349cd7bdd29afa3139a02f67d8bbe"
+  },
+  {
+    "id": "176",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      20,
+      18,
+      1228,
+      1229
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "3fad72a906b51bed2f9010867940d1814291c565ecedc2705f98948f10d71b73",
+    "pixels_sha256": "fd47c38417ada7f38c8d5c4d2e72b77cf831b9017477d2cfabfe1baf40591fc3"
+  },
+  {
+    "id": "177",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      18,
+      1237,
+      1236
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "aca5a1748594997f947166f4484cc4e2fc0111e1092ac17edade44983b986110",
+    "pixels_sha256": "1ea21ce34b2b193d88ceaf69383c31e027b635a28dbdf76b55d1d1b4df46fa5b"
+  },
+  {
+    "id": "178",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      7,
+      10,
+      1246,
+      1243
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "1f6bd8342d71548f6edd5be14ec82611c4a786698277f5a2419438bc14711187",
+    "pixels_sha256": "0533a57c0f0ccc12c506a9f60ace80f8e6a04eee46b8486d42c036adcd2586a1"
+  },
+  {
+    "id": "179",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      15,
+      17,
+      1235,
+      1234
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "a661a27f9a4aeb468eeca1e18aefbe7e73624f3b17473ec4ff20e413796d3bc6",
+    "pixels_sha256": "44848bff7f39496b14199766cc991aab70479864eba02feb204ee55e3aa2fe8c"
+  },
+  {
+    "id": "180",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      10,
+      13,
+      1242,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "9c0d8357dc1fdab0b1d5578c4662ab63b17cbc0765af5f47349a8b10533ad96f",
+    "pixels_sha256": "09ded867b37b24d4471d21166c6884e4f24b78fc5afb685a405160d645cec771"
+  },
+  {
+    "id": "181",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      19,
+      19,
+      1232,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "3166ed4599d892ec41b0610ab782076d120f2386ddb2e356a4e54c6c8a3e929a",
+    "pixels_sha256": "94d0cd3f711a3c0f8b9ddbd685932151ab9373137d9cda07c16b6ca1c080be05"
+  },
+  {
+    "id": "182",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      11,
+      15,
+      1238,
+      1237
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "09747db89a31647c183c9881d59d7ebd809442e90e51ce443415e78c99fb3aed",
+    "pixels_sha256": "1fa266c9bb9cfe53e210bfe7b6e066e70670ae6d94c655528df2c60eebe30c6e"
+  },
+  {
+    "id": "183",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      17,
+      19,
+      1232,
+      1225
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "fdb510c924aaaf6f67c9e07f16054c950899e899e9fb4d81a63f5cccbbe4abab",
+    "pixels_sha256": "abc443219f5d8519fc785f69682ff25e789f1ca91c4fabf7de1f36781a41bedc"
+  },
+  {
+    "id": "184",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      16,
+      1236,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "4e7c5530c93f88a6df2afb81a4fa2b4c71f29dbcdd88d2ed9cdaecea14e10aac",
+    "pixels_sha256": "4862629dac564e6ff0da3b769d674678d693a37406eb509a442d491a2d79a3d1"
+  },
+  {
+    "id": "185",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      19,
+      18,
+      1232,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "53e4f9c50564e2528f0f629fc4c355cc9028e76c843985a7347cf525c28626e1",
+    "pixels_sha256": "9e1dce3a896ebd9b64e84ea8b949045b1034440124c95e699aeef14133f13251"
+  },
+  {
+    "id": "186",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      13,
+      18,
+      1236,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "80313c2e50dc5330f2203a3dc6eca1ba6436a6622892c3eb3a4d356760bf7b29",
+    "pixels_sha256": "3ef444fe2cd7ddd9d88a4d20c67b6a10d7f1af483de8109b0bce15f4a39083ef"
+  },
+  {
+    "id": "187",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      12,
+      17,
+      1240,
+      1236
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "55fe4c43a88f03048ca4cccc239db5793d25e45cef2c27a3e12278285d8501a7",
+    "pixels_sha256": "6c1cb33b3cb20a1d0aa346b69ae97f8e72d44d5f64deed3a2383e6024490cae8"
+  },
+  {
+    "id": "188",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      11,
+      12,
+      1241,
+      1240
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "21440f8667e4db4aa07a9ffa26f9ccee6e9aac0a1a34230a16e72c8a7d66d4c6",
+    "pixels_sha256": "a62f93eb247d8080459687ce4d33c65a762ef8dbc8d37a3e0396e85867589b09"
+  },
+  {
+    "id": "189",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      19,
+      23,
+      1230,
+      1227
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "aaf028b32d5f00b25d9b193266b8738654dc9a8794134ef3574afc0523ab419b",
+    "pixels_sha256": "31a8db11093c40e490e4ba2eaaf30933335965184f03cbda5f4c8d96ad51b4ed"
+  },
+  {
+    "id": "190",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      13,
+      18,
+      1237,
+      1232
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "dc898717d135d7538c36fb79587977f201044c271e8fbf0533a3cb34a89eb36a",
+    "pixels_sha256": "60eccca23cb53f287e980f6292e8057bc6e1ed361eff9d9b5c2a77249b243304"
+  },
+  {
+    "id": "191",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      13,
+      17,
+      1237,
+      1236
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "c64a57de1d3f6cd93bee926e592ffcd76e1c8189b0441909bbf4d9f31af3a662",
+    "pixels_sha256": "d05a0a4f2e127ec0352cea3940bfd0dc1fba9698d8b960958fccfc13415b9343"
+  },
+  {
+    "id": "192",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      8,
+      15,
+      1238,
+      1233
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "8f0d2f6e9f40f36ec4e45a430aba137a20970ce60a21d69a7b29a35163ad2106",
+    "pixels_sha256": "85100a6553a225003a674a94fe218fc7e2efa2c4c0191df9b072228727185f3f"
+  },
+  {
+    "id": "193",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      10,
+      16,
+      1236,
+      1235
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "2c50b8bf059af64e215ffae24abea73e26f3082223ad900a4b851c4383906dd7",
+    "pixels_sha256": "a3c13b47dcb5de59557f06ed585c86d3aa3087bde7f695fd69cd8abae59e4bd3"
+  },
+  {
+    "id": "194",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      14,
+      17,
+      1236,
+      1234
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "c38f26a9f3e00ccf0a0e96bdefde006ab48e78d17f096697564a6bda2865ee7b",
+    "pixels_sha256": "61cde6f56c9fb6e88d88aaf256de0c9e5d84198b42cae1c37c9a60d9d5af688d"
+  },
+  {
+    "id": "195",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      7,
+      11,
+      1244,
+      1240
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "d875519950ddad08e02f3fbb8ab5fddc4b574c06307740d47c192ce4ba45645c",
+    "pixels_sha256": "2e810765f6b2264f8a42a05c110b042f689eae17e2d98b7da9515141823ebea6"
+  },
+  {
+    "id": "196",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      6,
+      16,
+      1243,
+      1241
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "ae95b11bbf2720a1bf05e112e254540c7410f800cffca4a9fc36fec56c28ca34",
+    "pixels_sha256": "8d8050efffd01d60a2d3c2d4b0747ee5b20958804f83a815323c30c8e78ff960"
+  },
+  {
+    "id": "197",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      7,
+      11,
+      1243,
+      1243
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "baf72f9b6d91402b21a6c30948668a5bd96a36b9657a7ac542257f4fa96c6682",
+    "pixels_sha256": "3a9f68e9ccf589937fca87f5c4f8be8f19aadded411b3e8bb31bf5b58b00652b"
+  },
+  {
+    "id": "198",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      11,
+      17,
+      1238,
+      1235
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "d045f027f3c3b40961744eee6b8d943f4457f596a75fc01b7a5956f8f009e69e",
+    "pixels_sha256": "4e09b5d4fb7551d8b004ce36704a25e0bccde314ad58f17b9d7d2706796dc040"
+  },
+  {
+    "id": "199",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      12,
+      13,
+      1237,
+      1235
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "d3e7735e0b9bad446efaacef82defe4f42eca4bbc83d0f5676068411f16e9e65",
+    "pixels_sha256": "a89fbcded1c13666ba0c462b9e2e548be821683c4061127d047785d1261cc44d"
+  },
+  {
+    "id": "200",
+    "size": [
+      1254,
+      1254
+    ],
+    "dark_bbox": [
+      13,
+      14,
+      1233,
+      1236
+    ],
+    "edge_review_needed": false,
+    "source_sha256": "a47c3f77032ad155d77c9276197df2921a8e674a9426087d4a4b5deca89e8dc7",
+    "pixels_sha256": "25abab3530f30997a0405fa451f5b6316eaaa87170064930469ea2a1e1d1a54b"
+  }
+]

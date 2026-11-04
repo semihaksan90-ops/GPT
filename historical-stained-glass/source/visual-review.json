@@ -11,9 +11,10 @@
       "outcome": "distinct artwork; not a duplicate or color variant",
       "reason": "126 depicts the pointed Gothic portals, rose window and square towers of Amiens Cathedral. 152 depicts the red facade and patterned onion domes of Saint Basils Cathedral in Moscow. The frontal church silhouette gives a similar low-resolution difference hash, but the subjects and detailed compositions are visibly different.",
       "jpg_sha256": {
-        "126": "e948d31c588f16d801b2b54730615f75cedd888a899be2ee798349d69cb5b33a",
-        "152": "ba256fd775528f52279560a51ef0714c1dc861a34adec25c156a80c4fd5bd346"
+        "126": "059caa9dfd4fb29ebf88cd2ae1ba68d08c3dbdd20ff4db14fdfdc2fdcf5a27b9",
+        "152": "73e0da565ed502b2d8e57ba227a986a2350eb4abc195994beb8fd100267d9ad4"
       }
     }
-  ]
+  ],
+  "compression_revision": "Re-encoded from unchanged PNG originals, JPEG quality 90, 4:2:0; representative old/new image comparisons reviewed."
 }

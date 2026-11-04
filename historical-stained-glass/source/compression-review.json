@@ -1,0 +1,48 @@
+{
+  "quality": 90,
+  "subsampling": "4:2:0",
+  "resized_from_original_pngs": true,
+  "samples": [
+    {
+      "id": "001",
+      "comparison": "Old and new JPEGs, resized to original image dimensions",
+      "psnr_db": 39.77
+    },
+    {
+      "id": "016",
+      "comparison": "Old and new JPEGs, resized to original image dimensions",
+      "psnr_db": 39.2
+    },
+    {
+      "id": "069",
+      "comparison": "Old and new JPEGs, resized to original image dimensions",
+      "psnr_db": 40.95
+    },
+    {
+      "id": "126",
+      "comparison": "Old and new JPEGs, resized to original image dimensions",
+      "psnr_db": 39.24
+    },
+    {
+      "id": "140",
+      "comparison": "Old and new JPEGs, resized to original image dimensions",
+      "psnr_db": 40.63
+    },
+    {
+      "id": "152",
+      "comparison": "Old and new JPEGs, resized to original image dimensions",
+      "psnr_db": 40.18
+    },
+    {
+      "id": "179",
+      "comparison": "Old and new JPEGs, resized to original image dimensions",
+      "psnr_db": 40.45
+    },
+    {
+      "id": "198",
+      "comparison": "Old and new JPEGs, resized to original image dimensions",
+      "psnr_db": 40.13
+    }
+  ],
+  "physical_print_test": false
+}

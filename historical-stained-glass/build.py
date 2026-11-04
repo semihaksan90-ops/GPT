@@ -16,7 +16,7 @@ for n,f in [('Regular','DejaVuSans.ttf'),('Bold','DejaVuSans-Bold.ttf'),('Serif'
 NAVY='#102C3B';CREAM='#FBF5E5';GOLD='#B98B36';INK='#20353D';MUTED='#52656A'
 M=json.loads((P/'source/motifs.json').read_text())
 A={x['id']:x for x in M}
-TOTAL=len(M);PART_COUNT=(TOTAL+19)//20
+TOTAL=len(M);PER_PART=40;PART_COUNT=(TOTAL+PER_PART-1)//PER_PART;INDEX_PAGES=(TOTAL+19)//20
 def art(n,size):
  m=A[f'{n:03d}'];im=Image.open(P/'JPG'/m['filename']).convert('RGB');im=im.resize((size,size),Image.Resampling.LANCZOS);return im
 
@@ -27,7 +27,7 @@ def txt(c,t,x,y,w=507,size=10,color=INK,bold=False):
 
 def catalog(preview=False):
  path=P/('review/Index-Preview.pdf' if preview else 'Design-Index.pdf');c=canvas.Canvas(str(path),pagesize=(595.276,841.89),pageCompression=1);c.setTitle('Heritage in Glass — 200 Design Index');c.setAuthor('Heritage in Glass')
- for part in range(1 if preview else PART_COUNT):
+ for part in range(1 if preview else INDEX_PAGES):
   c.setFillColor(HexColor(CREAM));c.rect(0,0,596,843,fill=1,stroke=0)
   txt(c,'HERITAGE IN GLASS',44,807,size=9,bold=True,color=NAVY)
   txt(c,f'DESIGN INDEX / {part*20+1:03d}–{part*20+20:03d}',44,780,size=18,bold=True)
@@ -38,8 +38,8 @@ def catalog(preview=False):
    c.drawImage(ImageReader(BytesIO(b.getvalue())),x,y-107,width=107,height=107)
    txt(c,m['id']+' / '+m['city'],x,y-110,w=121,size=7.5,bold=True)
    txt(c,m['title'],x,y-122,w=121,size=6.6,color=MUTED)
-  txt(c,f'PART {part+1:02d} OF {PART_COUNT:02d} · 20 JPG DESIGNS',44,46,size=7,color=MUTED)
-  txt(c,f'{part+1} / {PART_COUNT}',512,46,w=50,size=7,color=MUTED);c.showPage()
+  txt(c,f'ARCHIVE PART {part//2+1:02d} OF {PART_COUNT:02d}',44,46,size=7,color=MUTED)
+  txt(c,f'{part+1} / {INDEX_PAGES}',512,46,w=50,size=7,color=MUTED);c.showPage()
  c.save();return path
 
 def ft(s,b=True):return ImageFont.truetype(F+('DejaVuSans-Bold.ttf' if b else 'DejaVuSans.ttf'),s)
@@ -110,8 +110,8 @@ def marketing(hero_only=False):
  footer(im);im.save(out/'04_File-Details.jpg',quality=95,subsampling=0)
  # Practical process and exact delivery route.
  im=base();label(im,'DOWNLOAD. CHOOSE. CREATE.',390,300,80,w=2220)
- label(im,'Delivered through a PDF guide with links to ten ZIP parts',390,430,33,MUTED,False,w=2220)
- for i,(head,body,n) in enumerate([('01 / DOWNLOAD','Get all ten parts. Extract the ZIP files.',1),('02 / CHOOSE','Find your motif in the numbered index.',114),('03 / PREPARE','Size to your blank and print a test.',96)]):
+ label(im,'Delivered through a PDF guide with links to five ZIP parts',390,430,33,MUTED,False,w=2220)
+ for i,(head,body,n) in enumerate([('01 / DOWNLOAD','Get all five parts. Extract the ZIP files.',1),('02 / CHOOSE','Find your motif in the numbered index.',114),('03 / PREPARE','Size to your blank and print a test.',96)]):
   x=390+i*755;tile(im,n,x+30,630,615);label(im,head,x,1320,34,w=710);label(im,body,x,1400,26,MUTED,False,w=710)
  block(im,'Adjust size, bleed and color settings for your own printer and blank.\nPhysical print results depend on your equipment and materials.',390,1660,30,MUTED,False,1.65)
  footer(im);im.save(out/'05_How-to-Use.jpg',quality=95,subsampling=0)
@@ -132,7 +132,7 @@ def parts():
  for part in range(PART_COUNT):
   name=f'Heritage-in-Glass-Part-{part+1:02d}.zip';path=folder/name
   with zipfile.ZipFile(path,'w',zipfile.ZIP_STORED) as z:
-   for m in M[part*20:(part+1)*20]:z.write(P/'JPG'/m['filename'],'JPG/'+m['filename'])
+   for m in M[part*PER_PART:(part+1)*PER_PART]:z.write(P/'JPG'/m['filename'],'JPG/'+m['filename'])
    if part==0:
     for name in ['Design-Index.pdf','Design-List.csv','Read-Me.txt','License.txt']:z.write(P/name,name)
   assert path.stat().st_size<99_000_000,'GitHub single-file delivery limit exceeded; archive needs repartitioning.'
@@ -143,30 +143,30 @@ def parts():
 def guide(ref='main'):
  links=[f'https://github.com/semihaksan90-ops/GPT/raw/{ref}/historical-stained-glass/downloads/Heritage-in-Glass-Part-{i:02d}.zip' for i in range(1,PART_COUNT+1)]
  path=P/'Buyer-Download-Guide.pdf';c=canvas.Canvas(str(path),pagesize=(595.276,841.89),pageCompression=1);c.setTitle('Heritage in Glass — Download Your 200 Designs');c.setAuthor('Heritage in Glass')
- for group,picks in enumerate([[1,26,69,81],[114,140,179,198]]):
+ for group,picks in enumerate([[1,26,69,81]]):
   c.setFillColor(HexColor(CREAM));c.rect(0,0,596,843,fill=1,stroke=0)
   txt(c,'HERITAGE IN GLASS',44,800,size=11,bold=True,color=NAVY)
   txt(c,'Your 200-design collection' if group==0 else 'Continue your download',44,756,size=25,bold=True)
-  txt(c,f'Historic cities & landmarks · DOWNLOADS {group*5+1:02d}–{group*5+5:02d} OF 10',44,707,size=10,color=MUTED)
+  txt(c,'Historic cities & landmarks · ALL FIVE DOWNLOAD PARTS',44,707,size=10,color=MUTED)
   for n,x in zip(picks,[44,175,306,437]):
    im=art(n,345);b=BytesIO();im.save(b,format='JPEG',quality=88);c.drawImage(ImageReader(BytesIO(b.getvalue())),x,545,115,115)
-  txt(c,'Download all ten parts',44,510,size=16,bold=True)
-  txt(c,'Each ZIP holds 20 different JPGs. Download every part across these two pages to obtain all 200 designs. The Design Index, Design List, Read-Me and License are in Part 01. Open this PDF in a viewer that allows web links.',44,478,size=10)
+  txt(c,'Download all five parts',44,510,size=16,bold=True)
+  txt(c,'Each ZIP holds 40 different JPGs. Download all five parts to obtain all 200 designs. The Design Index, Design List, Read-Me and License are in Part 01. Open this PDF in a viewer that allows web links.',44,478,size=10)
   y=400
   for j in range(5):
    i=group*5+j+1;url=links[i-1]
    c.setFillColor(HexColor(NAVY));c.roundRect(44,y-44,507,44,5,fill=1,stroke=0)
-   txt(c,f'DOWNLOAD PART {i:02d}   /   DESIGNS {(i-1)*20+1:03d}–{i*20:03d}',58,y-11,w=480,size=11,color=CREAM,bold=True)
+   txt(c,f'DOWNLOAD PART {i:02d}   /   DESIGNS {(i-1)*PER_PART+1:03d}–{i*PER_PART:03d}',58,y-11,w=480,size=11,color=CREAM,bold=True)
    c.linkURL(url,(44,y-44,551,y),relative=0,thickness=0);y-=60
   txt(c,'Download ZIP files to a computer or a device with ZIP extraction support. Extract them before opening the JPGs. If a link opens a hosting page, choose the download option. No physical products are included.',44,92,size=8.5,color=MUTED)
-  txt(c,f'{group+1} / 3',515,43,w=45,size=7,color=MUTED);c.showPage()
+  txt(c,f'{group+1} / 2',515,43,w=45,size=7,color=MUTED);c.showPage()
  c.setFillColor(HexColor(CREAM));c.rect(0,0,596,843,fill=1,stroke=0)
  txt(c,'BEFORE YOU PRINT',44,800,size=22,bold=True)
  y=747
- info=[('Your files','200 RGB/sRGB JPG exports, 3000 × 3000 pixels, with 300 DPI metadata. The circular artwork is flattened onto an ivory square background; it is not a transparent PNG or an SVG.'),('About resolution','Images were generated with AI at the original dimensions recorded in Design-List.csv and resized to the stated export dimensions. Export dimensions and DPI metadata do not add original detail.'),('Size to your own blank','Match the outer circle, not simply the square canvas width, to your blank or supplier template. Adjust bleed and positioning for your own process. Print a plain-paper test before final production.'),('Color and production','Follow your equipment, ink, transfer and blank supplier settings. Mirror only when your process requires it. No physical print or sublimation test was performed during file preparation.'),('Usage','The included terms allow personal projects and physical products for sale. Digital file resale, sharing and redistribution are not permitted. No exclusivity is promised. Read License.txt before use.'),('Decorative interpretation','These AI-generated artworks are stylized interpretations, not exact architectural surveys or historically verified reconstructions. No affiliation with depicted sites is implied.')]
+ info=[('Your files','200 RGB/sRGB JPG exports, 3000 × 3000 pixels, with 300 DPI metadata. The circular artwork is flattened onto an ivory square background; it is not a transparent PNG or an SVG.'),('Size to your own blank','Match the outer circle, not simply the square canvas width, to your blank or supplier template. Adjust bleed and positioning for your own process. Print a plain-paper test before final production.'),('Color and production','Follow your equipment, ink, transfer and blank supplier settings. Mirror only when your process requires it. No physical print or sublimation test was performed during file preparation.'),('Usage','The included terms allow personal projects and physical products for sale. Digital file resale, sharing and redistribution are not permitted. No exclusivity is promised. Read License.txt before use.'),('Decorative interpretation','These AI-generated artworks are stylized interpretations, not exact architectural surveys or historically verified reconstructions. No affiliation with depicted sites is implied.')]
  for title,body in info:
   y=txt(c,title,44,y,size=12,bold=True)-7;y=txt(c,body,44,y,size=10)-20
- txt(c,'3 / 3',515,43,w=45,size=7,color=MUTED)
+ txt(c,'2 / 2',515,43,w=45,size=7,color=MUTED)
  c.save();(P/'download-links.json').write_text(json.dumps({'ref':ref,'parts':links},indent=2));return path
 
 def seller_kit():
@@ -183,6 +183,6 @@ def main():
  missing=[m['id'] for m in M if not (P/'JPG'/m['filename']).exists()]
  if missing:raise RuntimeError(f'Cannot publish a 200-design bundle: {len(missing)} JPGs are still missing.')
  catalog();marketing();paths=parts();guide(ns.ref);seller_kit()
- print('Built 200-design collection, 10 archive parts, English index, 6 listing images, buyer guide and seller kit.')
+ print('Built 200-design collection, 5 archive parts, English index, 6 listing images, buyer guide and seller kit.')
  for path in paths:print(path.name,f'{path.stat().st_size/1024/1024:.1f} MiB')
 if __name__=='__main__':main()
