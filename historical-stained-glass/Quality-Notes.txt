@@ -7,3 +7,5 @@ The About resolution heading and quoted paragraph were removed from the buyer PD
 The index remains ten pages, with each two index pages corresponding to one archive. Marketing image 05 and the listing now explain five downloads.
 The Gothic/Orthodox facade similarity candidate 126/152 remains visually distinct; source subjects were not changed.
 No physical print or sublimation test was performed. Historical fidelity is not certified. GitHub downloads are public, without buyer-only access control.
+All five PDF download links were checked over HTTPS: ZIP headers verified and hosted sizes match local archives.
+Representative old/new JPEG comparisons (001 and 152) were visually inspected; artwork and framing are retained.

@@ -44,5 +44,10 @@
       "psnr_db": 40.13
     }
   ],
-  "physical_print_test": false
+  "physical_print_test": false,
+  "visually_compared_samples": [
+    "001",
+    "152"
+  ],
+  "visual_result": "Subjects, framing and detail remain visually consistent in side-by-side comparison; the new JPEG encoding remains lossy."
 }

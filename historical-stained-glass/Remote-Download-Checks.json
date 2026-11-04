@@ -1,76 +1,46 @@
 {
-  "asset_commit": "a82fe8eb1549336a0c840289e906a89ea5958ac1",
+  "asset_commit": "37deb93c94d62aaf137f8dc416a262e5c517f525",
   "tested_via": "session HTTPS proxy, standard urllib requests",
   "parts": [
     {
       "part": 1,
       "status": 206,
       "zip_header": "verified",
-      "range_or_length": "bytes 0-7/76891147",
-      "url": "https://github.com/semihaksan90-ops/GPT/raw/a82fe8eb1549336a0c840289e906a89ea5958ac1/historical-stained-glass/downloads/Heritage-in-Glass-Part-01.zip"
+      "range_or_length": "bytes 0-7/98461607",
+      "url": "https://github.com/semihaksan90-ops/GPT/raw/37deb93c94d62aaf137f8dc416a262e5c517f525/historical-stained-glass/downloads/Heritage-in-Glass-Part-01.zip",
+      "local_bytes": 98461607
     },
     {
       "part": 2,
       "status": 206,
       "zip_header": "verified",
-      "range_or_length": "bytes 0-7/62998011",
-      "url": "https://github.com/semihaksan90-ops/GPT/raw/a82fe8eb1549336a0c840289e906a89ea5958ac1/historical-stained-glass/downloads/Heritage-in-Glass-Part-02.zip"
+      "range_or_length": "bytes 0-7/83443929",
+      "url": "https://github.com/semihaksan90-ops/GPT/raw/37deb93c94d62aaf137f8dc416a262e5c517f525/historical-stained-glass/downloads/Heritage-in-Glass-Part-02.zip",
+      "local_bytes": 83443929
     },
     {
       "part": 3,
       "status": 206,
       "zip_header": "verified",
-      "range_or_length": "bytes 0-7/61726351",
-      "url": "https://github.com/semihaksan90-ops/GPT/raw/a82fe8eb1549336a0c840289e906a89ea5958ac1/historical-stained-glass/downloads/Heritage-in-Glass-Part-03.zip"
+      "range_or_length": "bytes 0-7/83533979",
+      "url": "https://github.com/semihaksan90-ops/GPT/raw/37deb93c94d62aaf137f8dc416a262e5c517f525/historical-stained-glass/downloads/Heritage-in-Glass-Part-03.zip",
+      "local_bytes": 83533979
     },
     {
       "part": 4,
       "status": 206,
       "zip_header": "verified",
-      "range_or_length": "bytes 0-7/62900465",
-      "url": "https://github.com/semihaksan90-ops/GPT/raw/a82fe8eb1549336a0c840289e906a89ea5958ac1/historical-stained-glass/downloads/Heritage-in-Glass-Part-04.zip"
+      "range_or_length": "bytes 0-7/83828713",
+      "url": "https://github.com/semihaksan90-ops/GPT/raw/37deb93c94d62aaf137f8dc416a262e5c517f525/historical-stained-glass/downloads/Heritage-in-Glass-Part-04.zip",
+      "local_bytes": 83828713
     },
     {
       "part": 5,
       "status": 206,
       "zip_header": "verified",
-      "range_or_length": "bytes 0-7/62132943",
-      "url": "https://github.com/semihaksan90-ops/GPT/raw/a82fe8eb1549336a0c840289e906a89ea5958ac1/historical-stained-glass/downloads/Heritage-in-Glass-Part-05.zip"
-    },
-    {
-      "part": 6,
-      "status": 206,
-      "zip_header": "verified",
-      "range_or_length": "bytes 0-7/62161213",
-      "url": "https://github.com/semihaksan90-ops/GPT/raw/a82fe8eb1549336a0c840289e906a89ea5958ac1/historical-stained-glass/downloads/Heritage-in-Glass-Part-06.zip"
-    },
-    {
-      "part": 7,
-      "status": 206,
-      "zip_header": "verified",
-      "range_or_length": "bytes 0-7/62781691",
-      "url": "https://github.com/semihaksan90-ops/GPT/raw/a82fe8eb1549336a0c840289e906a89ea5958ac1/historical-stained-glass/downloads/Heritage-in-Glass-Part-07.zip"
-    },
-    {
-      "part": 8,
-      "status": 206,
-      "zip_header": "verified",
-      "range_or_length": "bytes 0-7/61974288",
-      "url": "https://github.com/semihaksan90-ops/GPT/raw/a82fe8eb1549336a0c840289e906a89ea5958ac1/historical-stained-glass/downloads/Heritage-in-Glass-Part-08.zip"
-    },
-    {
-      "part": 9,
-      "status": 206,
-      "zip_header": "verified",
-      "range_or_length": "bytes 0-7/62035676",
-      "url": "https://github.com/semihaksan90-ops/GPT/raw/a82fe8eb1549336a0c840289e906a89ea5958ac1/historical-stained-glass/downloads/Heritage-in-Glass-Part-09.zip"
-    },
-    {
-      "part": 10,
-      "status": 206,
-      "zip_header": "verified",
-      "range_or_length": "bytes 0-7/62291673",
-      "url": "https://github.com/semihaksan90-ops/GPT/raw/a82fe8eb1549336a0c840289e906a89ea5958ac1/historical-stained-glass/downloads/Heritage-in-Glass-Part-10.zip"
+      "range_or_length": "bytes 0-7/83226050",
+      "url": "https://github.com/semihaksan90-ops/GPT/raw/37deb93c94d62aaf137f8dc416a262e5c517f525/historical-stained-glass/downloads/Heritage-in-Glass-Part-05.zip",
+      "local_bytes": 83226050
     }
   ]
 }
